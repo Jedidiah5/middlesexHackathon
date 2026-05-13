@@ -81,7 +81,7 @@ export default function Home() {
       {selectedCity ? (
         <button
           type="button"
-          className="fixed inset-0 z-40 bg-black/25 backdrop-blur-[2px] transition-opacity xl:hidden"
+          className="fixed inset-0 z-40 bg-black/[0.12] backdrop-blur-md transition-opacity xl:hidden"
           aria-label="Close city panel"
           onClick={handleClosePanel}
         />
@@ -104,7 +104,14 @@ export default function Home() {
           </p>
         </header>
 
-        <main className="flex flex-1 flex-col gap-8 bg-gradient-to-br from-neutral-200/55 via-white to-neutral-100/75 px-6 py-8 lg:gap-10 lg:px-10 lg:py-10">
+        <WorldMap
+          cities={mapCities}
+          selectedCity={selectedCity}
+          highlightedCity={highlightedCity}
+          onSelectCity={handleSelectCity}
+        />
+
+        <main className="flex flex-1 flex-col gap-8 px-6 py-8 lg:gap-10 lg:px-10 lg:py-10">
           {loadError ? (
             <div className="glass-card rounded-xl px-4 py-3 text-sm text-black">
               {loadError}
@@ -112,13 +119,6 @@ export default function Home() {
           ) : null}
 
           <StatBar cities={cities} />
-
-          <WorldMap
-            cities={mapCities}
-            selectedCity={selectedCity}
-            highlightedCity={highlightedCity}
-            onSelectCity={handleSelectCity}
-          />
 
           <ComparisonChart
             cities={cities}

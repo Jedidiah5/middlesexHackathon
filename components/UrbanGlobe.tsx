@@ -47,14 +47,15 @@ export default function UrbanGlobe({
   const wrapRef = useRef<HTMLDivElement>(null);
   const pointerOverRef = useRef(false);
   const autoRotateResumeRef = useRef<ReturnType<typeof setTimeout> | null>(null);
-  const [dims, setDims] = useState({ w: 960, h: 520 });
+  const [dims, setDims] = useState({ w: 960, h: 1114 });
 
   useEffect(() => {
     const el = wrapRef.current;
     if (!el) return;
     const measure = () => {
       const w = el.clientWidth;
-      const h = Math.max(340, Math.min(580, w * 0.58));
+      // ~2× previous footprint: was max(340, min(580, w*0.58))
+      const h = Math.max(680, Math.min(1160, w * 1.16));
       setDims({ w, h });
     };
     measure();
@@ -203,7 +204,7 @@ export default function UrbanGlobe({
   return (
     <div
       ref={wrapRef}
-      className="h-full min-h-[320px] w-full outline-none"
+      className="h-full min-h-[min(76vh,720px)] w-full bg-transparent outline-none"
       onPointerEnter={() => {
         pointerOverRef.current = true;
       }}
@@ -212,7 +213,8 @@ export default function UrbanGlobe({
       }}
       tabIndex={-1}
     >
-      <div className="overflow-hidden rounded-2xl">
+      {/* No rounded box — globe reads as floating on the page */}
+      <div className="overflow-visible bg-transparent">
         <Globe
           ref={globeRef}
           width={dims.w}
