@@ -1,0 +1,68 @@
+[
+  {
+    "city": "London",
+    "country": "UK",
+    "lat": 51.5,
+    "lon": -0.12,
+    "gemini_sentiment": 0.31,
+    "perplexity_sentiment": 0.12,
+    "top_themes": ["rain", "multicultural", "busy", "grey", "historic"],
+    "gemini_summary": "The streets hum with a low, persistent energy. Brick facades darken under an overcast sky, umbrellas bloom at corners, and the smell of wet pavement mingles with exhaust.",
+    "perplexity_summary": "Crowds pour through narrow lanes, a babel of languages rising above the rumble of double-deckers. Everything moves with quiet urgency, purposeful and unhurried at once."
+  },
+  {
+    "city": "Lagos",
+    "country": "Nigeria",
+    "lat": 6.52,
+    "lon": 3.38,
+    "gemini_sentiment": -0.18,
+    "perplexity_sentiment": -0.35,
+    "top_themes": ["chaotic", "vibrant", "noise", "heat", "traffic"],
+    "gemini_summary": "The air is thick with heat and noise. Okadas weave through gridlocked streets, vendors shout over blaring horns, and the smell of suya drifts from roadside grills.",
+    "perplexity_summary": "An assault on the senses — the city never pauses. Traffic clots every artery, music bleeds from shops, and the sun hammers down on a city that refuses to slow."
+  },
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "lat": 35.68,
+    "lon": 139.69,
+    "gemini_sentiment": 0.45,
+    "perplexity_sentiment": 0.41,
+    "top_themes": ["orderly", "clean", "neon", "efficient", "quiet"],
+    "gemini_summary": "Pedestrians cross in perfect synchrony, the signal chirps, and the crowd disperses without collision. Vending machines glow on every corner. Everything is exactly where it should be.",
+    "perplexity_summary": "A city of controlled beauty. Even the chaos has manners here — trains arrive to the second, queues form without instruction, and the streets smell faintly of rain and cedar."
+  },
+  {
+    "city": "New York",
+    "country": "USA",
+    "lat": 40.71,
+    "lon": -74.01,
+    "gemini_sentiment": 0.22,
+    "perplexity_sentiment": 0.28,
+    "top_themes": ["fast", "loud", "diverse", "concrete", "energy"],
+    "gemini_summary": "Steam rises from grates below, taxis honk in cascading waves, and the sidewalks pulse with people who all seem to be running late for something important.",
+    "perplexity_summary": "The city is a living argument — loud, confident, and never wrong. Every block is a different world. The smell of hotdogs, diesel, and coffee hangs in the air."
+  },
+  {
+    "city": "Paris",
+    "country": "France",
+    "lat": 48.85,
+    "lon": 2.35,
+    "gemini_sentiment": 0.51,
+    "perplexity_sentiment": 0.48,
+    "top_themes": ["elegant", "romantic", "cafe", "history", "art"],
+    "gemini_summary": "Couples drift along the Seine, bakeries exhale warm butter into the cool afternoon air, and the city arranges itself as though conscious of being admired.",
+    "perplexity_summary": "Stone buildings line broad boulevards with quiet authority. The smell of coffee and pastry drifts from every corner brasserie. Time moves differently here."
+  },
+  {
+    "city": "Mumbai",
+    "country": "India",
+    "lat": 19.07,
+    "lon": 72.87,
+    "gemini_sentiment": -0.08,
+    "perplexity_sentiment": -0.21,
+    "top_themes": ["crowded", "humid", "colour", "contrast", "street food"],
+    "gemini_summary": "The city layers wealth and poverty within the same block. The smell of spices and monsoon drain water compete in the air. Auto-rickshaws fill every gap in traffic.",
+    "perplexity_summary": "Heat radiates off tarmac and bodies in equal measure. The city is loud with ambition — everyone is going somewhere, selling something, becoming something."
+  }
+]
