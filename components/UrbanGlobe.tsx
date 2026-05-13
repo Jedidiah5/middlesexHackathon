@@ -2,16 +2,16 @@
 
 import Globe, { type GlobeMethods } from "react-globe.gl";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import helvetikerBold from "three/examples/fonts/helvetiker_bold.typeface.json";
 import type { City } from "@/lib/types";
 import { nearestCityWithin } from "@/lib/geo";
-import { averageSentiment } from "@/lib/sentiment";
 
 /** If the ray hits the globe instead of a point, snap to the nearest city within this distance. */
 const GLOBE_CLICK_SNAP_KM = 920;
 
 const LG_BREAKPOINT = "(min-width: 1024px)";
 
-/** Rings + atmosphere sit in front of points in the raycast stack; ignore them so city markers receive clicks. */
+/** Rings + atmosphere sit in front of other layers in the raycast stack; ignore them so labels receive clicks. */
 function globePointerEventsFilter(obj: object, _data?: object): boolean {
   const t = (obj as { __globeObjType?: string }).__globeObjType;
   if (t === "ring" || t === "atmosphere") return false;
@@ -25,12 +25,10 @@ export type UrbanGlobeProps = {
   onSelectCity: (city: City) => void;
 };
 
-type GlobePoint = City & {
+/** 3D text labels on the globe (`labelsData`); `lng` + `text` match globe.gl defaults. */
+type GlobeCityLabel = City & {
   lng: number;
-  color: string;
-  altitude: number;
-  radius: number;
-  label: string;
+  text: string;
 };
 
 type CityRing = {
@@ -59,8 +57,15 @@ export default function UrbanGlobe({
   const globeRef = useRef<GlobeMethods | undefined>(undefined);
   const wrapRef = useRef<HTMLDivElement>(null);
   const pointerOverRef = useRef(false);
+  const labelHoverRef = useRef(false);
   const autoRotateResumeRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const [dims, setDims] = useState({ w: 480, h: 360 });
+
+  const syncGlobeCursor = useCallback(() => {
+    const el = globeRef.current?.renderer()?.domElement as HTMLCanvasElement | undefined;
+    if (!el) return;
+    el.style.cursor = labelHoverRef.current ? "pointer" : "grab";
+  }, []);
 
   useEffect(() => {
     const el = wrapRef.current;
@@ -103,37 +108,41 @@ export default function UrbanGlobe({
     [onSelectCity],
   );
 
-  const pointsData: GlobePoint[] = useMemo(
+  const labelsData: GlobeCityLabel[] = useMemo(
     () =>
-      cities.map((c) => {
-        const avg = averageSentiment(c);
-        const sel = selectedCity?.city === c.city;
-        const hi = highlightedCity === c.city;
-        return {
-          ...c,
-          lng: c.lon,
-          color: sel || hi ? "#ffffff" : "#fef2f2",
-          altitude: 0.018,
-          radius: sel ? 0.78 : hi ? 0.64 : 0.52,
-          label: `<div style="padding:8px 12px;background:#fff;color:#0a0a0a;border:1px solid rgba(0,0,0,0.12);border-radius:10px;font-size:12px;font-family:system-ui,sans-serif;box-shadow:0 4px 20px rgba(0,0,0,0.08)"><strong style="color:#15803d">${c.city}</strong><br/><span style="color:rgba(0,0,0,0.55)">avg ${avg.toFixed(2)}</span></div>`,
-        };
-      }),
-    [cities, selectedCity, highlightedCity],
+      cities.map((c) => ({
+        ...c,
+        lng: c.lon,
+        text: c.city,
+      })),
+    [cities],
   );
 
-  const handlePointClick = useCallback(
-    (point: object) => {
+  const labelColor = useCallback(
+    (d: object) => {
+      const c = d as GlobeCityLabel;
+      const sel = selectedCity?.city === c.city;
+      const hi = highlightedCity === c.city;
+      if (sel) return "#ffffff";
+      if (hi) return "#fef08a";
+      return "rgba(255, 255, 255, 0.95)";
+    },
+    [selectedCity, highlightedCity],
+  );
+
+  const handleLabelClick = useCallback(
+    (label: object) => {
       const g = globeRef.current;
       if (g) {
         g.controls().autoRotate = false;
       }
-      const p = point as GlobePoint;
-      selectCity(p);
+      const c = label as GlobeCityLabel;
+      selectCity(c);
     },
     [selectCity],
   );
 
-  /** Globe surface hit (point missed raycast): open closest city if click was near enough on the ground. */
+  /** Globe surface click: open closest city if the tap was near enough on the ground. */
   const handleGlobeClick = useCallback(
     (coords: { lat: number; lng: number }) => {
       const g = globeRef.current;
@@ -277,7 +286,6 @@ export default function UrbanGlobe({
           pointerEventsFilter={globePointerEventsFilter}
           lineHoverPrecision={8}
           {...{
-            pointsHoverPrecision: 10,
             clickAfterDrag: true,
           }}
           onGlobeClick={handleGlobeClick}
@@ -294,21 +302,21 @@ export default function UrbanGlobe({
           ringMaxRadius="maxR"
           ringPropagationSpeed="propagationSpeed"
           ringRepeatPeriod="repeatPeriod"
-          pointsData={pointsData}
-          pointLat="lat"
-          pointLng="lng"
-          pointColor="color"
-          pointAltitude="altitude"
-          pointRadius="radius"
-          pointResolution={20}
-          pointLabel="label"
-          onPointClick={handlePointClick}
-          onPointHover={(pt) => {
-            const el = globeRef.current?.renderer()?.domElement as
-              | HTMLCanvasElement
-              | undefined;
-            if (!el) return;
-            el.style.cursor = pt ? "pointer" : "grab";
+          labelsData={labelsData}
+          labelLat="lat"
+          labelLng="lng"
+          labelText="text"
+          labelAltitude={0.028}
+          labelSize={0.62}
+          labelTypeFace={helvetikerBold}
+          labelColor={labelColor}
+          labelIncludeDot={false}
+          labelResolution={5}
+          labelsTransitionDuration={500}
+          onLabelClick={handleLabelClick}
+          onLabelHover={(label) => {
+            labelHoverRef.current = label != null;
+            syncGlobeCursor();
           }}
           onGlobeReady={() => {
             const g = globeRef.current;
