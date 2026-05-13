@@ -1,14 +1,479 @@
 [
   {
-    "city": "London",
-    "country": "UK",
-    "lat": 51.5,
-    "lon": -0.12,
+    "city": "Accra",
+    "country": "Ghana",
+    "lat": 5.6037,
+    "lon": -0.187,
+    "gemini_sentiment": 0.39,
+    "perplexity_sentiment": 0.33,
+    "top_themes": [
+      "Atlantic breeze",
+      "coastal",
+      "markets",
+      "highlife",
+      "harmattan haze"
+    ],
+    "gemini_summary": "Accra wears the afternoon like a thin coat — Ghana shows up in diesel, jasmine, and the sound of someone selling fruit from a doorway.",
+    "perplexity_summary": "The city stacks economies vertically: shops below, offices above, someone's laundry flapping like a quiet flag between them in Accra."
+  },
+  {
+    "city": "Addis Ababa",
+    "country": "Ethiopia",
+    "lat": 9.032,
+    "lon": 38.7469,
+    "gemini_sentiment": -0.29,
+    "perplexity_sentiment": 0.35,
+    "top_themes": [
+      "coffee",
+      "orthodox",
+      "construction",
+      "cool nights",
+      "highland"
+    ],
+    "gemini_summary": "Rain or dust, the air carries weight. Addis Ababa teaches you quickly where the awnings are, and which doorways smell like home cooking.",
+    "perplexity_summary": "You can map Addis Ababa, but you cannot map the detours — the closed street, the festival, the sudden downpour that turns every curb into a decision."
+  },
+  {
+    "city": "Amman",
+    "country": "Jordan",
+    "lat": 31.9454,
+    "lon": 35.9284,
+    "gemini_sentiment": -0.35,
+    "perplexity_sentiment": -0.22,
+    "top_themes": [
+      "hills",
+      "refugee corridors",
+      "Levantine food",
+      "ancient stones",
+      "traffic"
+    ],
+    "gemini_summary": "Rain or dust, the air carries weight. Amman teaches you quickly where the awnings are, and which doorways smell like home cooking.",
+    "perplexity_summary": "You can map Amman, but you cannot map the detours — the closed street, the festival, the sudden downpour that turns every curb into a decision."
+  },
+  {
+    "city": "Athens",
+    "country": "Greece",
+    "lat": 37.9838,
+    "lon": 23.7275,
+    "gemini_sentiment": 0.26,
+    "perplexity_sentiment": -0.03,
+    "top_themes": [
+      "ferries",
+      "tavernas",
+      "sun-bleached",
+      "protest stickers",
+      "marble"
+    ],
+    "gemini_summary": "There is a rhythm under the chaos: doors closing, horns answering, a kettle whistling somewhere high above the street in Athens.",
+    "perplexity_summary": "At night, the heat loosens its grip but not its memory. Athens glows in strips: kitchens, phone shops, late buses, quiet balconies."
+  },
+  {
+    "city": "Auckland",
+    "country": "New Zealand",
+    "lat": -36.8485,
+    "lon": 174.7633,
+    "gemini_sentiment": -0.28,
+    "perplexity_sentiment": 0.35,
+    "top_themes": [
+      "rugby",
+      "sprawl",
+      "salt wind",
+      "harbours",
+      "volcanic soil"
+    ],
+    "gemini_summary": "Neon and daylight negotiate a truce at dusk. Auckland blinks on, block by block, as if the city itself is waking for a second shift.",
+    "perplexity_summary": "People move with practiced impatience, eyes on phones and potholes. Auckland rewards locals who know which shortcuts are safe after dark."
+  },
+  {
+    "city": "Baghdad",
+    "country": "Iraq",
+    "lat": 33.3152,
+    "lon": 44.3661,
+    "gemini_sentiment": 0.08,
+    "perplexity_sentiment": 0.17,
+    "top_themes": [
+      "tea stalls",
+      "heat shimmer",
+      "Tigris dust",
+      "minarets",
+      "checkpoints"
+    ],
+    "gemini_summary": "Neon and daylight negotiate a truce at dusk. Baghdad blinks on, block by block, as if the city itself is waking for a second shift.",
+    "perplexity_summary": "People move with practiced impatience, eyes on phones and potholes. Baghdad rewards locals who know which shortcuts are safe after dark."
+  },
+  {
+    "city": "Bangkok",
+    "country": "Thailand",
+    "lat": 13.7563,
+    "lon": 100.5018,
+    "gemini_sentiment": 0.12,
+    "perplexity_sentiment": 0.4,
+    "top_themes": [
+      "humid",
+      "night markets",
+      "Chao Phraya",
+      "tuk-tuks",
+      "temples"
+    ],
+    "gemini_summary": "Evening brings a softer light, but not quiet. Bangkok keeps its radios on, its kitchens open, and its streets politely impatient.",
+    "perplexity_summary": "Markets sell certainty — ripe fruit, plastic sandals, phone cards — while the streets outside sell only the next ten minutes."
+  },
+  {
+    "city": "Beijing",
+    "country": "China",
+    "lat": 39.9042,
+    "lon": 116.4074,
+    "gemini_sentiment": 0.37,
+    "perplexity_sentiment": 0.32,
+    "top_themes": [
+      "bicycles",
+      "magnolia",
+      "scale",
+      "hutong vs towers",
+      "smog"
+    ],
+    "gemini_summary": "Rain or dust, the air carries weight. Beijing teaches you quickly where the awnings are, and which doorways smell like home cooking.",
+    "perplexity_summary": "You can map Beijing, but you cannot map the detours — the closed street, the festival, the sudden downpour that turns every curb into a decision."
+  },
+  {
+    "city": "Beirut",
+    "country": "Lebanon",
+    "lat": 33.8938,
+    "lon": 35.5018,
+    "gemini_sentiment": 0.04,
+    "perplexity_sentiment": -0.28,
+    "top_themes": [
+      "cedar",
+      "Mediterranean",
+      "pockmarked facades",
+      "generator hum",
+      "nightlife"
+    ],
+    "gemini_summary": "The wind carries news from elsewhere. Beirut listens, then answers in its own dialect of traffic, music, and public announcements.",
+    "perplexity_summary": "Construction tape is a kind of wallpaper here. Beirut keeps rewriting itself while everyone tries to remember where the old bakery was."
+  },
+  {
+    "city": "Bengaluru",
+    "country": "India",
+    "lat": 12.9716,
+    "lon": 77.5946,
+    "gemini_sentiment": 0.34,
+    "perplexity_sentiment": -0.36,
+    "top_themes": [
+      "contrast",
+      "monsoon",
+      "spice",
+      "horns",
+      "temple bells"
+    ],
+    "gemini_summary": "The wind carries news from elsewhere. Bengaluru listens, then answers in its own dialect of traffic, music, and public announcements.",
+    "perplexity_summary": "Construction tape is a kind of wallpaper here. Bengaluru keeps rewriting itself while everyone tries to remember where the old bakery was."
+  },
+  {
+    "city": "Berlin",
+    "country": "Germany",
+    "lat": 52.52,
+    "lon": 13.405,
+    "gemini_sentiment": -0.11,
+    "perplexity_sentiment": -0.41,
+    "top_themes": [
+      "history",
+      "U-Bahn",
+      "parks",
+      "concrete",
+      "beer gardens"
+    ],
+    "gemini_summary": "Rain or dust, the air carries weight. Berlin teaches you quickly where the awnings are, and which doorways smell like home cooking.",
+    "perplexity_summary": "You can map Berlin, but you cannot map the detours — the closed street, the festival, the sudden downpour that turns every curb into a decision."
+  },
+  {
+    "city": "Bogotá",
+    "country": "Colombia",
+    "lat": 4.711,
+    "lon": -74.0721,
+    "gemini_sentiment": 0.27,
+    "perplexity_sentiment": -0.25,
+    "top_themes": [
+      "green mountains",
+      "salsa",
+      "coffee",
+      "Andean air",
+      "transmilenio"
+    ],
+    "gemini_summary": "Bogotá saves its prettiest lies for postcards. Up close, Colombia is scraped knees, cracked tiles, and stubborn flowers in a railing pot.",
+    "perplexity_summary": "Tour guides promise icons; residents promise corners. Bogotá is mostly corners — where Colombia actually happens."
+  },
+  {
+    "city": "Brisbane",
+    "country": "Australia",
+    "lat": -27.4698,
+    "lon": 153.0251,
+    "gemini_sentiment": -0.31,
+    "perplexity_sentiment": 0.13,
+    "top_themes": [
+      "humid",
+      "subtropical",
+      "river city",
+      "Queenslander houses",
+      "cyclists"
+    ],
+    "gemini_summary": "Shadows run long across plazas and parking lots. Brisbane feels older than its newest tower and younger than its oldest grudge.",
+    "perplexity_summary": "The sea, the river, or the memory of water sets the mood. Brisbane carries humidity in its voice, even when the sky looks clear."
+  },
+  {
+    "city": "Budapest",
+    "country": "Hungary",
+    "lat": 47.4979,
+    "lon": 19.0402,
+    "gemini_sentiment": -0.01,
+    "perplexity_sentiment": -0.06,
+    "top_themes": [
+      "trams",
+      "thermal baths",
+      "Danube",
+      "Habsburg bones",
+      "ruin bars"
+    ],
+    "gemini_summary": "The skyline argues with the horizon. In Budapest, Hungary feels stitched together from a dozen older cities that refuse to be forgotten.",
+    "perplexity_summary": "Transit is theatre: doors hiss, bodies compress, strangers share the same humid breath and pretend it is normal in Budapest."
+  },
+  {
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "lat": -34.6037,
+    "lon": -58.3816,
+    "gemini_sentiment": -0.03,
+    "perplexity_sentiment": -0.06,
+    "top_themes": [
+      "beef smoke",
+      "wide avenues",
+      "inflation",
+      "tango bass",
+      "jacaranda"
+    ],
+    "gemini_summary": "Buenos Aires wears the afternoon like a thin coat — Argentina shows up in diesel, jasmine, and the sound of someone selling fruit from a doorway.",
+    "perplexity_summary": "The city stacks economies vertically: shops below, offices above, someone's laundry flapping like a quiet flag between them in Buenos Aires."
+  },
+  {
+    "city": "Cairo",
+    "country": "Egypt",
+    "lat": 30.0444,
+    "lon": 31.2357,
+    "gemini_sentiment": 0.29,
+    "perplexity_sentiment": -0.02,
+    "top_themes": [
+      "ancient weight",
+      "Nile haze",
+      "minarets",
+      "honking",
+      "dust"
+    ],
+    "gemini_summary": "Shadows run long across plazas and parking lots. Cairo feels older than its newest tower and younger than its oldest grudge.",
+    "perplexity_summary": "The sea, the river, or the memory of water sets the mood. Cairo carries humidity in its voice, even when the sky looks clear."
+  },
+  {
+    "city": "Chicago",
+    "country": "USA",
+    "lat": 41.8781,
+    "lon": -87.6298,
+    "gemini_sentiment": 0.19,
+    "perplexity_sentiment": 0.41,
+    "top_themes": [
+      "sprawl",
+      "freeways",
+      "strip malls",
+      "diversity",
+      "neon"
+    ],
+    "gemini_summary": "Rain or dust, the air carries weight. Chicago teaches you quickly where the awnings are, and which doorways smell like home cooking.",
+    "perplexity_summary": "You can map Chicago, but you cannot map the detours — the closed street, the festival, the sudden downpour that turns every curb into a decision."
+  },
+  {
+    "city": "Dakar",
+    "country": "Senegal",
+    "lat": 14.7167,
+    "lon": -17.4677,
+    "gemini_sentiment": 0.18,
+    "perplexity_sentiment": -0.38,
+    "top_themes": [
+      "music",
+      "fish smoke",
+      "Atlantic light",
+      "teranga",
+      "sand"
+    ],
+    "gemini_summary": "Evening brings a softer light, but not quiet. Dakar keeps its radios on, its kitchens open, and its streets politely impatient.",
+    "perplexity_summary": "Markets sell certainty — ripe fruit, plastic sandals, phone cards — while the streets outside sell only the next ten minutes."
+  },
+  {
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "lat": 25.2048,
+    "lon": 55.2708,
+    "gemini_sentiment": 0.2,
+    "perplexity_sentiment": 0.08,
+    "top_themes": [
+      "glass towers",
+      "AC cold",
+      "construction cranes",
+      "migrant corridors",
+      "desert edge"
+    ],
+    "gemini_summary": "There is a rhythm under the chaos: doors closing, horns answering, a kettle whistling somewhere high above the street in Dubai.",
+    "perplexity_summary": "At night, the heat loosens its grip but not its memory. Dubai glows in strips: kitchens, phone shops, late buses, quiet balconies."
+  },
+  {
+    "city": "Havana",
+    "country": "Cuba",
+    "lat": 23.1136,
+    "lon": -82.3666,
+    "gemini_sentiment": 0.1,
+    "perplexity_sentiment": 0.18,
+    "top_themes": [
+      "sea rust",
+      "classic cars",
+      "salsa",
+      "colonial arcades",
+      "blackouts"
+    ],
+    "gemini_summary": "Heat and ambition share the same sidewalk here. Havana does not apologize for being loud; it simply assumes you came to keep up.",
+    "perplexity_summary": "Music leaks from windows and tailgates. Havana is Cuba with the volume turned up — not cruelly, just honestly."
+  },
+  {
+    "city": "Houston",
+    "country": "USA",
+    "lat": 29.7604,
+    "lon": -95.3698,
+    "gemini_sentiment": 0.29,
+    "perplexity_sentiment": 0.09,
+    "top_themes": [
+      "sprawl",
+      "freeways",
+      "strip malls",
+      "diversity",
+      "neon"
+    ],
+    "gemini_summary": "The skyline argues with the horizon. In Houston, USA feels stitched together from a dozen older cities that refuse to be forgotten.",
+    "perplexity_summary": "Transit is theatre: doors hiss, bodies compress, strangers share the same humid breath and pretend it is normal in Houston."
+  },
+  {
+    "city": "Istanbul",
+    "country": "Turkey",
+    "lat": 41.0082,
+    "lon": 28.9784,
+    "gemini_sentiment": -0.33,
+    "perplexity_sentiment": 0.35,
+    "top_themes": [
+      "tea",
+      "traffic",
+      "layers",
+      "Bosphorus ferries",
+      "minarets"
+    ],
+    "gemini_summary": "Istanbul saves its prettiest lies for postcards. Up close, Turkey is scraped knees, cracked tiles, and stubborn flowers in a railing pot.",
+    "perplexity_summary": "Tour guides promise icons; residents promise corners. Istanbul is mostly corners — where Turkey actually happens."
+  },
+  {
+    "city": "Jakarta",
+    "country": "Indonesia",
+    "lat": -6.2088,
+    "lon": 106.8456,
+    "gemini_sentiment": 0.19,
+    "perplexity_sentiment": -0.04,
+    "top_themes": [
+      "fried rice haze",
+      "monsoon drains",
+      "kampungs",
+      "mosques",
+      "traffic"
+    ],
+    "gemini_summary": "Rain or dust, the air carries weight. Jakarta teaches you quickly where the awnings are, and which doorways smell like home cooking.",
+    "perplexity_summary": "You can map Jakarta, but you cannot map the detours — the closed street, the festival, the sudden downpour that turns every curb into a decision."
+  },
+  {
+    "city": "Johannesburg",
+    "country": "South Africa",
+    "lat": -26.2041,
+    "lon": 28.0473,
     "gemini_sentiment": 0.31,
-    "perplexity_sentiment": 0.12,
-    "top_themes": ["rain", "multicultural", "busy", "grey", "historic"],
-    "gemini_summary": "The streets hum with a low, persistent energy. Brick facades darken under an overcast sky, umbrellas bloom at corners, and the smell of wet pavement mingles with exhaust.",
-    "perplexity_summary": "Crowds pour through narrow lanes, a babel of languages rising above the rumble of double-deckers. Everything moves with quiet urgency, purposeful and unhurried at once."
+    "perplexity_sentiment": 0.09,
+    "top_themes": [
+      "thunderheads",
+      "townships",
+      "jacaranda",
+      "highveld",
+      "mine dumps"
+    ],
+    "gemini_summary": "You learn Johannesburg by smell first — exhaust, sea salt, charcoal, rain on dust — then by how South Africa rearranges itself every few blocks.",
+    "perplexity_summary": "There is beauty in the friction: languages colliding, signage half translated, Johannesburg refusing to be one story about South Africa."
+  },
+  {
+    "city": "Kigali",
+    "country": "Rwanda",
+    "lat": -1.9403,
+    "lon": 29.8739,
+    "gemini_sentiment": 0.08,
+    "perplexity_sentiment": 0.4,
+    "top_themes": [
+      "mist",
+      "orderly streets",
+      "thousand hills",
+      "boda bodas",
+      "tea"
+    ],
+    "gemini_summary": "Neon and daylight negotiate a truce at dusk. Kigali blinks on, block by block, as if the city itself is waking for a second shift.",
+    "perplexity_summary": "People move with practiced impatience, eyes on phones and potholes. Kigali rewards locals who know which shortcuts are safe after dark."
+  },
+  {
+    "city": "Kingston",
+    "country": "Jamaica",
+    "lat": 17.9714,
+    "lon": -76.7931,
+    "gemini_sentiment": -0.12,
+    "perplexity_sentiment": 0.04,
+    "top_themes": [
+      "humid",
+      "colour",
+      "harbour",
+      "reggae bass",
+      "hills"
+    ],
+    "gemini_summary": "Someone is always building, someone is always repairing. Kingston is Jamaica in motion — ladders, tarps, and optimism tied down with twine.",
+    "perplexity_summary": "Public space is a negotiation: a vendor claims a corner, a bus claims a lane, and Kingston pretends not to notice Jamaica watching."
+  },
+  {
+    "city": "Kuala Lumpur",
+    "country": "Malaysia",
+    "lat": 3.139,
+    "lon": 101.6869,
+    "gemini_sentiment": 0,
+    "perplexity_sentiment": 0.39,
+    "top_themes": [
+      "petronas glare",
+      "hawker steam",
+      "monsoon",
+      "mosques",
+      "humid"
+    ],
+    "gemini_summary": "Evening brings a softer light, but not quiet. Kuala Lumpur keeps its radios on, its kitchens open, and its streets politely impatient.",
+    "perplexity_summary": "Markets sell certainty — ripe fruit, plastic sandals, phone cards — while the streets outside sell only the next ten minutes."
+  },
+  {
+    "city": "La Paz",
+    "country": "Bolivia",
+    "lat": -16.4897,
+    "lon": -68.1193,
+    "gemini_sentiment": 0.07,
+    "perplexity_sentiment": -0.05,
+    "top_themes": [
+      "Aymara",
+      "dust",
+      "mountain cold",
+      "altitude",
+      "cable cars"
+    ],
+    "gemini_summary": "Rain or dust, the air carries weight. La Paz teaches you quickly where the awnings are, and which doorways smell like home cooking.",
+    "perplexity_summary": "You can map La Paz, but you cannot map the detours — the closed street, the festival, the sudden downpour that turns every curb into a decision."
   },
   {
     "city": "Lagos",
@@ -17,29 +482,251 @@
     "lon": 3.38,
     "gemini_sentiment": -0.18,
     "perplexity_sentiment": -0.35,
-    "top_themes": ["chaotic", "vibrant", "noise", "heat", "traffic"],
+    "top_themes": [
+      "chaotic",
+      "vibrant",
+      "noise",
+      "heat",
+      "traffic"
+    ],
     "gemini_summary": "The air is thick with heat and noise. Okadas weave through gridlocked streets, vendors shout over blaring horns, and the smell of suya drifts from roadside grills.",
     "perplexity_summary": "An assault on the senses — the city never pauses. Traffic clots every artery, music bleeds from shops, and the sun hammers down on a city that refuses to slow."
   },
   {
-    "city": "Tokyo",
-    "country": "Japan",
-    "lat": 35.68,
-    "lon": 139.69,
-    "gemini_sentiment": 0.45,
-    "perplexity_sentiment": 0.41,
-    "top_themes": ["orderly", "clean", "neon", "efficient", "quiet"],
-    "gemini_summary": "Pedestrians cross in perfect synchrony, the signal chirps, and the crowd disperses without collision. Vending machines glow on every corner. Everything is exactly where it should be.",
-    "perplexity_summary": "A city of controlled beauty. Even the chaos has manners here — trains arrive to the second, queues form without instruction, and the streets smell faintly of rain and cedar."
+    "city": "Lima",
+    "country": "Peru",
+    "lat": -12.0464,
+    "lon": -77.0428,
+    "gemini_sentiment": 0.12,
+    "perplexity_sentiment": 0.07,
+    "top_themes": [
+      "andes shadow",
+      "combis",
+      "dust",
+      "Pacific fog",
+      "ceviche"
+    ],
+    "gemini_summary": "Someone is always building, someone is always repairing. Lima is Peru in motion — ladders, tarps, and optimism tied down with twine.",
+    "perplexity_summary": "Public space is a negotiation: a vendor claims a corner, a bus claims a lane, and Lima pretends not to notice Peru watching."
   },
   {
-    "city": "New York",
+    "city": "London",
+    "country": "UK",
+    "lat": 51.5,
+    "lon": -0.12,
+    "gemini_sentiment": 0.31,
+    "perplexity_sentiment": 0.12,
+    "top_themes": [
+      "rain",
+      "multicultural",
+      "busy",
+      "grey",
+      "historic"
+    ],
+    "gemini_summary": "The streets hum with a low, persistent energy. Brick facades darken under an overcast sky, umbrellas bloom at corners, and the smell of wet pavement mingles with exhaust.",
+    "perplexity_summary": "Crowds pour through narrow lanes, a babel of languages rising above the rumble of double-deckers. Everything moves with quiet urgency, purposeful and unhurried at once."
+  },
+  {
+    "city": "Los Angeles",
+    "country": "USA",
+    "lat": 34.0522,
+    "lon": -118.2437,
+    "gemini_sentiment": -0.12,
+    "perplexity_sentiment": -0.41,
+    "top_themes": [
+      "neon",
+      "sprawl",
+      "freeways",
+      "strip malls",
+      "diversity"
+    ],
+    "gemini_summary": "Someone is always building, someone is always repairing. Los Angeles is USA in motion — ladders, tarps, and optimism tied down with twine.",
+    "perplexity_summary": "Public space is a negotiation: a vendor claims a corner, a bus claims a lane, and Los Angeles pretends not to notice USA watching."
+  },
+  {
+    "city": "Madrid",
+    "country": "Spain",
+    "lat": 40.4168,
+    "lon": -3.7038,
+    "gemini_sentiment": 0.08,
+    "perplexity_sentiment": -0.05,
+    "top_themes": [
+      "tiles",
+      "football",
+      "plazas",
+      "tapas",
+      "siesta heat"
+    ],
+    "gemini_summary": "Neon and daylight negotiate a truce at dusk. Madrid blinks on, block by block, as if the city itself is waking for a second shift.",
+    "perplexity_summary": "People move with practiced impatience, eyes on phones and potholes. Madrid rewards locals who know which shortcuts are safe after dark."
+  },
+  {
+    "city": "Manama",
+    "country": "Bahrain",
+    "lat": 26.2235,
+    "lon": 50.5876,
+    "gemini_sentiment": 0.14,
+    "perplexity_sentiment": -0.27,
+    "top_themes": [
+      "mosques",
+      "causeway",
+      "pearling past",
+      "finance",
+      "heat"
+    ],
+    "gemini_summary": "There is a rhythm under the chaos: doors closing, horns answering, a kettle whistling somewhere high above the street in Manama.",
+    "perplexity_summary": "At night, the heat loosens its grip but not its memory. Manama glows in strips: kitchens, phone shops, late buses, quiet balconies."
+  },
+  {
+    "city": "Manila",
+    "country": "Philippines",
+    "lat": 14.5995,
+    "lon": 120.9842,
+    "gemini_sentiment": 0.07,
+    "perplexity_sentiment": 0.06,
+    "top_themes": [
+      "smog",
+      "malls",
+      "islands-in-one-city",
+      "jeepneys",
+      "typhoon"
+    ],
+    "gemini_summary": "You learn Manila by smell first — exhaust, sea salt, charcoal, rain on dust — then by how Philippines rearranges itself every few blocks.",
+    "perplexity_summary": "There is beauty in the friction: languages colliding, signage half translated, Manila refusing to be one story about Philippines."
+  },
+  {
+    "city": "Mexico City",
+    "country": "Mexico",
+    "lat": 19.4326,
+    "lon": -99.1332,
+    "gemini_sentiment": -0.03,
+    "perplexity_sentiment": 0.27,
+    "top_themes": [
+      "metro crush",
+      "muralismo",
+      "haze",
+      "altiplano",
+      "tacos"
+    ],
+    "gemini_summary": "Mexico City saves its prettiest lies for postcards. Up close, Mexico is scraped knees, cracked tiles, and stubborn flowers in a railing pot.",
+    "perplexity_summary": "Tour guides promise icons; residents promise corners. Mexico City is mostly corners — where Mexico actually happens."
+  },
+  {
+    "city": "Montevideo",
+    "country": "Uruguay",
+    "lat": -34.9011,
+    "lon": -56.1645,
+    "gemini_sentiment": -0.25,
+    "perplexity_sentiment": -0.32,
+    "top_themes": [
+      "Río de la Plata",
+      "mate",
+      "quiet blocks",
+      "meat smoke",
+      "placid"
+    ],
+    "gemini_summary": "The skyline argues with the horizon. In Montevideo, Uruguay feels stitched together from a dozen older cities that refuse to be forgotten.",
+    "perplexity_summary": "Transit is theatre: doors hiss, bodies compress, strangers share the same humid breath and pretend it is normal in Montevideo."
+  },
+  {
+    "city": "Montreal",
+    "country": "Canada",
+    "lat": 45.5017,
+    "lon": -73.5673,
+    "gemini_sentiment": 0.43,
+    "perplexity_sentiment": 0.22,
+    "top_themes": [
+      "construction",
+      "lake wind",
+      "snow slush",
+      "diversity",
+      "poutine"
+    ],
+    "gemini_summary": "Rain or dust, the air carries weight. Montreal teaches you quickly where the awnings are, and which doorways smell like home cooking.",
+    "perplexity_summary": "You can map Montreal, but you cannot map the detours — the closed street, the festival, the sudden downpour that turns every curb into a decision."
+  },
+  {
+    "city": "Mumbai",
+    "country": "India",
+    "lat": 19.07,
+    "lon": 72.87,
+    "gemini_sentiment": -0.08,
+    "perplexity_sentiment": -0.21,
+    "top_themes": [
+      "crowded",
+      "humid",
+      "colour",
+      "contrast",
+      "street food"
+    ],
+    "gemini_summary": "The city layers wealth and poverty within the same block. The smell of spices and monsoon drain water compete in the air. Auto-rickshaws fill every gap in traffic.",
+    "perplexity_summary": "Heat radiates off tarmac and bodies in equal measure. The city is loud with ambition — everyone is going somewhere, selling something, becoming something."
+  },
+  {
+    "city": "Muscat",
+    "country": "Oman",
+    "lat": 23.588,
+    "lon": 58.3829,
+    "gemini_sentiment": -0.2,
+    "perplexity_sentiment": 0.25,
+    "top_themes": [
+      "wadi dry",
+      "frankincense",
+      "white buildings",
+      "heat",
+      "sea"
+    ],
+    "gemini_summary": "Heat and ambition share the same sidewalk here. Muscat does not apologize for being loud; it simply assumes you came to keep up.",
+    "perplexity_summary": "Music leaks from windows and tailgates. Muscat is Oman with the volume turned up — not cruelly, just honestly."
+  },
+  {
+    "city": "Mysuru",
+    "country": "India",
+    "lat": 12.2958,
+    "lon": 76.6394,
+    "gemini_sentiment": 0.3,
+    "perplexity_sentiment": -0.14,
+    "top_themes": [
+      "monsoon",
+      "spice",
+      "horns",
+      "temple bells",
+      "contrast"
+    ],
+    "gemini_summary": "Evening brings a softer light, but not quiet. Mysuru keeps its radios on, its kitchens open, and its streets politely impatient.",
+    "perplexity_summary": "Markets sell certainty — ripe fruit, plastic sandals, phone cards — while the streets outside sell only the next ten minutes."
+  },
+  {
+    "city": "Nairobi",
+    "country": "Kenya",
+    "lat": -1.2921,
+    "lon": 36.8219,
+    "gemini_sentiment": -0.31,
+    "perplexity_sentiment": 0.01,
+    "top_themes": [
+      "NGOs",
+      "safari edge",
+      "matatus",
+      "red dust",
+      "jacaranda"
+    ],
+    "gemini_summary": "The skyline argues with the horizon. In Nairobi, Kenya feels stitched together from a dozen older cities that refuse to be forgotten.",
+    "perplexity_summary": "Transit is theatre: doors hiss, bodies compress, strangers share the same humid breath and pretend it is normal in Nairobi."
+  },
+  {
+    "city": "New York City",
     "country": "USA",
     "lat": 40.71,
     "lon": -74.01,
     "gemini_sentiment": 0.22,
     "perplexity_sentiment": 0.28,
-    "top_themes": ["fast", "loud", "diverse", "concrete", "energy"],
+    "top_themes": [
+      "fast",
+      "loud",
+      "diverse",
+      "concrete",
+      "energy"
+    ],
     "gemini_summary": "Steam rises from grates below, taxis honk in cascading waves, and the sidewalks pulse with people who all seem to be running late for something important.",
     "perplexity_summary": "The city is a living argument — loud, confident, and never wrong. Every block is a different world. The smell of hotdogs, diesel, and coffee hangs in the air."
   },
@@ -50,19 +737,269 @@
     "lon": 2.35,
     "gemini_sentiment": 0.51,
     "perplexity_sentiment": 0.48,
-    "top_themes": ["elegant", "romantic", "cafe", "history", "art"],
+    "top_themes": [
+      "elegant",
+      "romantic",
+      "cafe",
+      "history",
+      "art"
+    ],
     "gemini_summary": "Couples drift along the Seine, bakeries exhale warm butter into the cool afternoon air, and the city arranges itself as though conscious of being admired.",
     "perplexity_summary": "Stone buildings line broad boulevards with quiet authority. The smell of coffee and pastry drifts from every corner brasserie. Time moves differently here."
   },
   {
-    "city": "Mumbai",
-    "country": "India",
-    "lat": 19.07,
-    "lon": 72.87,
-    "gemini_sentiment": -0.08,
-    "perplexity_sentiment": -0.21,
-    "top_themes": ["crowded", "humid", "colour", "contrast", "street food"],
-    "gemini_summary": "The city layers wealth and poverty within the same block. The smell of spices and monsoon drain water compete in the air. Auto-rickshaws fill every gap in traffic.",
-    "perplexity_summary": "Heat radiates off tarmac and bodies in equal measure. The city is loud with ambition — everyone is going somewhere, selling something, becoming something."
+    "city": "Porto",
+    "country": "Portugal",
+    "lat": 41.1579,
+    "lon": -8.6291,
+    "gemini_sentiment": -0.23,
+    "perplexity_sentiment": 0.02,
+    "top_themes": [
+      "tiles",
+      "tram clang",
+      "Atlantic",
+      "azulejos",
+      "Douro wind"
+    ],
+    "gemini_summary": "Rain or dust, the air carries weight. Porto teaches you quickly where the awnings are, and which doorways smell like home cooking.",
+    "perplexity_summary": "You can map Porto, but you cannot map the detours — the closed street, the festival, the sudden downpour that turns every curb into a decision."
+  },
+  {
+    "city": "Quito",
+    "country": "Ecuador",
+    "lat": -0.1807,
+    "lon": -78.4678,
+    "gemini_sentiment": 0.05,
+    "perplexity_sentiment": -0.05,
+    "top_themes": [
+      "volcano silhouette",
+      "altitude",
+      "markets",
+      "bus fumes",
+      "green"
+    ],
+    "gemini_summary": "Shadows run long across plazas and parking lots. Quito feels older than its newest tower and younger than its oldest grudge.",
+    "perplexity_summary": "The sea, the river, or the memory of water sets the mood. Quito carries humidity in its voice, even when the sky looks clear."
+  },
+  {
+    "city": "Rio de Janeiro",
+    "country": "Brazil",
+    "lat": -22.9068,
+    "lon": -43.1729,
+    "gemini_sentiment": -0.3,
+    "perplexity_sentiment": -0.44,
+    "top_themes": [
+      "samba bass",
+      "humid",
+      "concrete",
+      "beach vs favela",
+      "colour"
+    ],
+    "gemini_summary": "Evening brings a softer light, but not quiet. Rio de Janeiro keeps its radios on, its kitchens open, and its streets politely impatient.",
+    "perplexity_summary": "Markets sell certainty — ripe fruit, plastic sandals, phone cards — while the streets outside sell only the next ten minutes."
+  },
+  {
+    "city": "Rome",
+    "country": "Italy",
+    "lat": 41.9028,
+    "lon": 12.4964,
+    "gemini_sentiment": 0.28,
+    "perplexity_sentiment": 0.31,
+    "top_themes": [
+      "ruins",
+      "tourist tide",
+      "vespas",
+      "stone",
+      "espresso"
+    ],
+    "gemini_summary": "Heat and ambition share the same sidewalk here. Rome does not apologize for being loud; it simply assumes you came to keep up.",
+    "perplexity_summary": "Music leaks from windows and tailgates. Rome is Italy with the volume turned up — not cruelly, just honestly."
+  },
+  {
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "lat": 18.4655,
+    "lon": -66.1057,
+    "gemini_sentiment": 0.33,
+    "perplexity_sentiment": -0.24,
+    "top_themes": [
+      "humid",
+      "ocean",
+      "hurricane scars",
+      "Old San Juan blue",
+      "salsa"
+    ],
+    "gemini_summary": "San Juan wears the afternoon like a thin coat — Puerto Rico shows up in diesel, jasmine, and the sound of someone selling fruit from a doorway.",
+    "perplexity_summary": "The city stacks economies vertically: shops below, offices above, someone's laundry flapping like a quiet flag between them in San Juan."
+  },
+  {
+    "city": "Santiago",
+    "country": "Chile",
+    "lat": -33.4489,
+    "lon": -70.6693,
+    "gemini_sentiment": 0.15,
+    "perplexity_sentiment": 0.07,
+    "top_themes": [
+      "Andes snowline",
+      "earthquake memory",
+      "wine",
+      "smog bowl",
+      "order"
+    ],
+    "gemini_summary": "Santiago wears the afternoon like a thin coat — Chile shows up in diesel, jasmine, and the sound of someone selling fruit from a doorway.",
+    "perplexity_summary": "The city stacks economies vertically: shops below, offices above, someone's laundry flapping like a quiet flag between them in Santiago."
+  },
+  {
+    "city": "São Paulo",
+    "country": "Brazil",
+    "lat": -23.5558,
+    "lon": -46.6396,
+    "gemini_sentiment": -0.13,
+    "perplexity_sentiment": 0.37,
+    "top_themes": [
+      "concrete",
+      "beach vs favela",
+      "colour",
+      "samba bass",
+      "humid"
+    ],
+    "gemini_summary": "The skyline argues with the horizon. In São Paulo, Brazil feels stitched together from a dozen older cities that refuse to be forgotten.",
+    "perplexity_summary": "Transit is theatre: doors hiss, bodies compress, strangers share the same humid breath and pretend it is normal in São Paulo."
+  },
+  {
+    "city": "Seoul",
+    "country": "South Korea",
+    "lat": 37.5665,
+    "lon": 126.978,
+    "gemini_sentiment": -0.05,
+    "perplexity_sentiment": 0.27,
+    "top_themes": [
+      "neon",
+      "subway",
+      "kimchi",
+      "hills",
+      "polite rush"
+    ],
+    "gemini_summary": "You learn Seoul by smell first — exhaust, sea salt, charcoal, rain on dust — then by how South Korea rearranges itself every few blocks.",
+    "perplexity_summary": "There is beauty in the friction: languages colliding, signage half translated, Seoul refusing to be one story about South Korea."
+  },
+  {
+    "city": "Tallinn",
+    "country": "Estonia",
+    "lat": 59.437,
+    "lon": 24.7536,
+    "gemini_sentiment": -0.31,
+    "perplexity_sentiment": -0.1,
+    "top_themes": [
+      "quiet",
+      "Baltic grey",
+      "digital",
+      "medieval walls",
+      "forest edge"
+    ],
+    "gemini_summary": "Shadows run long across plazas and parking lots. Tallinn feels older than its newest tower and younger than its oldest grudge.",
+    "perplexity_summary": "The sea, the river, or the memory of water sets the mood. Tallinn carries humidity in its voice, even when the sky looks clear."
+  },
+  {
+    "city": "Tehran",
+    "country": "Iran",
+    "lat": 35.6892,
+    "lon": 51.389,
+    "gemini_sentiment": -0.39,
+    "perplexity_sentiment": 0.12,
+    "top_themes": [
+      "poetry",
+      "pollution",
+      "mountains",
+      "bazaar",
+      "traffic knots"
+    ],
+    "gemini_summary": "Tehran wears the afternoon like a thin coat — Iran shows up in diesel, jasmine, and the sound of someone selling fruit from a doorway.",
+    "perplexity_summary": "The city stacks economies vertically: shops below, offices above, someone's laundry flapping like a quiet flag between them in Tehran."
+  },
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "lat": 35.68,
+    "lon": 139.69,
+    "gemini_sentiment": 0.45,
+    "perplexity_sentiment": 0.41,
+    "top_themes": [
+      "orderly",
+      "clean",
+      "neon",
+      "efficient",
+      "quiet"
+    ],
+    "gemini_summary": "Pedestrians cross in perfect synchrony, the signal chirps, and the crowd disperses without collision. Vending machines glow on every corner. Everything is exactly where it should be.",
+    "perplexity_summary": "A city of controlled beauty. Even the chaos has manners here — trains arrive to the second, queues form without instruction, and the streets smell faintly of rain and cedar."
+  },
+  {
+    "city": "Toronto",
+    "country": "Canada",
+    "lat": 43.6532,
+    "lon": -79.3832,
+    "gemini_sentiment": -0.26,
+    "perplexity_sentiment": -0.09,
+    "top_themes": [
+      "lake wind",
+      "snow slush",
+      "diversity",
+      "poutine",
+      "construction"
+    ],
+    "gemini_summary": "Heat and ambition share the same sidewalk here. Toronto does not apologize for being loud; it simply assumes you came to keep up.",
+    "perplexity_summary": "Music leaks from windows and tailgates. Toronto is Canada with the volume turned up — not cruelly, just honestly."
+  },
+  {
+    "city": "Ulaanbaatar",
+    "country": "Mongolia",
+    "lat": 47.8864,
+    "lon": 106.9057,
+    "gemini_sentiment": 0.37,
+    "perplexity_sentiment": 0.1,
+    "top_themes": [
+      "coal smoke",
+      "vast sky",
+      "horses",
+      "bitter winter",
+      "ger districts"
+    ],
+    "gemini_summary": "Rain or dust, the air carries weight. Ulaanbaatar teaches you quickly where the awnings are, and which doorways smell like home cooking.",
+    "perplexity_summary": "You can map Ulaanbaatar, but you cannot map the detours — the closed street, the festival, the sudden downpour that turns every curb into a decision."
+  },
+  {
+    "city": "Vientiane",
+    "country": "Laos",
+    "lat": 17.9757,
+    "lon": 102.6331,
+    "gemini_sentiment": 0.04,
+    "perplexity_sentiment": 0.39,
+    "top_themes": [
+      "quiet",
+      "Mekong slow",
+      "temples",
+      "French crumbs",
+      "dust"
+    ],
+    "gemini_summary": "The wind carries news from elsewhere. Vientiane listens, then answers in its own dialect of traffic, music, and public announcements.",
+    "perplexity_summary": "Construction tape is a kind of wallpaper here. Vientiane keeps rewriting itself while everyone tries to remember where the old bakery was."
+  },
+  {
+    "city": "Warsaw",
+    "country": "Poland",
+    "lat": 52.2297,
+    "lon": 21.0122,
+    "gemini_sentiment": 0.02,
+    "perplexity_sentiment": -0.4,
+    "top_themes": [
+      "rebuilt centre",
+      "trams",
+      "grey spring",
+      "cobblestones",
+      "vodka steam"
+    ],
+    "gemini_summary": "Neon and daylight negotiate a truce at dusk. Warsaw blinks on, block by block, as if the city itself is waking for a second shift.",
+    "perplexity_summary": "People move with practiced impatience, eyes on phones and potholes. Warsaw rewards locals who know which shortcuts are safe after dark."
   }
 ]

@@ -62,17 +62,18 @@ export default function ComparisonChart({
           </span>
         </div>
       </div>
-      <div
-        className="w-full"
-        style={{ height: `${Math.min(540, 120 + data.length * 44)}px` }}
-      >
+      <div className="max-h-[min(75vh,720px)] w-full overflow-y-auto overflow-x-hidden rounded-xl scrollbar-thin">
+        <div
+          className="w-full min-w-0"
+          style={{ height: `${Math.max(280, 28 + data.length * 34)}px` }}
+        >
         <ResponsiveContainer width="100%" height="100%">
           <BarChart
             data={data}
             layout="vertical"
             margin={{ top: 8, right: 24, left: 8, bottom: 8 }}
-            barCategoryGap={18}
-            barGap={6}
+            barCategoryGap={10}
+            barGap={4}
           >
             <CartesianGrid strokeDasharray="3 3" stroke="#00000014" horizontal={false} />
             <XAxis
@@ -85,9 +86,9 @@ export default function ComparisonChart({
             <YAxis
               type="category"
               dataKey="city"
-              width={88}
+              width={118}
               stroke="#00000033"
-              tick={{ fill: "#000000", fontSize: 12 }}
+              tick={{ fill: "#000000", fontSize: 11 }}
             />
             <Tooltip
               cursor={{ fill: "rgba(0, 0, 0, 0.04)" }}
@@ -144,6 +145,7 @@ export default function ComparisonChart({
             </Bar>
           </BarChart>
         </ResponsiveContainer>
+        </div>
       </div>
     </div>
   );
