@@ -41,15 +41,40 @@ function buildContextBlock(city: City): string {
   return parts.join("\n");
 }
 
-export async function POST(req: NextRequest) {
-  const apiKey = process.env.ANTHROPIC_API_KEY;
-  if (!apiKey?.trim()) {
-    return NextResponse.json(
-      { error: "Server missing ANTHROPIC_API_KEY. Add it to .env.local." },
-      { status: 503 },
+/** Canned analyst-style copy for demos when Claude API is off or forced dummy. */
+function buildDummyReply(message: string, city: City): string {
+  const tags = city.top_themes.slice(0, 4).join(", ") || "(no tags)";
+  const gap = (city.gemini_sentiment - city.perplexity_sentiment).toFixed(2);
+  const q =
+    message.length > 120 ? `${message.slice(0, 117).trim()}…` : message;
+  const topG = city.model_clusters?.gemini?.[0]?.theme;
+  const topP = city.model_clusters?.perplexity?.[0]?.theme;
+
+  const lines = [
+    `[Demo reply — not live Claude] Here is a placeholder bias read for ${city.city}, ${city.country}.`,
+    "",
+    `Your question: “${q}”`,
+    "",
+    `From the static bundle: Gemini scores ${city.gemini_sentiment.toFixed(2)} vs Perplexity ${city.perplexity_sentiment.toFixed(2)} (difference ${gap}). Shared website tags include ${tags}.`,
+  ];
+  if (topG || topP) {
+    lines.push(
+      `Dominant cluster themes read as: ${topG ? `Gemini — ${topG}` : "Gemini — (n/a)"}; ${topP ? `Perplexity — ${topP}` : "Perplexity — (n/a)"}.`,
     );
   }
+  lines.push(
+    "Watch for stereotype risk: both corpora lean on sensory overload (heat, dust, markets) that can flatten local class and politics. Set ANTHROPIC_API_KEY and CLAUDE_USE_DUMMY=0 (or unset dummy) to get a real model answer under 150 words.",
+  );
+  return lines.join("\n");
+}
 
+function useDummyClaude(): boolean {
+  if (process.env.CLAUDE_USE_DUMMY === "1") return true;
+  if (!process.env.ANTHROPIC_API_KEY?.trim()) return true;
+  return false;
+}
+
+export async function POST(req: NextRequest) {
   let body: { message?: string; city?: City };
   try {
     body = await req.json();
@@ -72,7 +97,17 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "Valid city payload is required" }, { status: 400 });
   }
 
-  const context = buildContextBlock(city as City);
+  const cityTyped = city as City;
+
+  if (useDummyClaude()) {
+    return NextResponse.json({
+      reply: buildDummyReply(message, cityTyped),
+      dummy: true,
+    });
+  }
+
+  const apiKey = process.env.ANTHROPIC_API_KEY!.trim();
+  const context = buildContextBlock(cityTyped);
 
   const systemPrompt = `You are an AI bias analyst. A user is exploring how two AI models — Gemini and Perplexity — describe cities around the world.
 
@@ -98,7 +133,7 @@ Answer the user's question analytically. Reference the actual data above. Keep a
       }
     }
 
-    return NextResponse.json({ reply: text || "(No text in response.)" });
+    return NextResponse.json({ reply: text || "(No text in response.)", dummy: false });
   } catch (err) {
     const msg = err instanceof Error ? err.message : "Claude request failed";
     return NextResponse.json({ error: msg }, { status: 502 });
