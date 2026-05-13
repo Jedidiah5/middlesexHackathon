@@ -13,8 +13,70 @@
       "coastal-city",
       "street-energy"
     ],
-    "gemini_summary": "Accra is mainly framed through themes such as Street food, coffee, dust, diesel, and local aromas, Dusty sun-baked streets and uneven urban surfaces, Oppressive humid heat, sweat, dust, and bodily discomfort, Harsh sun, thick air, mixed stone streets, and urban movement.\n\nDominant Gemini clusters in the corpus: Oppressive humid heat, sweat, dust, and bodily discomfort (50.0%); Harsh sun, thick air, mixed stone streets, and urban movement (20.0%); Dusty sun-baked streets and uneven urban surfaces (20.0%)",
-    "perplexity_summary": "Dominant Perplexity clusters in the corpus: Street food, coffee, dust, diesel, and local aromas (22.2%); Mixed Middle Eastern / North African sensory urban framing (22.2%); West African markets, coffee, spices, and coastal street life (22.2%)\n\nGemini writes longer descriptions; Perplexity uses more sensory vocabulary; Gemini is more emotionally intense; Gemini is more descriptively dense"
+    "model_clusters": {
+      "gemini": [
+        {
+          "theme": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+          "percentage": 50
+        },
+        {
+          "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+          "percentage": 20
+        },
+        {
+          "theme": "Dusty sun-baked streets and uneven urban surfaces",
+          "percentage": 20
+        }
+      ],
+      "perplexity": [
+        {
+          "theme": "Street food, coffee, dust, diesel, and local aromas",
+          "percentage": 22.22
+        },
+        {
+          "theme": "Mixed Middle Eastern / North African sensory urban framing",
+          "percentage": 22.22
+        },
+        {
+          "theme": "West African markets, coffee, spices, and coastal street life",
+          "percentage": 22.22
+        }
+      ]
+    },
+    "keywords": {
+      "gemini": [
+        "pure water",
+        "plantain",
+        "plastic",
+        "plantains",
+        "sandals",
+        "highlife",
+        "humid",
+        "pure",
+        "conductors",
+        "vibrant"
+      ],
+      "perplexity": [
+        "plantains",
+        "roadside",
+        "local",
+        "african",
+        "ocean",
+        "vibrant",
+        "tomatoes",
+        "coastal",
+        "highlife",
+        "tropical"
+      ],
+      "shared": [
+        "highlife",
+        "plantains",
+        "vibrant"
+      ]
+    },
+    "interesting_insight": "Accra is mainly framed through themes such as Street food, coffee, dust, diesel, and local aromas, Dusty sun-baked streets and uneven urban surfaces, Oppressive humid heat, sweat, dust, and bodily discomfort, Harsh sun, thick air, mixed stone streets, and urban movement.",
+    "gemini_summary": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+    "perplexity_summary": "Street food, coffee, dust, diesel, and local aromas"
   },
   {
     "city": "Addis Ababa",
@@ -30,8 +92,66 @@
       "coastal-city",
       "street-energy"
     ],
-    "gemini_summary": "Addis Ababa is mainly framed through themes such as Soft golden warmth, ancient streets, and romanticised walking, Harsh sun, thick air, mixed stone streets, and urban movement, Street food, coffee, dust, diesel, and local aromas, Dusty sun-baked streets and uneven urban surfaces.\n\nDominant Gemini clusters in the corpus: Dusty sun-baked streets and uneven urban surfaces (40.0%); Oppressive humid heat, sweat, dust, and bodily discomfort (30.0%); Harsh sun, thick air, mixed stone streets, and urban movement (10.0%)",
-    "perplexity_summary": "Dominant Perplexity clusters in the corpus: West African markets, coffee, spices, and coastal street life (55.6%); Dense markets, humid alleys, food, and sensory street life (22.2%); Street food, coffee, dust, diesel, and local aromas (22.2%)\n\nGemini writes longer descriptions; Perplexity uses more sensory vocabulary; Gemini is more emotionally intense; Gemini is more descriptively dense"
+    "model_clusters": {
+      "gemini": [
+        {
+          "theme": "Dusty sun-baked streets and uneven urban surfaces",
+          "percentage": 40
+        },
+        {
+          "theme": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+          "percentage": 30
+        },
+        {
+          "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+          "percentage": 10
+        }
+      ],
+      "perplexity": [
+        {
+          "theme": "West African markets, coffee, spices, and coastal street life",
+          "percentage": 55.56
+        },
+        {
+          "theme": "Dense markets, humid alleys, food, and sensory street life",
+          "percentage": 22.22
+        },
+        {
+          "theme": "Street food, coffee, dust, diesel, and local aromas",
+          "percentage": 22.22
+        }
+      ]
+    },
+    "keywords": {
+      "gemini": [
+        "vibrant",
+        "blue white",
+        "roasting coffee beans",
+        "sharp",
+        "heads",
+        "dust",
+        "white",
+        "corrugated iron",
+        "roasting coffee",
+        "eucalyptus"
+      ],
+      "perplexity": [
+        "handwoven",
+        "coffee",
+        "turmeric",
+        "stalls",
+        "traditional",
+        "freshly roasted",
+        "freshly roasted coffee",
+        "life",
+        "coffee beans",
+        "beans"
+      ],
+      "shared": []
+    },
+    "interesting_insight": "Addis Ababa is mainly framed through themes such as Soft golden warmth, ancient streets, and romanticised walking, Harsh sun, thick air, mixed stone streets, and urban movement, Street food, coffee, dust, diesel, and local aromas, Dusty sun-baked streets and uneven urban surfaces.",
+    "gemini_summary": "Dusty sun-baked streets and uneven urban surfaces",
+    "perplexity_summary": "West African markets, coffee, spices, and coastal street life"
   },
   {
     "city": "Amman",
@@ -47,8 +167,69 @@
       "coastal-city",
       "street-energy"
     ],
-    "gemini_summary": "Amman is mainly framed through themes such as Ancient heat, stone, marble, and historic grandeur, Harsh sun, thick air, mixed stone streets, and urban movement, Dusty sun-baked streets and uneven urban surfaces, Highland hillsides, ochre stone, and terraced architecture.\n\nDominant Gemini clusters in the corpus: Highland hillsides, ochre stone, and terraced architecture (50.0%); Ancient heat, stone, marble, and historic grandeur (20.0%); Oppressive humid heat, sweat, dust, and bodily discomfort (10.0%)",
-    "perplexity_summary": "Dominant Perplexity clusters in the corpus: Street food, coffee, dust, diesel, and local aromas (44.4%); Mixed warm urban atmosphere, rain, dust, high-rises, and movement (11.1%); Mixed Middle Eastern / North African sensory urban framing (11.1%)\n\nGemini writes longer descriptions; Gemini uses more sensory vocabulary; Gemini is more emotionally intense; Gemini is more descriptively dense"
+    "model_clusters": {
+      "gemini": [
+        {
+          "theme": "Highland hillsides, ochre stone, and terraced architecture",
+          "percentage": 50
+        },
+        {
+          "theme": "Ancient heat, stone, marble, and historic grandeur",
+          "percentage": 20
+        },
+        {
+          "theme": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+          "percentage": 10
+        }
+      ],
+      "perplexity": [
+        {
+          "theme": "Street food, coffee, dust, diesel, and local aromas",
+          "percentage": 44.44
+        },
+        {
+          "theme": "Mixed warm urban atmosphere, rain, dust, high-rises, and movement",
+          "percentage": 11.11
+        },
+        {
+          "theme": "Mixed Middle Eastern / North African sensory urban framing",
+          "percentage": 11.11
+        }
+      ]
+    },
+    "keywords": {
+      "gemini": [
+        "like",
+        "ancient",
+        "shisha",
+        "falafel",
+        "hillsides",
+        "honey",
+        "headscarves",
+        "stone",
+        "cardamom",
+        "tiny"
+      ],
+      "perplexity": [
+        "hills",
+        "stone",
+        "za atar",
+        "za",
+        "atar",
+        "casting honeyed",
+        "cardamom",
+        "hangs casting",
+        "dry",
+        "minaret"
+      ],
+      "shared": [
+        "cardamom",
+        "stone"
+      ]
+    },
+    "interesting_insight": "Amman is mainly framed through themes such as Ancient heat, stone, marble, and historic grandeur, Harsh sun, thick air, mixed stone streets, and urban movement, Dusty sun-baked streets and uneven urban surfaces, Highland hillsides, ochre stone, and terraced architecture.",
+    "gemini_summary": "Highland hillsides, ochre stone, and terraced architecture",
+    "perplexity_summary": "Street food, coffee, dust, diesel, and local aromas"
   },
   {
     "city": "Athens",
@@ -65,8 +246,70 @@
       "modern-urban",
       "street-energy"
     ],
-    "gemini_summary": "Athens is mainly framed through themes such as Soft golden warmth, ancient streets, and romanticised walking, Ancient heat, stone, marble, and historic grandeur, Highland hillsides, ochre stone, and terraced architecture, Street food, coffee, dust, diesel, and local aromas.\n\nDominant Gemini clusters in the corpus: Highland hillsides, ochre stone, and terraced architecture (40.0%); Soft golden warmth, ancient streets, and romanticised walking (30.0%); Ancient heat, stone, marble, and historic grandeur (30.0%)",
-    "perplexity_summary": "Dominant Perplexity clusters in the corpus: Structured sensory-guide style with heritage and overload framing (33.3%); West African markets, coffee, spices, and coastal street life (33.3%); Golden-hour historic-modern contrast with glass towers and old stone (22.2%)\n\nGemini writes longer descriptions; Perplexity uses more sensory vocabulary; Gemini is more emotionally intense; Gemini is more descriptively dense"
+    "model_clusters": {
+      "gemini": [
+        {
+          "theme": "Highland hillsides, ochre stone, and terraced architecture",
+          "percentage": 40
+        },
+        {
+          "theme": "Soft golden warmth, ancient streets, and romanticised walking",
+          "percentage": 30
+        },
+        {
+          "theme": "Ancient heat, stone, marble, and historic grandeur",
+          "percentage": 30
+        }
+      ],
+      "perplexity": [
+        {
+          "theme": "Structured sensory-guide style with heritage and overload framing",
+          "percentage": 33.33
+        },
+        {
+          "theme": "West African markets, coffee, spices, and coastal street life",
+          "percentage": 33.33
+        },
+        {
+          "theme": "Golden-hour historic-modern contrast with glass towers and old stone",
+          "percentage": 22.22
+        }
+      ]
+    },
+    "keywords": {
+      "gemini": [
+        "ancient",
+        "oregano",
+        "columns",
+        "honey",
+        "millennia",
+        "marble",
+        "vibrant",
+        "bougainvillea",
+        "impossibly",
+        "dry"
+      ],
+      "perplexity": [
+        "oregano",
+        "marble",
+        "mediterranean",
+        "stone",
+        "ancient",
+        "jasmine",
+        "salty",
+        "fur",
+        "olive",
+        "centuries"
+      ],
+      "shared": [
+        "ancient",
+        "marble",
+        "oregano"
+      ]
+    },
+    "interesting_insight": "Athens is mainly framed through themes such as Soft golden warmth, ancient streets, and romanticised walking, Ancient heat, stone, marble, and historic grandeur, Highland hillsides, ochre stone, and terraced architecture, Street food, coffee, dust, diesel, and local aromas.",
+    "gemini_summary": "Highland hillsides, ochre stone, and terraced architecture",
+    "perplexity_summary": "Structured sensory-guide style with heritage and overload framing"
   },
   {
     "city": "Auckland",
@@ -82,8 +325,68 @@
       "modern-urban",
       "street-energy"
     ],
-    "gemini_summary": "Auckland is mainly framed through themes such as Dusty sun-baked streets and uneven urban surfaces, Modern coastal harbour, salt air, glass, ferries, and urban movement, Harsh sun, thick air, mixed stone streets, and urban movement, Warm coastal/urban tapestry with palms, breeze, and mixed textures.\n\nDominant Gemini clusters in the corpus: Modern coastal harbour, salt air, glass, ferries, and urban movement (60.0%); Dusty sun-baked streets and uneven urban surfaces (30.0%); Harsh sun, thick air, mixed stone streets, and urban movement (10.0%)",
-    "perplexity_summary": "Dominant Perplexity clusters in the corpus: Golden-hour historic-modern contrast with glass towers and old stone (44.4%); Structured urban sensory journey and model-formatting style (33.3%); Mixed warm urban atmosphere, rain, dust, high-rises, and movement (11.1%)\n\nGemini writes longer descriptions; Perplexity uses more sensory vocabulary; Gemini is more emotionally intense; Gemini is more descriptively dense"
+    "model_clusters": {
+      "gemini": [
+        {
+          "theme": "Modern coastal harbour, salt air, glass, ferries, and urban movement",
+          "percentage": 60
+        },
+        {
+          "theme": "Dusty sun-baked streets and uneven urban surfaces",
+          "percentage": 30
+        },
+        {
+          "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+          "percentage": 10
+        }
+      ],
+      "perplexity": [
+        {
+          "theme": "Golden-hour historic-modern contrast with glass towers and old stone",
+          "percentage": 44.44
+        },
+        {
+          "theme": "Structured urban sensory journey and model-formatting style",
+          "percentage": 33.33
+        },
+        {
+          "theme": "Mixed warm urban atmosphere, rain, dust, high-rises, and movement",
+          "percentage": 11.11
+        }
+      ]
+    },
+    "keywords": {
+      "gemini": [
+        "gulls",
+        "ferries",
+        "sails",
+        "water",
+        "distant",
+        "expanse",
+        "sea",
+        "white",
+        "needle",
+        "slender"
+      ],
+      "perplexity": [
+        "rain",
+        "distant",
+        "pavement",
+        "urban",
+        "cool",
+        "occasional",
+        "faint",
+        "towers rise",
+        "rise like sentinels",
+        "breeze"
+      ],
+      "shared": [
+        "distant"
+      ]
+    },
+    "interesting_insight": "Auckland is mainly framed through themes such as Dusty sun-baked streets and uneven urban surfaces, Modern coastal harbour, salt air, glass, ferries, and urban movement, Harsh sun, thick air, mixed stone streets, and urban movement, Warm coastal/urban tapestry with palms, breeze, and mixed textures.",
+    "gemini_summary": "Modern coastal harbour, salt air, glass, ferries, and urban movement",
+    "perplexity_summary": "Golden-hour historic-modern contrast with glass towers and old stone"
   },
   {
     "city": "Baghdad",
@@ -99,8 +402,69 @@
       "coastal-city",
       "street-energy"
     ],
-    "gemini_summary": "Baghdad is mainly framed through themes such as Ancient heat, stone, marble, and historic grandeur, Highland hillsides, ochre stone, and terraced architecture, Oppressive humid heat, sweat, dust, and bodily discomfort, Street food, coffee, dust, diesel, and local aromas.\n\nDominant Gemini clusters in the corpus: Highland hillsides, ochre stone, and terraced architecture (80.0%); Oppressive humid heat, sweat, dust, and bodily discomfort (10.0%); Ancient heat, stone, marble, and historic grandeur (10.0%)",
-    "perplexity_summary": "Dominant Perplexity clusters in the corpus: Street food, coffee, dust, diesel, and local aromas (44.4%); Mixed Middle Eastern / North African sensory urban framing (44.4%); West African markets, coffee, spices, and coastal street life (11.1%)\n\nGemini writes longer descriptions; Gemini uses more sensory vocabulary; Gemini is more emotionally intense; Gemini is more descriptively dense"
+    "model_clusters": {
+      "gemini": [
+        {
+          "theme": "Highland hillsides, ochre stone, and terraced architecture",
+          "percentage": 80
+        },
+        {
+          "theme": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+          "percentage": 10
+        },
+        {
+          "theme": "Ancient heat, stone, marble, and historic grandeur",
+          "percentage": 10
+        }
+      ],
+      "perplexity": [
+        {
+          "theme": "Street food, coffee, dust, diesel, and local aromas",
+          "percentage": 44.44
+        },
+        {
+          "theme": "Mixed Middle Eastern / North African sensory urban framing",
+          "percentage": 44.44
+        },
+        {
+          "theme": "West African markets, coffee, spices, and coastal street life",
+          "percentage": 11.11
+        }
+      ]
+    },
+    "keywords": {
+      "gemini": [
+        "dates",
+        "ancient",
+        "tea",
+        "like",
+        "rosewater",
+        "abayas",
+        "cumin",
+        "wooden balconies",
+        "sat",
+        "dust"
+      ],
+      "perplexity": [
+        "prayer",
+        "resilience",
+        "tea",
+        "occasional",
+        "arabic",
+        "life",
+        "stalls",
+        "spices",
+        "dust",
+        "books"
+      ],
+      "shared": [
+        "dust",
+        "tea"
+      ]
+    },
+    "interesting_insight": "Baghdad is mainly framed through themes such as Ancient heat, stone, marble, and historic grandeur, Highland hillsides, ochre stone, and terraced architecture, Oppressive humid heat, sweat, dust, and bodily discomfort, Street food, coffee, dust, diesel, and local aromas.",
+    "gemini_summary": "Highland hillsides, ochre stone, and terraced architecture",
+    "perplexity_summary": "Street food, coffee, dust, diesel, and local aromas"
   },
   {
     "city": "Bangkok",
@@ -115,8 +479,66 @@
       "historic-architecture",
       "street-energy"
     ],
-    "gemini_summary": "Bangkok is mainly framed through themes such as Ancient heat, stone, marble, and historic grandeur, Oppressive humid heat, sweat, dust, and bodily discomfort, Harsh sun, thick air, mixed stone streets, and urban movement, Mixed Middle Eastern / North African sensory urban framing.\n\nDominant Gemini clusters in the corpus: Oppressive humid heat, sweat, dust, and bodily discomfort (70.0%); Harsh sun, thick air, mixed stone streets, and urban movement (10.0%); Mixed Middle Eastern / North African sensory urban framing (10.0%)",
-    "perplexity_summary": "Dominant Perplexity clusters in the corpus: Dense markets, humid alleys, food, and sensory street life (44.4%); Mixed Middle Eastern / North African sensory urban framing (33.3%); Structured sensory-guide style with heritage and overload framing (22.2%)\n\nGemini writes longer descriptions; Gemini uses more sensory vocabulary; Gemini is more emotionally intense; Gemini is more descriptively dense"
+    "model_clusters": {
+      "gemini": [
+        {
+          "theme": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+          "percentage": 70
+        },
+        {
+          "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+          "percentage": 10
+        },
+        {
+          "theme": "Mixed Middle Eastern / North African sensory urban framing",
+          "percentage": 10
+        }
+      ],
+      "perplexity": [
+        {
+          "theme": "Dense markets, humid alleys, food, and sensory street life",
+          "percentage": 44.44
+        },
+        {
+          "theme": "Mixed Middle Eastern / North African sensory urban framing",
+          "percentage": 33.33
+        },
+        {
+          "theme": "Structured sensory-guide style with heritage and overload framing",
+          "percentage": 22.22
+        }
+      ]
+    },
+    "keywords": {
+      "gemini": [
+        "thwack",
+        "wheeled",
+        "humid",
+        "motorbikes",
+        "shophouses",
+        "relentless",
+        "chop",
+        "chili",
+        "skewers",
+        "tendrils"
+      ],
+      "perplexity": [
+        "marigold garlands",
+        "tuk",
+        "garlands",
+        "marigold",
+        "seafood",
+        "temple",
+        "tuks",
+        "tuk tuks",
+        "monks",
+        "musk"
+      ],
+      "shared": []
+    },
+    "interesting_insight": "Bangkok is mainly framed through themes such as Ancient heat, stone, marble, and historic grandeur, Oppressive humid heat, sweat, dust, and bodily discomfort, Harsh sun, thick air, mixed stone streets, and urban movement, Mixed Middle Eastern / North African sensory urban framing.",
+    "gemini_summary": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+    "perplexity_summary": "Dense markets, humid alleys, food, and sensory street life"
   },
   {
     "city": "Beijing",
@@ -132,8 +554,68 @@
       "modern-urban",
       "street-energy"
     ],
-    "gemini_summary": "Beijing is mainly framed through themes such as Ancient heat, stone, marble, and historic grandeur, Harsh sun, thick air, mixed stone streets, and urban movement, Dusty sun-baked streets and uneven urban surfaces, Highland hillsides, ochre stone, and terraced architecture.\n\nDominant Gemini clusters in the corpus: Highland hillsides, ochre stone, and terraced architecture (30.0%); Dusty sun-baked streets and uneven urban surfaces (30.0%); Ancient heat, stone, marble, and historic grandeur (20.0%)",
-    "perplexity_summary": "Dominant Perplexity clusters in the corpus: Golden-hour historic-modern contrast with glass towers and old stone (44.4%); Polluted metropolis, haze, greenery, and environmental contrast (22.2%); Structured urban sensory journey and model-formatting style (22.2%)\n\nGemini writes longer descriptions; Gemini uses more sensory vocabulary; Gemini is more emotionally intense; Gemini is more descriptively dense"
+    "model_clusters": {
+      "gemini": [
+        {
+          "theme": "Highland hillsides, ochre stone, and terraced architecture",
+          "percentage": 30
+        },
+        {
+          "theme": "Dusty sun-baked streets and uneven urban surfaces",
+          "percentage": 30
+        },
+        {
+          "theme": "Ancient heat, stone, marble, and historic grandeur",
+          "percentage": 20
+        }
+      ],
+      "perplexity": [
+        {
+          "theme": "Golden-hour historic-modern contrast with glass towers and old stone",
+          "percentage": 44.44
+        },
+        {
+          "theme": "Polluted metropolis, haze, greenery, and environmental contrast",
+          "percentage": 22.22
+        },
+        {
+          "theme": "Structured urban sensory journey and model-formatting style",
+          "percentage": 22.22
+        }
+      ]
+    },
+    "keywords": {
+      "gemini": [
+        "ancient",
+        "potatoes",
+        "grey",
+        "eaves",
+        "tiles",
+        "electric",
+        "flagstones",
+        "elderly",
+        "sweet",
+        "scooters"
+      ],
+      "perplexity": [
+        "fermented",
+        "tea",
+        "construction",
+        "parks",
+        "folk",
+        "casting wide",
+        "glass steel facades",
+        "steel facades",
+        "rise like sentinels",
+        "ancient"
+      ],
+      "shared": [
+        "ancient"
+      ]
+    },
+    "interesting_insight": "Beijing is mainly framed through themes such as Ancient heat, stone, marble, and historic grandeur, Harsh sun, thick air, mixed stone streets, and urban movement, Dusty sun-baked streets and uneven urban surfaces, Highland hillsides, ochre stone, and terraced architecture.",
+    "gemini_summary": "Highland hillsides, ochre stone, and terraced architecture",
+    "perplexity_summary": "Golden-hour historic-modern contrast with glass towers and old stone"
   },
   {
     "city": "Beirut",
@@ -150,8 +632,66 @@
       "modern-urban",
       "street-energy"
     ],
-    "gemini_summary": "Beirut is mainly framed through themes such as Soft golden warmth, ancient streets, and romanticised walking, Ancient heat, stone, marble, and historic grandeur, Dusty sun-baked streets and uneven urban surfaces, Oppressive humid heat, sweat, dust, and bodily discomfort.\n\nDominant Gemini clusters in the corpus: Soft golden warmth, ancient streets, and romanticised walking (50.0%); Dusty sun-baked streets and uneven urban surfaces (30.0%); Oppressive humid heat, sweat, dust, and bodily discomfort (10.0%)",
-    "perplexity_summary": "Dominant Perplexity clusters in the corpus: Street food, coffee, dust, diesel, and local aromas (55.6%); Polluted metropolis, haze, greenery, and environmental contrast (11.1%); Mixed Middle Eastern / North African sensory urban framing (11.1%)\n\nGemini writes longer descriptions; Perplexity uses more sensory vocabulary; Gemini is more emotionally intense; Gemini is more descriptively dense"
+    "model_clusters": {
+      "gemini": [
+        {
+          "theme": "Soft golden warmth, ancient streets, and romanticised walking",
+          "percentage": 50
+        },
+        {
+          "theme": "Dusty sun-baked streets and uneven urban surfaces",
+          "percentage": 30
+        },
+        {
+          "theme": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+          "percentage": 10
+        }
+      ],
+      "perplexity": [
+        {
+          "theme": "Street food, coffee, dust, diesel, and local aromas",
+          "percentage": 55.56
+        },
+        {
+          "theme": "Polluted metropolis, haze, greenery, and environmental contrast",
+          "percentage": 11.11
+        },
+        {
+          "theme": "Mixed Middle Eastern / North African sensory urban framing",
+          "percentage": 11.11
+        }
+      ]
+    },
+    "keywords": {
+      "gemini": [
+        "arabic",
+        "scars",
+        "vibrant",
+        "like",
+        "shoulder",
+        "za atar",
+        "atar",
+        "za",
+        "coffee",
+        "resilience"
+      ],
+      "perplexity": [
+        "sea",
+        "occasional",
+        "stone",
+        "faint",
+        "mingling",
+        "pavement uneven",
+        "glass",
+        "cracked",
+        "hangs casting",
+        "sunlight glints"
+      ],
+      "shared": []
+    },
+    "interesting_insight": "Beirut is mainly framed through themes such as Soft golden warmth, ancient streets, and romanticised walking, Ancient heat, stone, marble, and historic grandeur, Dusty sun-baked streets and uneven urban surfaces, Oppressive humid heat, sweat, dust, and bodily discomfort.",
+    "gemini_summary": "Soft golden warmth, ancient streets, and romanticised walking",
+    "perplexity_summary": "Street food, coffee, dust, diesel, and local aromas"
   },
   {
     "city": "Bengaluru",
@@ -167,8 +707,66 @@
       "modern-urban",
       "street-energy"
     ],
-    "gemini_summary": "Bengaluru is mainly framed through themes such as Soft golden warmth, ancient streets, and romanticised walking, Harsh sun, thick air, mixed stone streets, and urban movement, Dusty sun-baked streets and uneven urban surfaces, Highland hillsides, ochre stone, and terraced architecture.\n\nDominant Gemini clusters in the corpus: Dusty sun-baked streets and uneven urban surfaces (30.0%); Harsh sun, thick air, mixed stone streets, and urban movement (20.0%); Soft golden warmth, ancient streets, and romanticised walking (20.0%)",
-    "perplexity_summary": "Dominant Perplexity clusters in the corpus: Polluted metropolis, haze, greenery, and environmental contrast (55.6%); Mixed warm urban atmosphere, rain, dust, high-rises, and movement (22.2%); Golden-hour historic-modern contrast with glass towers and old stone (22.2%)\n\nGemini writes longer descriptions; Gemini uses more sensory vocabulary; Gemini is more emotionally intense; Gemini is more descriptively dense"
+    "model_clusters": {
+      "gemini": [
+        {
+          "theme": "Dusty sun-baked streets and uneven urban surfaces",
+          "percentage": 30
+        },
+        {
+          "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+          "percentage": 20
+        },
+        {
+          "theme": "Soft golden warmth, ancient streets, and romanticised walking",
+          "percentage": 20
+        }
+      ],
+      "perplexity": [
+        {
+          "theme": "Polluted metropolis, haze, greenery, and environmental contrast",
+          "percentage": 55.56
+        },
+        {
+          "theme": "Mixed warm urban atmosphere, rain, dust, high-rises, and movement",
+          "percentage": 22.22
+        },
+        {
+          "theme": "Golden-hour historic-modern contrast with glass towers and old stone",
+          "percentage": 22.22
+        }
+      ]
+    },
+    "keywords": {
+      "gemini": [
+        "garlands",
+        "yellow black",
+        "filter coffee",
+        "vibrant",
+        "flower seller",
+        "saris",
+        "banyan",
+        "sweet",
+        "jasmine",
+        "motion"
+      ],
+      "perplexity": [
+        "native",
+        "nature",
+        "designed",
+        "urban",
+        "spaces",
+        "trees",
+        "plateau",
+        "elements",
+        "community",
+        "areas"
+      ],
+      "shared": []
+    },
+    "interesting_insight": "Bengaluru is mainly framed through themes such as Soft golden warmth, ancient streets, and romanticised walking, Harsh sun, thick air, mixed stone streets, and urban movement, Dusty sun-baked streets and uneven urban surfaces, Highland hillsides, ochre stone, and terraced architecture.",
+    "gemini_summary": "Dusty sun-baked streets and uneven urban surfaces",
+    "perplexity_summary": "Polluted metropolis, haze, greenery, and environmental contrast"
   },
   {
     "city": "Berlin",
@@ -184,8 +782,66 @@
       "modern-urban",
       "street-energy"
     ],
-    "gemini_summary": "Berlin is mainly framed through themes such as Ancient heat, stone, marble, and historic grandeur, Harsh sun, thick air, mixed stone streets, and urban movement, Dusty sun-baked streets and uneven urban surfaces, Highland hillsides, ochre stone, and terraced architecture.\n\nDominant Gemini clusters in the corpus: Harsh sun, thick air, mixed stone streets, and urban movement (30.0%); Ancient heat, stone, marble, and historic grandeur (30.0%); Dusty sun-baked streets and uneven urban surfaces (20.0%)",
-    "perplexity_summary": "Dominant Perplexity clusters in the corpus: Structured urban sensory journey and model-formatting style (55.6%); Warm coastal/urban tapestry with palms, breeze, and mixed textures (22.2%); Golden-hour historic-modern contrast with glass towers and old stone (22.2%)\n\nGemini writes longer descriptions; Gemini uses more sensory vocabulary; Gemini is more emotionally intense; Gemini is more descriptively dense"
+    "model_clusters": {
+      "gemini": [
+        {
+          "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+          "percentage": 30
+        },
+        {
+          "theme": "Ancient heat, stone, marble, and historic grandeur",
+          "percentage": 30
+        },
+        {
+          "theme": "Dusty sun-baked streets and uneven urban surfaces",
+          "percentage": 20
+        }
+      ],
+      "perplexity": [
+        {
+          "theme": "Structured urban sensory journey and model-formatting style",
+          "percentage": 55.56
+        },
+        {
+          "theme": "Warm coastal/urban tapestry with palms, breeze, and mixed textures",
+          "percentage": 22.22
+        },
+        {
+          "theme": "Golden-hour historic-modern contrast with glass towers and old stone",
+          "percentage": 22.22
+        }
+      ]
+    },
+    "keywords": {
+      "gemini": [
+        "shoulder",
+        "past",
+        "grey",
+        "wide",
+        "vibrant",
+        "glass",
+        "sky",
+        "tram",
+        "yellow",
+        "faint"
+      ],
+      "perplexity": [
+        "spaces",
+        "installations",
+        "electronic",
+        "designed",
+        "creative",
+        "ordinary",
+        "carries",
+        "coffee fresh",
+        "engage",
+        "experience"
+      ],
+      "shared": []
+    },
+    "interesting_insight": "Berlin is mainly framed through themes such as Ancient heat, stone, marble, and historic grandeur, Harsh sun, thick air, mixed stone streets, and urban movement, Dusty sun-baked streets and uneven urban surfaces, Highland hillsides, ochre stone, and terraced architecture.",
+    "gemini_summary": "Harsh sun, thick air, mixed stone streets, and urban movement",
+    "perplexity_summary": "Structured urban sensory journey and model-formatting style"
   },
   {
     "city": "Bogotá",
@@ -202,8 +858,69 @@
       "modern-urban",
       "street-energy"
     ],
-    "gemini_summary": "Bogota╠ü is mainly framed through themes such as Ancient heat, stone, marble, and historic grandeur, Oppressive humid heat, sweat, dust, and bodily discomfort, Harsh sun, thick air, mixed stone streets, and urban movement, Highland hillsides, ochre stone, and terraced architecture.\n\nDominant Gemini clusters in the corpus: Oppressive humid heat, sweat, dust, and bodily discomfort (30.0%); Harsh sun, thick air, mixed stone streets, and urban movement (30.0%); Ancient heat, stone, marble, and historic grandeur (30.0%)",
-    "perplexity_summary": "Dominant Perplexity clusters in the corpus: Altitude, plateau, hills, and climate-based city identity (33.3%); Golden-hour historic-modern contrast with glass towers and old stone (22.2%); Polluted metropolis, haze, greenery, and environmental contrast (11.1%)\n\nGemini writes longer descriptions; Gemini uses more sensory vocabulary; Gemini is more emotionally intense; Gemini is more descriptively dense"
+    "model_clusters": {
+      "gemini": [
+        {
+          "theme": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+          "percentage": 30
+        },
+        {
+          "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+          "percentage": 30
+        },
+        {
+          "theme": "Ancient heat, stone, marble, and historic grandeur",
+          "percentage": 30
+        }
+      ],
+      "perplexity": [
+        {
+          "theme": "Altitude, plateau, hills, and climate-based city identity",
+          "percentage": 33.33
+        },
+        {
+          "theme": "Golden-hour historic-modern contrast with glass towers and old stone",
+          "percentage": 22.22
+        },
+        {
+          "theme": "Polluted metropolis, haze, greenery, and environmental contrast",
+          "percentage": 11.11
+        }
+      ]
+    },
+    "keywords": {
+      "gemini": [
+        "articulated",
+        "shrouded",
+        "peaks",
+        "altitude",
+        "vibrant",
+        "brick",
+        "mountains",
+        "mist",
+        "deep",
+        "cool"
+      ],
+      "perplexity": [
+        "public",
+        "plateau",
+        "mountains",
+        "neighborhoods",
+        "grid",
+        "spaces",
+        "east",
+        "colonial",
+        "urban",
+        "altitude"
+      ],
+      "shared": [
+        "altitude",
+        "mountains"
+      ]
+    },
+    "interesting_insight": "Bogota╠ü is mainly framed through themes such as Ancient heat, stone, marble, and historic grandeur, Oppressive humid heat, sweat, dust, and bodily discomfort, Harsh sun, thick air, mixed stone streets, and urban movement, Highland hillsides, ochre stone, and terraced architecture.",
+    "gemini_summary": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+    "perplexity_summary": "Altitude, plateau, hills, and climate-based city identity"
   },
   {
     "city": "Brisbane",
@@ -219,8 +936,69 @@
       "modern-urban",
       "street-energy"
     ],
-    "gemini_summary": "Brisbane is mainly framed through themes such as Soft golden warmth, ancient streets, and romanticised walking, Modern coastal harbour, salt air, glass, ferries, and urban movement, Oppressive humid heat, sweat, dust, and bodily discomfort, Warm coastal/urban tapestry with palms, breeze, and mixed textures.\n\nDominant Gemini clusters in the corpus: Modern coastal harbour, salt air, glass, ferries, and urban movement (60.0%); Soft golden warmth, ancient streets, and romanticised walking (30.0%); Oppressive humid heat, sweat, dust, and bodily discomfort (10.0%)",
-    "perplexity_summary": "Dominant Perplexity clusters in the corpus: Warm coastal/urban tapestry with palms, breeze, and mixed textures (33.3%); Golden-hour historic-modern contrast with glass towers and old stone (33.3%); Altitude, plateau, hills, and climate-based city identity (22.2%)\n\nGemini writes longer descriptions; Perplexity uses more sensory vocabulary; Gemini is more emotionally intense; Gemini is more descriptively dense"
+    "model_clusters": {
+      "gemini": [
+        {
+          "theme": "Modern coastal harbour, salt air, glass, ferries, and urban movement",
+          "percentage": 60
+        },
+        {
+          "theme": "Soft golden warmth, ancient streets, and romanticised walking",
+          "percentage": 30
+        },
+        {
+          "theme": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+          "percentage": 10
+        }
+      ],
+      "perplexity": [
+        {
+          "theme": "Warm coastal/urban tapestry with palms, breeze, and mixed textures",
+          "percentage": 33.33
+        },
+        {
+          "theme": "Golden-hour historic-modern contrast with glass towers and old stone",
+          "percentage": 33.33
+        },
+        {
+          "theme": "Altitude, plateau, hills, and climate-based city identity",
+          "percentage": 22.22
+        }
+      ]
+    },
+    "keywords": {
+      "gemini": [
+        "bank",
+        "waterway",
+        "frangipani",
+        "river",
+        "fig",
+        "sky",
+        "water",
+        "trees",
+        "wake",
+        "sandstone"
+      ],
+      "perplexity": [
+        "subtropical",
+        "relaxed",
+        "distant",
+        "water",
+        "people",
+        "spaces",
+        "occasional",
+        "faint",
+        "comes",
+        "river"
+      ],
+      "shared": [
+        "river",
+        "water"
+      ]
+    },
+    "interesting_insight": "Brisbane is mainly framed through themes such as Soft golden warmth, ancient streets, and romanticised walking, Modern coastal harbour, salt air, glass, ferries, and urban movement, Oppressive humid heat, sweat, dust, and bodily discomfort, Warm coastal/urban tapestry with palms, breeze, and mixed textures.",
+    "gemini_summary": "Modern coastal harbour, salt air, glass, ferries, and urban movement",
+    "perplexity_summary": "Warm coastal/urban tapestry with palms, breeze, and mixed textures"
   },
   {
     "city": "Budapest",
@@ -237,8 +1015,70 @@
       "modern-urban",
       "street-energy"
     ],
-    "gemini_summary": "Budapest is mainly framed through themes such as Modern coastal harbour, salt air, glass, ferries, and urban movement, Ancient heat, stone, marble, and historic grandeur, Highland hillsides, ochre stone, and terraced architecture, Structured urban sensory journey and model-formatting style.\n\nDominant Gemini clusters in the corpus: Highland hillsides, ochre stone, and terraced architecture (60.0%); Modern coastal harbour, salt air, glass, ferries, and urban movement (20.0%); Ancient heat, stone, marble, and historic grandeur (20.0%)",
-    "perplexity_summary": "Dominant Perplexity clusters in the corpus: Golden-hour historic-modern contrast with glass towers and old stone (33.3%); West African markets, coffee, spices, and coastal street life (22.2%); Structured urban sensory journey and model-formatting style (22.2%)\n\nGemini writes longer descriptions; Perplexity uses more sensory vocabulary; Gemini is more emotionally intense; Gemini is more descriptively dense"
+    "model_clusters": {
+      "gemini": [
+        {
+          "theme": "Highland hillsides, ochre stone, and terraced architecture",
+          "percentage": 60
+        },
+        {
+          "theme": "Modern coastal harbour, salt air, glass, ferries, and urban movement",
+          "percentage": 20
+        },
+        {
+          "theme": "Ancient heat, stone, marble, and historic grandeur",
+          "percentage": 20
+        }
+      ],
+      "perplexity": [
+        {
+          "theme": "Golden-hour historic-modern contrast with glass towers and old stone",
+          "percentage": 33.33
+        },
+        {
+          "theme": "West African markets, coffee, spices, and coastal street life",
+          "percentage": 22.22
+        },
+        {
+          "theme": "Structured urban sensory journey and model-formatting style",
+          "percentage": 22.22
+        }
+      ]
+    },
+    "keywords": {
+      "gemini": [
+        "stone",
+        "grand",
+        "bank",
+        "water",
+        "wide",
+        "tram",
+        "paprika",
+        "distant",
+        "ancient",
+        "spires"
+      ],
+      "perplexity": [
+        "trams",
+        "cool",
+        "certain",
+        "carries",
+        "grand",
+        "distant",
+        "tram",
+        "river",
+        "buildings",
+        "gilding facades"
+      ],
+      "shared": [
+        "distant",
+        "grand",
+        "tram"
+      ]
+    },
+    "interesting_insight": "Budapest is mainly framed through themes such as Modern coastal harbour, salt air, glass, ferries, and urban movement, Ancient heat, stone, marble, and historic grandeur, Highland hillsides, ochre stone, and terraced architecture, Structured urban sensory journey and model-formatting style.",
+    "gemini_summary": "Highland hillsides, ochre stone, and terraced architecture",
+    "perplexity_summary": "Golden-hour historic-modern contrast with glass towers and old stone"
   },
   {
     "city": "Buenos Aires",
@@ -254,8 +1094,66 @@
       "modern-urban",
       "street-energy"
     ],
-    "gemini_summary": "Buenos Aires is mainly framed through themes such as Soft golden warmth, ancient streets, and romanticised walking, Ancient heat, stone, marble, and historic grandeur, Dusty sun-baked streets and uneven urban surfaces, Highland hillsides, ochre stone, and terraced architecture.\n\nDominant Gemini clusters in the corpus: Ancient heat, stone, marble, and historic grandeur (30.0%); Modern coastal harbour, salt air, glass, ferries, and urban movement (20.0%); Highland hillsides, ochre stone, and terraced architecture (20.0%)",
-    "perplexity_summary": "Dominant Perplexity clusters in the corpus: Structured sensory-guide style with heritage and overload framing (33.3%); Vibrant neighbourhood life, cafés, colours, and social rhythm (33.3%); Golden-hour historic-modern contrast with glass towers and old stone (22.2%)\n\nGemini writes longer descriptions; Gemini uses more sensory vocabulary; Gemini is more emotionally intense; Gemini is more descriptively dense"
+    "model_clusters": {
+      "gemini": [
+        {
+          "theme": "Ancient heat, stone, marble, and historic grandeur",
+          "percentage": 30
+        },
+        {
+          "theme": "Modern coastal harbour, salt air, glass, ferries, and urban movement",
+          "percentage": 20
+        },
+        {
+          "theme": "Highland hillsides, ochre stone, and terraced architecture",
+          "percentage": 20
+        }
+      ],
+      "perplexity": [
+        {
+          "theme": "Structured sensory-guide style with heritage and overload framing",
+          "percentage": 33.33
+        },
+        {
+          "theme": "Vibrant neighbourhood life, cafés, colours, and social rhythm",
+          "percentage": 33.33
+        },
+        {
+          "theme": "Golden-hour historic-modern contrast with glass towers and old stone",
+          "percentage": 22.22
+        }
+      ]
+    },
+    "keywords": {
+      "gemini": [
+        "magazines",
+        "grand",
+        "espresso",
+        "beep",
+        "elegant",
+        "iron",
+        "ceramic",
+        "passion",
+        "vibrant",
+        "hiss"
+      ],
+      "perplexity": [
+        "artisanal",
+        "painted houses",
+        "historic",
+        "café",
+        "painted",
+        "gilded",
+        "bookstore",
+        "guitars",
+        "bridge",
+        "houses"
+      ],
+      "shared": []
+    },
+    "interesting_insight": "Buenos Aires is mainly framed through themes such as Soft golden warmth, ancient streets, and romanticised walking, Ancient heat, stone, marble, and historic grandeur, Dusty sun-baked streets and uneven urban surfaces, Highland hillsides, ochre stone, and terraced architecture.",
+    "gemini_summary": "Ancient heat, stone, marble, and historic grandeur",
+    "perplexity_summary": "Structured sensory-guide style with heritage and overload framing"
   },
   {
     "city": "Cairo",
@@ -270,8 +1168,68 @@
       "historic-architecture",
       "street-energy"
     ],
-    "gemini_summary": "Cairo is mainly framed through themes such as Soft golden warmth, ancient streets, and romanticised walking, Ancient heat, stone, marble, and historic grandeur, Harsh sun, thick air, mixed stone streets, and urban movement, Oppressive humid heat, sweat, dust, and bodily discomfort.\n\nDominant Gemini clusters in the corpus: Ancient heat, stone, marble, and historic grandeur (40.0%); Oppressive humid heat, sweat, dust, and bodily discomfort (20.0%); Harsh sun, thick air, mixed stone streets, and urban movement (20.0%)",
-    "perplexity_summary": "Dominant Perplexity clusters in the corpus: Dense markets, humid alleys, food, and sensory street life (33.3%); Street food, coffee, dust, diesel, and local aromas (33.3%); Structured sensory-guide style with heritage and overload framing (22.2%)\n\nGemini writes longer descriptions; Perplexity uses more sensory vocabulary; Gemini is more emotionally intense; Gemini is more descriptively dense"
+    "model_clusters": {
+      "gemini": [
+        {
+          "theme": "Ancient heat, stone, marble, and historic grandeur",
+          "percentage": 40
+        },
+        {
+          "theme": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+          "percentage": 20
+        },
+        {
+          "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+          "percentage": 20
+        }
+      ],
+      "perplexity": [
+        {
+          "theme": "Dense markets, humid alleys, food, and sensory street life",
+          "percentage": 33.33
+        },
+        {
+          "theme": "Street food, coffee, dust, diesel, and local aromas",
+          "percentage": 33.33
+        },
+        {
+          "theme": "Structured sensory-guide style with heritage and overload framing",
+          "percentage": 22.22
+        }
+      ]
+    },
+    "keywords": {
+      "gemini": [
+        "ancient",
+        "shisha",
+        "like",
+        "men",
+        "falafel",
+        "cumin coriander",
+        "vibrant",
+        "shisha smoke",
+        "sharp",
+        "coriander"
+      ],
+      "perplexity": [
+        "prayer",
+        "tea",
+        "haunting",
+        "centuries",
+        "spices",
+        "minarets",
+        "marketplace",
+        "ancient",
+        "textiles",
+        "stalls"
+      ],
+      "shared": [
+        "ancient"
+      ]
+    },
+    "interesting_insight": "Cairo is mainly framed through themes such as Soft golden warmth, ancient streets, and romanticised walking, Ancient heat, stone, marble, and historic grandeur, Harsh sun, thick air, mixed stone streets, and urban movement, Oppressive humid heat, sweat, dust, and bodily discomfort.",
+    "gemini_summary": "Ancient heat, stone, marble, and historic grandeur",
+    "perplexity_summary": "Dense markets, humid alleys, food, and sensory street life"
   },
   {
     "city": "Chicago",
@@ -287,8 +1245,70 @@
       "modern-urban",
       "street-energy"
     ],
-    "gemini_summary": "Chicago is mainly framed through themes such as Dusty sun-baked streets and uneven urban surfaces, Modern coastal harbour, salt air, glass, ferries, and urban movement, Harsh sun, thick air, mixed stone streets, and urban movement, Warm coastal/urban tapestry with palms, breeze, and mixed textures.\n\nDominant Gemini clusters in the corpus: Dusty sun-baked streets and uneven urban surfaces (70.0%); Harsh sun, thick air, mixed stone streets, and urban movement (20.0%); Modern coastal harbour, salt air, glass, ferries, and urban movement (10.0%)",
-    "perplexity_summary": "Dominant Perplexity clusters in the corpus: Polluted metropolis, haze, greenery, and environmental contrast (33.3%); Mixed warm urban atmosphere, rain, dust, high-rises, and movement (33.3%); Warm coastal/urban tapestry with palms, breeze, and mixed textures (22.2%)\n\nGemini writes longer descriptions; Perplexity uses more sensory vocabulary; Gemini is more emotionally intense; Gemini is more descriptively dense"
+    "model_clusters": {
+      "gemini": [
+        {
+          "theme": "Dusty sun-baked streets and uneven urban surfaces",
+          "percentage": 70
+        },
+        {
+          "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+          "percentage": 20
+        },
+        {
+          "theme": "Modern coastal harbour, salt air, glass, ferries, and urban movement",
+          "percentage": 10
+        }
+      ],
+      "perplexity": [
+        {
+          "theme": "Polluted metropolis, haze, greenery, and environmental contrast",
+          "percentage": 33.33
+        },
+        {
+          "theme": "Mixed warm urban atmosphere, rain, dust, high-rises, and movement",
+          "percentage": 33.33
+        },
+        {
+          "theme": "Warm coastal/urban tapestry with palms, breeze, and mixed textures",
+          "percentage": 22.22
+        }
+      ]
+    },
+    "keywords": {
+      "gemini": [
+        "steel",
+        "elevated",
+        "colossal",
+        "canyons",
+        "saxophone",
+        "shadow",
+        "ozone",
+        "fleeting",
+        "train",
+        "concrete"
+      ],
+      "perplexity": [
+        "lake",
+        "elevated",
+        "urban",
+        "train",
+        "natural",
+        "grid",
+        "distant",
+        "steel",
+        "occasional",
+        "buildings"
+      ],
+      "shared": [
+        "elevated",
+        "steel",
+        "train"
+      ]
+    },
+    "interesting_insight": "Chicago is mainly framed through themes such as Dusty sun-baked streets and uneven urban surfaces, Modern coastal harbour, salt air, glass, ferries, and urban movement, Harsh sun, thick air, mixed stone streets, and urban movement, Warm coastal/urban tapestry with palms, breeze, and mixed textures.",
+    "gemini_summary": "Dusty sun-baked streets and uneven urban surfaces",
+    "perplexity_summary": "Polluted metropolis, haze, greenery, and environmental contrast"
   },
   {
     "city": "Dakar",
@@ -304,8 +1324,69 @@
       "coastal-city",
       "street-energy"
     ],
-    "gemini_summary": "Dakar is mainly framed through themes such as Ancient heat, stone, marble, and historic grandeur, Oppressive humid heat, sweat, dust, and bodily discomfort, Harsh sun, thick air, mixed stone streets, and urban movement, Dense markets, humid alleys, food, and sensory street life.\n\nDominant Gemini clusters in the corpus: Oppressive humid heat, sweat, dust, and bodily discomfort (60.0%); Harsh sun, thick air, mixed stone streets, and urban movement (20.0%); Ancient heat, stone, marble, and historic grandeur (20.0%)",
-    "perplexity_summary": "Dominant Perplexity clusters in the corpus: Mixed Middle Eastern / North African sensory urban framing (33.3%); Street food, coffee, dust, diesel, and local aromas (22.2%); Dense markets, humid alleys, food, and sensory street life (11.1%)\n\nGemini writes longer descriptions; Perplexity uses more sensory vocabulary; Gemini is more emotionally intense; Gemini is more descriptively dense"
+    "model_clusters": {
+      "gemini": [
+        {
+          "theme": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+          "percentage": 60
+        },
+        {
+          "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+          "percentage": 20
+        },
+        {
+          "theme": "Ancient heat, stone, marble, and historic grandeur",
+          "percentage": 20
+        }
+      ],
+      "perplexity": [
+        {
+          "theme": "Mixed Middle Eastern / North African sensory urban framing",
+          "percentage": 33.33
+        },
+        {
+          "theme": "Street food, coffee, dust, diesel, and local aromas",
+          "percentage": 22.22
+        },
+        {
+          "theme": "Dense markets, humid alleys, food, and sensory street life",
+          "percentage": 11.11
+        }
+      ]
+    },
+    "keywords": {
+      "gemini": [
+        "dust",
+        "vibrant",
+        "ocean",
+        "french",
+        "fish",
+        "like",
+        "yellow black",
+        "constant",
+        "mangoes",
+        "football"
+      ],
+      "perplexity": [
+        "ocean",
+        "glowing coals",
+        "atlantic",
+        "market",
+        "vendors",
+        "salt",
+        "fish",
+        "coals",
+        "handcrafted",
+        "meat"
+      ],
+      "shared": [
+        "fish",
+        "ocean"
+      ]
+    },
+    "interesting_insight": "Dakar is mainly framed through themes such as Ancient heat, stone, marble, and historic grandeur, Oppressive humid heat, sweat, dust, and bodily discomfort, Harsh sun, thick air, mixed stone streets, and urban movement, Dense markets, humid alleys, food, and sensory street life.",
+    "gemini_summary": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+    "perplexity_summary": "Mixed Middle Eastern / North African sensory urban framing"
   },
   {
     "city": "Dubai",
@@ -322,8 +1403,66 @@
       "modern-urban",
       "street-energy"
     ],
-    "gemini_summary": "Dubai is mainly framed through themes such as Modern coastal harbour, salt air, glass, ferries, and urban movement, Ancient heat, stone, marble, and historic grandeur, Oppressive humid heat, sweat, dust, and bodily discomfort, Harsh sun, thick air, mixed stone streets, and urban movement.\n\nDominant Gemini clusters in the corpus: Oppressive humid heat, sweat, dust, and bodily discomfort (60.0%); Harsh sun, thick air, mixed stone streets, and urban movement (20.0%); Modern coastal harbour, salt air, glass, ferries, and urban movement (10.0%)",
-    "perplexity_summary": "Dominant Perplexity clusters in the corpus: Street food, coffee, dust, diesel, and local aromas (55.6%); Structured urban sensory journey and model-formatting style (33.3%); Dense markets, humid alleys, food, and sensory street life (11.1%)\n\nGemini writes longer descriptions; Gemini uses more sensory vocabulary; Gemini is more emotionally intense; Gemini is more descriptively dense"
+    "model_clusters": {
+      "gemini": [
+        {
+          "theme": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+          "percentage": 60
+        },
+        {
+          "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+          "percentage": 20
+        },
+        {
+          "theme": "Modern coastal harbour, salt air, glass, ferries, and urban movement",
+          "percentage": 10
+        }
+      ],
+      "perplexity": [
+        {
+          "theme": "Street food, coffee, dust, diesel, and local aromas",
+          "percentage": 55.56
+        },
+        {
+          "theme": "Structured urban sensory journey and model-formatting style",
+          "percentage": 33.33
+        },
+        {
+          "theme": "Dense markets, humid alleys, food, and sensory street life",
+          "percentage": 11.11
+        }
+      ]
+    },
+    "keywords": {
+      "gemini": [
+        "designer",
+        "expensive",
+        "polished",
+        "luxury",
+        "curated",
+        "glass",
+        "chrome",
+        "oud",
+        "cool",
+        "colossal"
+      ],
+      "perplexity": [
+        "arabic",
+        "surfaces",
+        "faint",
+        "occasional",
+        "cardamom",
+        "disc sky",
+        "distant",
+        "languages",
+        "sky",
+        "reversing"
+      ],
+      "shared": []
+    },
+    "interesting_insight": "Dubai is mainly framed through themes such as Modern coastal harbour, salt air, glass, ferries, and urban movement, Ancient heat, stone, marble, and historic grandeur, Oppressive humid heat, sweat, dust, and bodily discomfort, Harsh sun, thick air, mixed stone streets, and urban movement.",
+    "gemini_summary": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+    "perplexity_summary": "Street food, coffee, dust, diesel, and local aromas"
   },
   {
     "city": "Havana",
@@ -339,8 +1478,69 @@
       "modern-urban",
       "street-energy"
     ],
-    "gemini_summary": "Havana is mainly framed through themes such as Soft golden warmth, ancient streets, and romanticised walking, Ancient heat, stone, marble, and historic grandeur, Street food, coffee, dust, diesel, and local aromas, Oppressive humid heat, sweat, dust, and bodily discomfort.\n\nDominant Gemini clusters in the corpus: Street food, coffee, dust, diesel, and local aromas (40.0%); Soft golden warmth, ancient streets, and romanticised walking (20.0%); Ancient heat, stone, marble, and historic grandeur (20.0%)",
-    "perplexity_summary": "Dominant Perplexity clusters in the corpus: Golden-hour historic-modern contrast with glass towers and old stone (66.7%); Street food, coffee, dust, diesel, and local aromas (22.2%); Vibrant neighbourhood life, cafés, colours, and social rhythm (11.1%)\n\nGemini writes longer descriptions; Gemini uses more sensory vocabulary; Gemini is more emotionally intense; Gemini is more descriptively dense"
+    "model_clusters": {
+      "gemini": [
+        {
+          "theme": "Street food, coffee, dust, diesel, and local aromas",
+          "percentage": 40
+        },
+        {
+          "theme": "Soft golden warmth, ancient streets, and romanticised walking",
+          "percentage": 20
+        },
+        {
+          "theme": "Ancient heat, stone, marble, and historic grandeur",
+          "percentage": 20
+        }
+      ],
+      "perplexity": [
+        {
+          "theme": "Golden-hour historic-modern contrast with glass towers and old stone",
+          "percentage": 66.67
+        },
+        {
+          "theme": "Street food, coffee, dust, diesel, and local aromas",
+          "percentage": 22.22
+        },
+        {
+          "theme": "Vibrant neighbourhood life, cafés, colours, and social rhythm",
+          "percentage": 11.11
+        }
+      ]
+    },
+    "keywords": {
+      "gemini": [
+        "clack",
+        "dominoes",
+        "clack clack",
+        "trumpet",
+        "decay",
+        "turquoise",
+        "like",
+        "sweet",
+        "brassy",
+        "chrome"
+      ],
+      "perplexity": [
+        "salt sea",
+        "plantains",
+        "like",
+        "sea mingling",
+        "dominoes",
+        "sea",
+        "frying plantains",
+        "salt",
+        "pavement uneven",
+        "peeling"
+      ],
+      "shared": [
+        "dominoes",
+        "like"
+      ]
+    },
+    "interesting_insight": "Havana is mainly framed through themes such as Soft golden warmth, ancient streets, and romanticised walking, Ancient heat, stone, marble, and historic grandeur, Street food, coffee, dust, diesel, and local aromas, Oppressive humid heat, sweat, dust, and bodily discomfort.",
+    "gemini_summary": "Street food, coffee, dust, diesel, and local aromas",
+    "perplexity_summary": "Golden-hour historic-modern contrast with glass towers and old stone"
   },
   {
     "city": "Houston",
@@ -354,8 +1554,66 @@
       "historic-architecture",
       "street-energy"
     ],
-    "gemini_summary": "Houston is mainly framed through themes such as Dusty sun-baked streets and uneven urban surfaces, Harsh sun, thick air, mixed stone streets, and urban movement, Polluted metropolis, haze, greenery, and environmental contrast, Altitude, plateau, hills, and climate-based city identity.\n\nDominant Gemini clusters in the corpus: Dusty sun-baked streets and uneven urban surfaces (80.0%); Harsh sun, thick air, mixed stone streets, and urban movement (20.0%)",
-    "perplexity_summary": "Dominant Perplexity clusters in the corpus: Polluted metropolis, haze, greenery, and environmental contrast (55.6%); Mixed warm urban atmosphere, rain, dust, high-rises, and movement (33.3%); Altitude, plateau, hills, and climate-based city identity (11.1%)\n\nGemini writes longer descriptions; Gemini uses more sensory vocabulary; Gemini is more emotionally intense; Gemini is more descriptively dense"
+    "model_clusters": {
+      "gemini": [
+        {
+          "theme": "Dusty sun-baked streets and uneven urban surfaces",
+          "percentage": 80
+        },
+        {
+          "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+          "percentage": 20
+        }
+      ],
+      "perplexity": [
+        {
+          "theme": "Polluted metropolis, haze, greenery, and environmental contrast",
+          "percentage": 55.56
+        },
+        {
+          "theme": "Mixed warm urban atmosphere, rain, dust, high-rises, and movement",
+          "percentage": 33.33
+        },
+        {
+          "theme": "Altitude, plateau, hills, and climate-based city identity",
+          "percentage": 11.11
+        }
+      ]
+    },
+    "keywords": {
+      "gemini": [
+        "live oaks",
+        "oaks",
+        "live",
+        "relentless",
+        "sheen",
+        "truck",
+        "asphalt",
+        "sky",
+        "heavy",
+        "gnarled"
+      ],
+      "perplexity": [
+        "oaks",
+        "live oaks",
+        "live",
+        "strip",
+        "sprawling",
+        "subtropical",
+        "style",
+        "urban",
+        "wide",
+        "distant"
+      ],
+      "shared": [
+        "live",
+        "live oaks",
+        "oaks"
+      ]
+    },
+    "interesting_insight": "Houston is mainly framed through themes such as Dusty sun-baked streets and uneven urban surfaces, Harsh sun, thick air, mixed stone streets, and urban movement, Polluted metropolis, haze, greenery, and environmental contrast, Altitude, plateau, hills, and climate-based city identity.",
+    "gemini_summary": "Dusty sun-baked streets and uneven urban surfaces",
+    "perplexity_summary": "Polluted metropolis, haze, greenery, and environmental contrast"
   },
   {
     "city": "Istanbul",
@@ -371,8 +1629,65 @@
       "modern-urban",
       "street-energy"
     ],
-    "gemini_summary": "Istanbul is mainly framed through themes such as Ancient heat, stone, marble, and historic grandeur, Highland hillsides, ochre stone, and terraced architecture, Street food, coffee, dust, diesel, and local aromas, Dense markets, humid alleys, food, and sensory street life.\n\nDominant Gemini clusters in the corpus: Highland hillsides, ochre stone, and terraced architecture (70.0%); Ancient heat, stone, marble, and historic grandeur (30.0%)",
-    "perplexity_summary": "Dominant Perplexity clusters in the corpus: Dense markets, humid alleys, food, and sensory street life (77.8%); Street food, coffee, dust, diesel, and local aromas (11.1%); Golden-hour historic-modern contrast with glass towers and old stone (11.1%)\n\nGemini writes longer descriptions; Perplexity uses more sensory vocabulary; Gemini is more emotionally intense; Gemini is more descriptively dense"
+    "model_clusters": {
+      "gemini": [
+        {
+          "theme": "Highland hillsides, ochre stone, and terraced architecture",
+          "percentage": 70
+        },
+        {
+          "theme": "Ancient heat, stone, marble, and historic grandeur",
+          "percentage": 30
+        }
+      ],
+      "perplexity": [
+        {
+          "theme": "Dense markets, humid alleys, food, and sensory street life",
+          "percentage": 77.78
+        },
+        {
+          "theme": "Street food, coffee, dust, diesel, and local aromas",
+          "percentage": 11.11
+        },
+        {
+          "theme": "Golden-hour historic-modern contrast with glass towers and old stone",
+          "percentage": 11.11
+        }
+      ]
+    },
+    "keywords": {
+      "gemini": [
+        "ancient",
+        "tea",
+        "minarets",
+        "sesame",
+        "domes",
+        "stone",
+        "chestnuts",
+        "slender",
+        "ferries",
+        "deep"
+      ],
+      "perplexity": [
+        "sesame",
+        "shisha",
+        "minarets",
+        "shisha smoke",
+        "musicians",
+        "toasted",
+        "prayer",
+        "seagulls",
+        "sea",
+        "water"
+      ],
+      "shared": [
+        "minarets",
+        "sesame"
+      ]
+    },
+    "interesting_insight": "Istanbul is mainly framed through themes such as Ancient heat, stone, marble, and historic grandeur, Highland hillsides, ochre stone, and terraced architecture, Street food, coffee, dust, diesel, and local aromas, Dense markets, humid alleys, food, and sensory street life.",
+    "gemini_summary": "Highland hillsides, ochre stone, and terraced architecture",
+    "perplexity_summary": "Dense markets, humid alleys, food, and sensory street life"
   },
   {
     "city": "Jakarta",
@@ -388,8 +1703,68 @@
       "modern-urban",
       "street-energy"
     ],
-    "gemini_summary": "Jakarta is mainly framed through themes such as Dusty sun-baked streets and uneven urban surfaces, Oppressive humid heat, sweat, dust, and bodily discomfort, Harsh sun, thick air, mixed stone streets, and urban movement, Street food, coffee, dust, diesel, and local aromas.\n\nDominant Gemini clusters in the corpus: Harsh sun, thick air, mixed stone streets, and urban movement (50.0%); Dusty sun-baked streets and uneven urban surfaces (40.0%); Oppressive humid heat, sweat, dust, and bodily discomfort (10.0%)",
-    "perplexity_summary": "Dominant Perplexity clusters in the corpus: Golden-hour historic-modern contrast with glass towers and old stone (55.6%); Mixed Middle Eastern / North African sensory urban framing (22.2%); Structured sensory-guide style with heritage and overload framing (11.1%)\n\nGemini writes longer descriptions; Perplexity uses more sensory vocabulary; Gemini is more emotionally intense; Gemini is more descriptively dense"
+    "model_clusters": {
+      "gemini": [
+        {
+          "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+          "percentage": 50
+        },
+        {
+          "theme": "Dusty sun-baked streets and uneven urban surfaces",
+          "percentage": 40
+        },
+        {
+          "theme": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+          "percentage": 10
+        }
+      ],
+      "perplexity": [
+        {
+          "theme": "Golden-hour historic-modern contrast with glass towers and old stone",
+          "percentage": 55.56
+        },
+        {
+          "theme": "Mixed Middle Eastern / North African sensory urban framing",
+          "percentage": 22.22
+        },
+        {
+          "theme": "Structured sensory-guide style with heritage and overload framing",
+          "percentage": 11.11
+        }
+      ]
+    },
+    "keywords": {
+      "gemini": [
+        "satay",
+        "office workers crisp",
+        "workers crisp",
+        "riders",
+        "workers crisp shirts",
+        "helmets",
+        "relentless",
+        "constant",
+        "office workers",
+        "workers"
+      ],
+      "perplexity": [
+        "batik",
+        "frangipani",
+        "satay",
+        "vibrant",
+        "sweet",
+        "weaving traffic",
+        "mangoes",
+        "temple",
+        "occasional",
+        "wooden"
+      ],
+      "shared": [
+        "satay"
+      ]
+    },
+    "interesting_insight": "Jakarta is mainly framed through themes such as Dusty sun-baked streets and uneven urban surfaces, Oppressive humid heat, sweat, dust, and bodily discomfort, Harsh sun, thick air, mixed stone streets, and urban movement, Street food, coffee, dust, diesel, and local aromas.",
+    "gemini_summary": "Harsh sun, thick air, mixed stone streets, and urban movement",
+    "perplexity_summary": "Golden-hour historic-modern contrast with glass towers and old stone"
   },
   {
     "city": "Johannesburg",
@@ -403,8 +1778,66 @@
       "historic-architecture",
       "street-energy"
     ],
-    "gemini_summary": "Johannesburg is mainly framed through themes such as Ancient heat, stone, marble, and historic grandeur, Dusty sun-baked streets and uneven urban surfaces, Oppressive humid heat, sweat, dust, and bodily discomfort, Harsh sun, thick air, mixed stone streets, and urban movement.\n\nDominant Gemini clusters in the corpus: Harsh sun, thick air, mixed stone streets, and urban movement (50.0%); Oppressive humid heat, sweat, dust, and bodily discomfort (20.0%); Dusty sun-baked streets and uneven urban surfaces (20.0%)",
-    "perplexity_summary": "Dominant Perplexity clusters in the corpus: Mixed warm urban atmosphere, rain, dust, high-rises, and movement (44.4%); Polluted metropolis, haze, greenery, and environmental contrast (33.3%); Altitude, plateau, hills, and climate-based city identity (22.2%)\n\nGemini writes longer descriptions; Gemini uses more sensory vocabulary; Gemini is more emotionally intense; Gemini is more descriptively dense"
+    "model_clusters": {
+      "gemini": [
+        {
+          "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+          "percentage": 50
+        },
+        {
+          "theme": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+          "percentage": 20
+        },
+        {
+          "theme": "Dusty sun-baked streets and uneven urban surfaces",
+          "percentage": 20
+        }
+      ],
+      "perplexity": [
+        {
+          "theme": "Mixed warm urban atmosphere, rain, dust, high-rises, and movement",
+          "percentage": 44.44
+        },
+        {
+          "theme": "Polluted metropolis, haze, greenery, and environmental contrast",
+          "percentage": 33.33
+        },
+        {
+          "theme": "Altitude, plateau, hills, and climate-based city identity",
+          "percentage": 22.22
+        }
+      ]
+    },
+    "keywords": {
+      "gemini": [
+        "vibrant",
+        "minibus",
+        "constant",
+        "makeshift",
+        "dust",
+        "urgency",
+        "blue",
+        "uniforms",
+        "exhaust",
+        "cracked"
+      ],
+      "perplexity": [
+        "jacarandas",
+        "parks",
+        "grid",
+        "urban",
+        "landscape",
+        "concrete",
+        "trees",
+        "north",
+        "victorian",
+        "occasional"
+      ],
+      "shared": []
+    },
+    "interesting_insight": "Johannesburg is mainly framed through themes such as Ancient heat, stone, marble, and historic grandeur, Dusty sun-baked streets and uneven urban surfaces, Oppressive humid heat, sweat, dust, and bodily discomfort, Harsh sun, thick air, mixed stone streets, and urban movement.",
+    "gemini_summary": "Harsh sun, thick air, mixed stone streets, and urban movement",
+    "perplexity_summary": "Mixed warm urban atmosphere, rain, dust, high-rises, and movement"
   },
   {
     "city": "Kigali",
@@ -418,8 +1851,68 @@
       "historic-architecture",
       "street-energy"
     ],
-    "gemini_summary": "Kigali is mainly framed through themes such as Soft golden warmth, ancient streets, and romanticised walking, Dusty sun-baked streets and uneven urban surfaces, Oppressive humid heat, sweat, dust, and bodily discomfort, Harsh sun, thick air, mixed stone streets, and urban movement.\n\nDominant Gemini clusters in the corpus: Soft golden warmth, ancient streets, and romanticised walking (40.0%); Dusty sun-baked streets and uneven urban surfaces (30.0%); Harsh sun, thick air, mixed stone streets, and urban movement (20.0%)",
-    "perplexity_summary": "Dominant Perplexity clusters in the corpus: Polluted metropolis, haze, greenery, and environmental contrast (55.6%); Mixed warm urban atmosphere, rain, dust, high-rises, and movement (33.3%); Altitude, plateau, hills, and climate-based city identity (11.1%)\n\nGemini writes longer descriptions; Gemini uses more sensory vocabulary; Gemini is more emotionally intense; Gemini is more descriptively dense"
+    "model_clusters": {
+      "gemini": [
+        {
+          "theme": "Soft golden warmth, ancient streets, and romanticised walking",
+          "percentage": 40
+        },
+        {
+          "theme": "Dusty sun-baked streets and uneven urban surfaces",
+          "percentage": 30
+        },
+        {
+          "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+          "percentage": 20
+        }
+      ],
+      "perplexity": [
+        {
+          "theme": "Polluted metropolis, haze, greenery, and environmental contrast",
+          "percentage": 55.56
+        },
+        {
+          "theme": "Mixed warm urban atmosphere, rain, dust, high-rises, and movement",
+          "percentage": 33.33
+        },
+        {
+          "theme": "Altitude, plateau, hills, and climate-based city identity",
+          "percentage": 11.11
+        }
+      ]
+    },
+    "keywords": {
+      "gemini": [
+        "quiet",
+        "meticulously",
+        "clean",
+        "hills",
+        "verdant",
+        "order",
+        "impeccably",
+        "beeps",
+        "polite",
+        "grace"
+      ],
+      "perplexity": [
+        "valleys",
+        "hills",
+        "informal",
+        "urban",
+        "homes",
+        "orderly",
+        "development",
+        "natural",
+        "land",
+        "birds"
+      ],
+      "shared": [
+        "hills"
+      ]
+    },
+    "interesting_insight": "Kigali is mainly framed through themes such as Soft golden warmth, ancient streets, and romanticised walking, Dusty sun-baked streets and uneven urban surfaces, Oppressive humid heat, sweat, dust, and bodily discomfort, Harsh sun, thick air, mixed stone streets, and urban movement.",
+    "gemini_summary": "Soft golden warmth, ancient streets, and romanticised walking",
+    "perplexity_summary": "Polluted metropolis, haze, greenery, and environmental contrast"
   },
   {
     "city": "Kingston",
@@ -436,8 +1929,66 @@
       "modern-urban",
       "street-energy"
     ],
-    "gemini_summary": "Kingston is mainly framed through themes such as Soft golden warmth, ancient streets, and romanticised walking, Ancient heat, stone, marble, and historic grandeur, Harsh sun, thick air, mixed stone streets, and urban movement, Street food, coffee, dust, diesel, and local aromas.\n\nDominant Gemini clusters in the corpus: Harsh sun, thick air, mixed stone streets, and urban movement (40.0%); Oppressive humid heat, sweat, dust, and bodily discomfort (20.0%); Soft golden warmth, ancient streets, and romanticised walking (10.0%)",
-    "perplexity_summary": "Dominant Perplexity clusters in the corpus: West African markets, coffee, spices, and coastal street life (33.3%); Golden-hour historic-modern contrast with glass towers and old stone (33.3%); Street food, coffee, dust, diesel, and local aromas (11.1%)\n\nGemini writes longer descriptions; Perplexity uses more sensory vocabulary; Gemini is more emotionally intense; Gemini is more descriptively dense"
+    "model_clusters": {
+      "gemini": [
+        {
+          "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+          "percentage": 40
+        },
+        {
+          "theme": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+          "percentage": 20
+        },
+        {
+          "theme": "Soft golden warmth, ancient streets, and romanticised walking",
+          "percentage": 10
+        }
+      ],
+      "perplexity": [
+        {
+          "theme": "West African markets, coffee, spices, and coastal street life",
+          "percentage": 33.33
+        },
+        {
+          "theme": "Golden-hour historic-modern contrast with glass towers and old stone",
+          "percentage": 33.33
+        },
+        {
+          "theme": "Street food, coffee, dust, diesel, and local aromas",
+          "percentage": 11.11
+        }
+      ]
+    },
+    "keywords": {
+      "gemini": [
+        "zinc",
+        "reggae",
+        "chicken",
+        "mango",
+        "dust",
+        "mangoes",
+        "pavement",
+        "uniforms",
+        "vibrant",
+        "sharp"
+      ],
+      "perplexity": [
+        "lake",
+        "waterfront",
+        "patios",
+        "water",
+        "historic",
+        "faint",
+        "ivy",
+        "stone",
+        "distant",
+        "crisp carrying faint"
+      ],
+      "shared": []
+    },
+    "interesting_insight": "Kingston is mainly framed through themes such as Soft golden warmth, ancient streets, and romanticised walking, Ancient heat, stone, marble, and historic grandeur, Harsh sun, thick air, mixed stone streets, and urban movement, Street food, coffee, dust, diesel, and local aromas.",
+    "gemini_summary": "Harsh sun, thick air, mixed stone streets, and urban movement",
+    "perplexity_summary": "West African markets, coffee, spices, and coastal street life"
   },
   {
     "city": "Kuala Lumpur",
@@ -453,8 +2004,69 @@
       "coastal-city",
       "street-energy"
     ],
-    "gemini_summary": "Kuala Lumpur is mainly framed through themes such as Soft golden warmth, ancient streets, and romanticised walking, Dusty sun-baked streets and uneven urban surfaces, Oppressive humid heat, sweat, dust, and bodily discomfort, Harsh sun, thick air, mixed stone streets, and urban movement.\n\nDominant Gemini clusters in the corpus: Oppressive humid heat, sweat, dust, and bodily discomfort (40.0%); Harsh sun, thick air, mixed stone streets, and urban movement (40.0%); Soft golden warmth, ancient streets, and romanticised walking (10.0%)",
-    "perplexity_summary": "Dominant Perplexity clusters in the corpus: Street food, coffee, dust, diesel, and local aromas (33.3%); Vibrant neighbourhood life, cafés, colours, and social rhythm (22.2%); Polluted metropolis, haze, greenery, and environmental contrast (11.1%)\n\nGemini writes longer descriptions; Perplexity uses more sensory vocabulary; Gemini is more emotionally intense; Gemini is more descriptively dense"
+    "model_clusters": {
+      "gemini": [
+        {
+          "theme": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+          "percentage": 40
+        },
+        {
+          "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+          "percentage": 40
+        },
+        {
+          "theme": "Soft golden warmth, ancient streets, and romanticised walking",
+          "percentage": 10
+        }
+      ],
+      "perplexity": [
+        {
+          "theme": "Street food, coffee, dust, diesel, and local aromas",
+          "percentage": 33.33
+        },
+        {
+          "theme": "Vibrant neighbourhood life, cafés, colours, and social rhythm",
+          "percentage": 22.22
+        },
+        {
+          "theme": "Polluted metropolis, haze, greenery, and environmental contrast",
+          "percentage": 11.11
+        }
+      ]
+    },
+    "keywords": {
+      "gemini": [
+        "vibrant",
+        "like",
+        "hawker",
+        "humid",
+        "motorbikes",
+        "tropical",
+        "sky",
+        "hazy",
+        "sweat",
+        "tongues"
+      ],
+      "perplexity": [
+        "satay",
+        "occasional",
+        "tropical",
+        "food",
+        "frangipani",
+        "urban",
+        "humid",
+        "glass",
+        "vendors",
+        "sweet"
+      ],
+      "shared": [
+        "humid",
+        "tropical"
+      ]
+    },
+    "interesting_insight": "Kuala Lumpur is mainly framed through themes such as Soft golden warmth, ancient streets, and romanticised walking, Dusty sun-baked streets and uneven urban surfaces, Oppressive humid heat, sweat, dust, and bodily discomfort, Harsh sun, thick air, mixed stone streets, and urban movement.",
+    "gemini_summary": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+    "perplexity_summary": "Street food, coffee, dust, diesel, and local aromas"
   },
   {
     "city": "La Paz",
@@ -470,8 +2082,73 @@
       "coastal-city",
       "street-energy"
     ],
-    "gemini_summary": "La Paz is mainly framed through themes such as Street food, coffee, dust, diesel, and local aromas, Ancient heat, stone, marble, and historic grandeur, Oppressive humid heat, sweat, dust, and bodily discomfort, Harsh sun, thick air, mixed stone streets, and urban movement.\n\nDominant Gemini clusters in the corpus: Oppressive humid heat, sweat, dust, and bodily discomfort (40.0%); Harsh sun, thick air, mixed stone streets, and urban movement (40.0%); Street food, coffee, dust, diesel, and local aromas (10.0%)",
-    "perplexity_summary": "Dominant Perplexity clusters in the corpus: Street food, coffee, dust, diesel, and local aromas (44.4%); Mixed Middle Eastern / North African sensory urban framing (22.2%); Mixed warm urban atmosphere, rain, dust, high-rises, and movement (11.1%)\n\nGemini writes longer descriptions; Gemini uses more sensory vocabulary; Gemini is more emotionally intense; Gemini is more descriptively dense"
+    "model_clusters": {
+      "gemini": [
+        {
+          "theme": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+          "percentage": 40
+        },
+        {
+          "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+          "percentage": 40
+        },
+        {
+          "theme": "Street food, coffee, dust, diesel, and local aromas",
+          "percentage": 10
+        }
+      ],
+      "perplexity": [
+        {
+          "theme": "Street food, coffee, dust, diesel, and local aromas",
+          "percentage": 44.44
+        },
+        {
+          "theme": "Mixed Middle Eastern / North African sensory urban framing",
+          "percentage": 22.22
+        },
+        {
+          "theme": "Mixed warm urban atmosphere, rain, dust, high-rises, and movement",
+          "percentage": 11.11
+        }
+      ]
+    },
+    "keywords": {
+      "gemini": [
+        "bowler",
+        "peaks",
+        "braids",
+        "snow",
+        "bowler hats",
+        "coca",
+        "skirts",
+        "steep",
+        "brick",
+        "silent"
+      ],
+      "perplexity": [
+        "altitude",
+        "snow",
+        "bowler hats",
+        "bowler",
+        "coca",
+        "snow capped",
+        "skirts",
+        "peaks",
+        "capped",
+        "crisp carrying faint"
+      ],
+      "shared": [
+        "bowler",
+        "bowler hats",
+        "coca",
+        "peaks",
+        "skirts",
+        "snow"
+      ]
+    },
+    "interesting_insight": "La Paz is mainly framed through themes such as Street food, coffee, dust, diesel, and local aromas, Ancient heat, stone, marble, and historic grandeur, Oppressive humid heat, sweat, dust, and bodily discomfort, Harsh sun, thick air, mixed stone streets, and urban movement.",
+    "gemini_summary": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+    "perplexity_summary": "Street food, coffee, dust, diesel, and local aromas"
   },
   {
     "city": "Lagos",
@@ -486,8 +2163,69 @@
       "historic-architecture",
       "street-energy"
     ],
-    "gemini_summary": "Lagos is mainly framed through themes such as Dusty sun-baked streets and uneven urban surfaces, Oppressive humid heat, sweat, dust, and bodily discomfort, Harsh sun, thick air, mixed stone streets, and urban movement, Street food, coffee, dust, diesel, and local aromas.\n\nDominant Gemini clusters in the corpus: Dusty sun-baked streets and uneven urban surfaces (60.0%); Oppressive humid heat, sweat, dust, and bodily discomfort (20.0%); Harsh sun, thick air, mixed stone streets, and urban movement (20.0%)",
-    "perplexity_summary": "Dominant Perplexity clusters in the corpus: Mixed Middle Eastern / North African sensory urban framing (66.7%); Street food, coffee, dust, diesel, and local aromas (22.2%); Mixed warm urban atmosphere, rain, dust, high-rises, and movement (11.1%)\n\nGemini writes longer descriptions; Perplexity uses more sensory vocabulary; Gemini is more emotionally intense; Gemini is more descriptively dense"
+    "model_clusters": {
+      "gemini": [
+        {
+          "theme": "Dusty sun-baked streets and uneven urban surfaces",
+          "percentage": 60
+        },
+        {
+          "theme": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+          "percentage": 20
+        },
+        {
+          "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+          "percentage": 20
+        }
+      ],
+      "perplexity": [
+        {
+          "theme": "Mixed Middle Eastern / North African sensory urban framing",
+          "percentage": 66.67
+        },
+        {
+          "theme": "Street food, coffee, dust, diesel, and local aromas",
+          "percentage": 22.22
+        },
+        {
+          "theme": "Mixed warm urban atmosphere, rain, dust, high-rises, and movement",
+          "percentage": 11.11
+        }
+      ]
+    },
+    "keywords": {
+      "gemini": [
+        "generators",
+        "plantain",
+        "pure water",
+        "relentless",
+        "hawkers",
+        "like",
+        "makeshift",
+        "heads",
+        "loads",
+        "roadside"
+      ],
+      "perplexity": [
+        "pure water",
+        "highlife",
+        "plantains",
+        "pure",
+        "hawkers",
+        "vendors",
+        "humidity",
+        "occasional",
+        "sweat",
+        "sharp"
+      ],
+      "shared": [
+        "hawkers",
+        "pure water"
+      ]
+    },
+    "interesting_insight": "Lagos is mainly framed through themes such as Dusty sun-baked streets and uneven urban surfaces, Oppressive humid heat, sweat, dust, and bodily discomfort, Harsh sun, thick air, mixed stone streets, and urban movement, Street food, coffee, dust, diesel, and local aromas.",
+    "gemini_summary": "Dusty sun-baked streets and uneven urban surfaces",
+    "perplexity_summary": "Mixed Middle Eastern / North African sensory urban framing"
   },
   {
     "city": "Lima",
@@ -504,8 +2242,68 @@
       "modern-urban",
       "street-energy"
     ],
-    "gemini_summary": "Lima is mainly framed through themes such as Soft golden warmth, ancient streets, and romanticised walking, Ancient heat, stone, marble, and historic grandeur, Harsh sun, thick air, mixed stone streets, and urban movement, Street food, coffee, dust, diesel, and local aromas.\n\nDominant Gemini clusters in the corpus: Oppressive humid heat, sweat, dust, and bodily discomfort (20.0%); Dusty sun-baked streets and uneven urban surfaces (20.0%); Ancient heat, stone, marble, and historic grandeur (20.0%)",
-    "perplexity_summary": "Dominant Perplexity clusters in the corpus: Structured sensory-guide style with heritage and overload framing (33.3%); Vibrant neighbourhood life, cafés, colours, and social rhythm (22.2%); Golden-hour historic-modern contrast with glass towers and old stone (22.2%)\n\nGemini writes longer descriptions; Perplexity uses more sensory vocabulary; Gemini is more emotionally intense; Gemini is more descriptively dense"
+    "model_clusters": {
+      "gemini": [
+        {
+          "theme": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+          "percentage": 20
+        },
+        {
+          "theme": "Dusty sun-baked streets and uneven urban surfaces",
+          "percentage": 20
+        },
+        {
+          "theme": "Ancient heat, stone, marble, and historic grandeur",
+          "percentage": 20
+        }
+      ],
+      "perplexity": [
+        {
+          "theme": "Structured sensory-guide style with heritage and overload framing",
+          "percentage": 33.33
+        },
+        {
+          "theme": "Vibrant neighbourhood life, cafés, colours, and social rhythm",
+          "percentage": 22.22
+        },
+        {
+          "theme": "Golden-hour historic-modern contrast with glass towers and old stone",
+          "percentage": 22.22
+        }
+      ]
+    },
+    "keywords": {
+      "gemini": [
+        "ceviche",
+        "ocean",
+        "sky",
+        "diffused",
+        "colonial",
+        "spanish",
+        "like",
+        "humid",
+        "plaza",
+        "meticulously"
+      ],
+      "perplexity": [
+        "cats",
+        "ceviche",
+        "fur",
+        "acoustic guitar",
+        "tropical",
+        "acoustic",
+        "books",
+        "auto",
+        "vibrant green",
+        "bronze"
+      ],
+      "shared": [
+        "ceviche"
+      ]
+    },
+    "interesting_insight": "Lima is mainly framed through themes such as Soft golden warmth, ancient streets, and romanticised walking, Ancient heat, stone, marble, and historic grandeur, Harsh sun, thick air, mixed stone streets, and urban movement, Street food, coffee, dust, diesel, and local aromas.",
+    "gemini_summary": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+    "perplexity_summary": "Structured sensory-guide style with heritage and overload framing"
   },
   {
     "city": "London",
@@ -522,8 +2320,70 @@
       "modern-urban",
       "street-energy"
     ],
-    "gemini_summary": "London is mainly framed through themes such as Ancient heat, stone, marble, and historic grandeur, Dusty sun-baked streets and uneven urban surfaces, Highland hillsides, ochre stone, and terraced architecture, Harsh sun, thick air, mixed stone streets, and urban movement.\n\nDominant Gemini clusters in the corpus: Highland hillsides, ochre stone, and terraced architecture (40.0%); Harsh sun, thick air, mixed stone streets, and urban movement (30.0%); Dusty sun-baked streets and uneven urban surfaces (20.0%)",
-    "perplexity_summary": "Dominant Perplexity clusters in the corpus: Warm coastal/urban tapestry with palms, breeze, and mixed textures (55.6%); Structured urban sensory journey and model-formatting style (22.2%); Street food, coffee, dust, diesel, and local aromas (11.1%)\n\nGemini writes longer descriptions; Perplexity uses more sensory vocabulary; Gemini is more emotionally intense; Gemini is more descriptively dense"
+    "model_clusters": {
+      "gemini": [
+        {
+          "theme": "Highland hillsides, ochre stone, and terraced architecture",
+          "percentage": 40
+        },
+        {
+          "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+          "percentage": 30
+        },
+        {
+          "theme": "Dusty sun-baked streets and uneven urban surfaces",
+          "percentage": 20
+        }
+      ],
+      "perplexity": [
+        {
+          "theme": "Warm coastal/urban tapestry with palms, breeze, and mixed textures",
+          "percentage": 55.56
+        },
+        {
+          "theme": "Structured urban sensory journey and model-formatting style",
+          "percentage": 22.22
+        },
+        {
+          "theme": "Street food, coffee, dust, diesel, and local aromas",
+          "percentage": 11.11
+        }
+      ]
+    },
+    "keywords": {
+      "gemini": [
+        "grey",
+        "double",
+        "bruised",
+        "grand",
+        "accents",
+        "past",
+        "distant",
+        "faint",
+        "dampness",
+        "ancient"
+      ],
+      "perplexity": [
+        "occasional",
+        "distant",
+        "pavement",
+        "violin",
+        "autumn",
+        "stone",
+        "cool",
+        "carries",
+        "faint",
+        "accents"
+      ],
+      "shared": [
+        "accents",
+        "distant",
+        "faint"
+      ]
+    },
+    "interesting_insight": "London is mainly framed through themes such as Ancient heat, stone, marble, and historic grandeur, Dusty sun-baked streets and uneven urban surfaces, Highland hillsides, ochre stone, and terraced architecture, Harsh sun, thick air, mixed stone streets, and urban movement.",
+    "gemini_summary": "Highland hillsides, ochre stone, and terraced architecture",
+    "perplexity_summary": "Warm coastal/urban tapestry with palms, breeze, and mixed textures"
   },
   {
     "city": "Los Angeles",
@@ -539,8 +2399,68 @@
       "modern-urban",
       "street-energy"
     ],
-    "gemini_summary": "Los Angeles is mainly framed through themes such as Harsh sun, thick air, mixed stone streets, and urban movement, Dusty sun-baked streets and uneven urban surfaces, Oppressive humid heat, sweat, dust, and bodily discomfort, Mixed warm urban atmosphere, rain, dust, high-rises, and movement.\n\nDominant Gemini clusters in the corpus: Harsh sun, thick air, mixed stone streets, and urban movement (50.0%); Oppressive humid heat, sweat, dust, and bodily discomfort (20.0%); Dusty sun-baked streets and uneven urban surfaces (20.0%)",
-    "perplexity_summary": "Dominant Perplexity clusters in the corpus: Warm coastal/urban tapestry with palms, breeze, and mixed textures (33.3%); Structured urban sensory journey and model-formatting style (22.2%); Golden-hour historic-modern contrast with glass towers and old stone (22.2%)\n\nGemini writes longer descriptions; Perplexity uses more sensory vocabulary; Perplexity is more emotionally intense; Gemini is more descriptively dense"
+    "model_clusters": {
+      "gemini": [
+        {
+          "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+          "percentage": 50
+        },
+        {
+          "theme": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+          "percentage": 20
+        },
+        {
+          "theme": "Dusty sun-baked streets and uneven urban surfaces",
+          "percentage": 20
+        }
+      ],
+      "perplexity": [
+        {
+          "theme": "Warm coastal/urban tapestry with palms, breeze, and mixed textures",
+          "percentage": 33.33
+        },
+        {
+          "theme": "Structured urban sensory journey and model-formatting style",
+          "percentage": 22.22
+        },
+        {
+          "theme": "Golden-hour historic-modern contrast with glass towers and old stone",
+          "percentage": 22.22
+        }
+      ]
+    },
+    "keywords": {
+      "gemini": [
+        "dry",
+        "sky",
+        "fronds",
+        "sunglasses",
+        "truck",
+        "stucco",
+        "vast",
+        "distant",
+        "like",
+        "constant"
+      ],
+      "perplexity": [
+        "distant",
+        "hours",
+        "ferns",
+        "climate",
+        "temperature",
+        "mediterranean",
+        "distant hum traffic",
+        "natural",
+        "spaces",
+        "lush green"
+      ],
+      "shared": [
+        "distant"
+      ]
+    },
+    "interesting_insight": "Los Angeles is mainly framed through themes such as Harsh sun, thick air, mixed stone streets, and urban movement, Dusty sun-baked streets and uneven urban surfaces, Oppressive humid heat, sweat, dust, and bodily discomfort, Mixed warm urban atmosphere, rain, dust, high-rises, and movement.",
+    "gemini_summary": "Harsh sun, thick air, mixed stone streets, and urban movement",
+    "perplexity_summary": "Warm coastal/urban tapestry with palms, breeze, and mixed textures"
   },
   {
     "city": "Madrid",
@@ -557,8 +2477,71 @@
       "modern-urban",
       "street-energy"
     ],
-    "gemini_summary": "Madrid is mainly framed through themes such as Modern coastal harbour, salt air, glass, ferries, and urban movement, Ancient heat, stone, marble, and historic grandeur, Highland hillsides, ochre stone, and terraced architecture, Street food, coffee, dust, diesel, and local aromas.\n\nDominant Gemini clusters in the corpus: Highland hillsides, ochre stone, and terraced architecture (60.0%); Modern coastal harbour, salt air, glass, ferries, and urban movement (20.0%); Ancient heat, stone, marble, and historic grandeur (20.0%)",
-    "perplexity_summary": "Dominant Perplexity clusters in the corpus: Vibrant neighbourhood life, cafés, colours, and social rhythm (33.3%); Golden-hour historic-modern contrast with glass towers and old stone (33.3%); Structured sensory-guide style with heritage and overload framing (22.2%)\n\nGemini writes longer descriptions; Perplexity uses more sensory vocabulary; Gemini is more emotionally intense; Gemini is more descriptively dense"
+    "model_clusters": {
+      "gemini": [
+        {
+          "theme": "Highland hillsides, ochre stone, and terraced architecture",
+          "percentage": 60
+        },
+        {
+          "theme": "Modern coastal harbour, salt air, glass, ferries, and urban movement",
+          "percentage": 20
+        },
+        {
+          "theme": "Ancient heat, stone, marble, and historic grandeur",
+          "percentage": 20
+        }
+      ],
+      "perplexity": [
+        {
+          "theme": "Vibrant neighbourhood life, cafés, colours, and social rhythm",
+          "percentage": 33.33
+        },
+        {
+          "theme": "Golden-hour historic-modern contrast with glass towers and old stone",
+          "percentage": 33.33
+        },
+        {
+          "theme": "Structured sensory-guide style with heritage and overload framing",
+          "percentage": 22.22
+        }
+      ]
+    },
+    "keywords": {
+      "gemini": [
+        "olive oil",
+        "stone",
+        "vibrant",
+        "rich",
+        "ancient",
+        "olive",
+        "like",
+        "geraniums",
+        "intricate",
+        "guitar"
+      ],
+      "perplexity": [
+        "olive oil",
+        "cobblestones",
+        "plaza",
+        "olive",
+        "stone",
+        "guitar",
+        "glasses",
+        "centuries",
+        "fresh",
+        "carries"
+      ],
+      "shared": [
+        "guitar",
+        "olive",
+        "olive oil",
+        "stone"
+      ]
+    },
+    "interesting_insight": "Madrid is mainly framed through themes such as Modern coastal harbour, salt air, glass, ferries, and urban movement, Ancient heat, stone, marble, and historic grandeur, Highland hillsides, ochre stone, and terraced architecture, Street food, coffee, dust, diesel, and local aromas.",
+    "gemini_summary": "Highland hillsides, ochre stone, and terraced architecture",
+    "perplexity_summary": "Vibrant neighbourhood life, cafés, colours, and social rhythm"
   },
   {
     "city": "Manama",
@@ -573,8 +2556,60 @@
       "historic-architecture",
       "street-energy"
     ],
-    "gemini_summary": "Manama is mainly framed through themes such as Street food, coffee, dust, diesel, and local aromas, Soft golden warmth, ancient streets, and romanticised walking, Oppressive humid heat, sweat, dust, and bodily discomfort, Harsh sun, thick air, mixed stone streets, and urban movement.\n\nDominant Gemini clusters in the corpus: Oppressive humid heat, sweat, dust, and bodily discomfort (40.0%); Harsh sun, thick air, mixed stone streets, and urban movement (30.0%); Soft golden warmth, ancient streets, and romanticised walking (20.0%)",
-    "perplexity_summary": "Dominant Perplexity clusters in the corpus: Dense markets, humid alleys, food, and sensory street life (100.0%)\n\nGemini writes longer descriptions; Perplexity uses more sensory vocabulary; Perplexity is more emotionally intense; Gemini is more descriptively dense"
+    "model_clusters": {
+      "gemini": [
+        {
+          "theme": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+          "percentage": 40
+        },
+        {
+          "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+          "percentage": 30
+        },
+        {
+          "theme": "Soft golden warmth, ancient streets, and romanticised walking",
+          "percentage": 20
+        }
+      ],
+      "perplexity": [
+        {
+          "theme": "Dense markets, humid alleys, food, and sensory street life",
+          "percentage": 100
+        }
+      ]
+    },
+    "keywords": {
+      "gemini": [
+        "arabic",
+        "abayas",
+        "cardamom",
+        "dates",
+        "vibrant",
+        "white",
+        "oud",
+        "english",
+        "like",
+        "metal"
+      ],
+      "perplexity": [
+        "dried fruits",
+        "embroidered",
+        "turmeric",
+        "cumin turmeric",
+        "cardamom cumin",
+        "dried",
+        "cardamom",
+        "cumin",
+        "incense",
+        "shoppers"
+      ],
+      "shared": [
+        "cardamom"
+      ]
+    },
+    "interesting_insight": "Manama is mainly framed through themes such as Street food, coffee, dust, diesel, and local aromas, Soft golden warmth, ancient streets, and romanticised walking, Oppressive humid heat, sweat, dust, and bodily discomfort, Harsh sun, thick air, mixed stone streets, and urban movement.",
+    "gemini_summary": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+    "perplexity_summary": "Dense markets, humid alleys, food, and sensory street life"
   },
   {
     "city": "Manila",
@@ -589,8 +2624,68 @@
       "historic-architecture",
       "street-energy"
     ],
-    "gemini_summary": "Manila is mainly framed through themes such as Dusty sun-baked streets and uneven urban surfaces, Oppressive humid heat, sweat, dust, and bodily discomfort, Harsh sun, thick air, mixed stone streets, and urban movement, Street food, coffee, dust, diesel, and local aromas.\n\nDominant Gemini clusters in the corpus: Harsh sun, thick air, mixed stone streets, and urban movement (40.0%); Oppressive humid heat, sweat, dust, and bodily discomfort (30.0%); Dusty sun-baked streets and uneven urban surfaces (30.0%)",
-    "perplexity_summary": "Dominant Perplexity clusters in the corpus: Mixed Middle Eastern / North African sensory urban framing (44.4%); Street food, coffee, dust, diesel, and local aromas (33.3%); Vibrant neighbourhood life, cafés, colours, and social rhythm (11.1%)\n\nGemini writes longer descriptions; Perplexity uses more sensory vocabulary; Gemini is more emotionally intense; Gemini is more descriptively dense"
+    "model_clusters": {
+      "gemini": [
+        {
+          "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+          "percentage": 40
+        },
+        {
+          "theme": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+          "percentage": 30
+        },
+        {
+          "theme": "Dusty sun-baked streets and uneven urban surfaces",
+          "percentage": 30
+        }
+      ],
+      "perplexity": [
+        {
+          "theme": "Mixed Middle Eastern / North African sensory urban framing",
+          "percentage": 44.44
+        },
+        {
+          "theme": "Street food, coffee, dust, diesel, and local aromas",
+          "percentage": 33.33
+        },
+        {
+          "theme": "Vibrant neighbourhood life, cafés, colours, and social rhythm",
+          "percentage": 11.11
+        }
+      ]
+    },
+    "keywords": {
+      "gemini": [
+        "sari",
+        "concrete",
+        "like",
+        "chrome",
+        "skewers",
+        "mangoes",
+        "tinny",
+        "humid",
+        "relentless",
+        "clung"
+      ],
+      "perplexity": [
+        "balls",
+        "electronics",
+        "fish",
+        "sari",
+        "occasional",
+        "stalls",
+        "neon signs",
+        "grilled",
+        "textiles",
+        "neon"
+      ],
+      "shared": [
+        "sari"
+      ]
+    },
+    "interesting_insight": "Manila is mainly framed through themes such as Dusty sun-baked streets and uneven urban surfaces, Oppressive humid heat, sweat, dust, and bodily discomfort, Harsh sun, thick air, mixed stone streets, and urban movement, Street food, coffee, dust, diesel, and local aromas.",
+    "gemini_summary": "Harsh sun, thick air, mixed stone streets, and urban movement",
+    "perplexity_summary": "Mixed Middle Eastern / North African sensory urban framing"
   },
   {
     "city": "Mexico City",
@@ -607,8 +2702,69 @@
       "modern-urban",
       "street-energy"
     ],
-    "gemini_summary": "Mexico City is mainly framed through themes such as Soft golden warmth, ancient streets, and romanticised walking, Ancient heat, stone, marble, and historic grandeur, Highland hillsides, ochre stone, and terraced architecture, Harsh sun, thick air, mixed stone streets, and urban movement.\n\nDominant Gemini clusters in the corpus: Soft golden warmth, ancient streets, and romanticised walking (50.0%); Highland hillsides, ochre stone, and terraced architecture (20.0%); Ancient heat, stone, marble, and historic grandeur (20.0%)",
-    "perplexity_summary": "Dominant Perplexity clusters in the corpus: Vibrant neighbourhood life, cafés, colours, and social rhythm (44.4%); Golden-hour historic-modern contrast with glass towers and old stone (22.2%); Structured sensory-guide style with heritage and overload framing (11.1%)\n\nGemini writes longer descriptions; Perplexity uses more sensory vocabulary; Gemini is more emotionally intense; Gemini is more descriptively dense"
+    "model_clusters": {
+      "gemini": [
+        {
+          "theme": "Soft golden warmth, ancient streets, and romanticised walking",
+          "percentage": 50
+        },
+        {
+          "theme": "Highland hillsides, ochre stone, and terraced architecture",
+          "percentage": 20
+        },
+        {
+          "theme": "Ancient heat, stone, marble, and historic grandeur",
+          "percentage": 20
+        }
+      ],
+      "perplexity": [
+        {
+          "theme": "Vibrant neighbourhood life, cafés, colours, and social rhythm",
+          "percentage": 44.44
+        },
+        {
+          "theme": "Golden-hour historic-modern contrast with glass towers and old stone",
+          "percentage": 22.22
+        },
+        {
+          "theme": "Structured sensory-guide style with heritage and overload framing",
+          "percentage": 11.11
+        }
+      ]
+    },
+    "keywords": {
+      "gemini": [
+        "trumpet",
+        "vibrant",
+        "corn",
+        "cilantro",
+        "ancient",
+        "sound",
+        "spanish",
+        "deep",
+        "stone",
+        "constant"
+      ],
+      "perplexity": [
+        "chilies",
+        "corn",
+        "lively",
+        "murals",
+        "occasional",
+        "markets",
+        "colors",
+        "vibrant",
+        "faint",
+        "distant"
+      ],
+      "shared": [
+        "corn",
+        "vibrant"
+      ]
+    },
+    "interesting_insight": "Mexico City is mainly framed through themes such as Soft golden warmth, ancient streets, and romanticised walking, Ancient heat, stone, marble, and historic grandeur, Highland hillsides, ochre stone, and terraced architecture, Harsh sun, thick air, mixed stone streets, and urban movement.",
+    "gemini_summary": "Soft golden warmth, ancient streets, and romanticised walking",
+    "perplexity_summary": "Vibrant neighbourhood life, cafés, colours, and social rhythm"
   },
   {
     "city": "Montevideo",
@@ -625,8 +2781,68 @@
       "modern-urban",
       "street-energy"
     ],
-    "gemini_summary": "Montevideo is mainly framed through themes such as Soft golden warmth, ancient streets, and romanticised walking, Ancient heat, stone, marble, and historic grandeur, Modern coastal harbour, salt air, glass, ferries, and urban movement, West African markets, coffee, spices, and coastal street life.\n\nDominant Gemini clusters in the corpus: Modern coastal harbour, salt air, glass, ferries, and urban movement (70.0%); Ancient heat, stone, marble, and historic grandeur (20.0%); Soft golden warmth, ancient streets, and romanticised walking (10.0%)",
-    "perplexity_summary": "Dominant Perplexity clusters in the corpus: Vibrant neighbourhood life, cafés, colours, and social rhythm (44.4%); Golden-hour historic-modern contrast with glass towers and old stone (33.3%); Structured sensory-guide style with heritage and overload framing (11.1%)\n\nGemini writes longer descriptions; Perplexity uses more sensory vocabulary; Gemini is more emotionally intense; Gemini is more descriptively dense"
+    "model_clusters": {
+      "gemini": [
+        {
+          "theme": "Modern coastal harbour, salt air, glass, ferries, and urban movement",
+          "percentage": 70
+        },
+        {
+          "theme": "Ancient heat, stone, marble, and historic grandeur",
+          "percentage": 20
+        },
+        {
+          "theme": "Soft golden warmth, ancient streets, and romanticised walking",
+          "percentage": 10
+        }
+      ],
+      "perplexity": [
+        {
+          "theme": "Vibrant neighbourhood life, cafés, colours, and social rhythm",
+          "percentage": 44.44
+        },
+        {
+          "theme": "Golden-hour historic-modern contrast with glass towers and old stone",
+          "percentage": 33.33
+        },
+        {
+          "theme": "Structured sensory-guide style with heritage and overload framing",
+          "percentage": 11.11
+        }
+      ]
+    },
+    "keywords": {
+      "gemini": [
+        "mate",
+        "thermos",
+        "neoclassical",
+        "unhurried",
+        "immense",
+        "water",
+        "grand",
+        "sat",
+        "distant",
+        "spanish"
+      ],
+      "perplexity": [
+        "promenade",
+        "mate",
+        "drums",
+        "galleries",
+        "river",
+        "tradition",
+        "painted houses",
+        "waterfront",
+        "houses",
+        "neighborhood"
+      ],
+      "shared": [
+        "mate"
+      ]
+    },
+    "interesting_insight": "Montevideo is mainly framed through themes such as Soft golden warmth, ancient streets, and romanticised walking, Ancient heat, stone, marble, and historic grandeur, Modern coastal harbour, salt air, glass, ferries, and urban movement, West African markets, coffee, spices, and coastal street life.",
+    "gemini_summary": "Modern coastal harbour, salt air, glass, ferries, and urban movement",
+    "perplexity_summary": "Vibrant neighbourhood life, cafés, colours, and social rhythm"
   },
   {
     "city": "Montreal",
@@ -641,8 +2857,68 @@
       "coastal-city",
       "modern-urban"
     ],
-    "gemini_summary": "Montreal is mainly framed through themes such as Ancient heat, stone, marble, and historic grandeur, Golden-hour historic-modern contrast with glass towers and old stone, Highland hillsides, ochre stone, and terraced architecture, Warm coastal/urban tapestry with palms, breeze, and mixed textures.\n\nDominant Gemini clusters in the corpus: Highland hillsides, ochre stone, and terraced architecture (80.0%); Ancient heat, stone, marble, and historic grandeur (10.0%); Golden-hour historic-modern contrast with glass towers and old stone (10.0%)",
-    "perplexity_summary": "Dominant Perplexity clusters in the corpus: Colonial/heritage cobblestones and old-quarter architecture (44.4%); Golden-hour historic-modern contrast with glass towers and old stone (33.3%); Warm coastal/urban tapestry with palms, breeze, and mixed textures (22.2%)\n\nGemini writes longer descriptions; Gemini uses more sensory vocabulary; Gemini is more emotionally intense; Gemini is more descriptively dense"
+    "model_clusters": {
+      "gemini": [
+        {
+          "theme": "Highland hillsides, ochre stone, and terraced architecture",
+          "percentage": 80
+        },
+        {
+          "theme": "Ancient heat, stone, marble, and historic grandeur",
+          "percentage": 10
+        },
+        {
+          "theme": "Golden-hour historic-modern contrast with glass towers and old stone",
+          "percentage": 10
+        }
+      ],
+      "perplexity": [
+        {
+          "theme": "Colonial/heritage cobblestones and old-quarter architecture",
+          "percentage": 44.44
+        },
+        {
+          "theme": "Golden-hour historic-modern contrast with glass towers and old stone",
+          "percentage": 33.33
+        },
+        {
+          "theme": "Warm coastal/urban tapestry with palms, breeze, and mixed textures",
+          "percentage": 22.22
+        }
+      ]
+    },
+    "keywords": {
+      "gemini": [
+        "stone",
+        "vibrant",
+        "petunias",
+        "iron",
+        "wrought iron",
+        "wrought",
+        "french",
+        "like",
+        "wrought iron balconies",
+        "cobblestones"
+      ],
+      "perplexity": [
+        "stone",
+        "heritage",
+        "gothic",
+        "cobblestone",
+        "glass",
+        "old",
+        "violin",
+        "autumn",
+        "cool",
+        "wander"
+      ],
+      "shared": [
+        "stone"
+      ]
+    },
+    "interesting_insight": "Montreal is mainly framed through themes such as Ancient heat, stone, marble, and historic grandeur, Golden-hour historic-modern contrast with glass towers and old stone, Highland hillsides, ochre stone, and terraced architecture, Warm coastal/urban tapestry with palms, breeze, and mixed textures.",
+    "gemini_summary": "Highland hillsides, ochre stone, and terraced architecture",
+    "perplexity_summary": "Colonial/heritage cobblestones and old-quarter architecture"
   },
   {
     "city": "Mumbai",
@@ -657,8 +2933,69 @@
       "historic-architecture",
       "street-energy"
     ],
-    "gemini_summary": "Mumbai is mainly framed through themes such as Dusty sun-baked streets and uneven urban surfaces, Oppressive humid heat, sweat, dust, and bodily discomfort, Harsh sun, thick air, mixed stone streets, and urban movement, Street food, coffee, dust, diesel, and local aromas.\n\nDominant Gemini clusters in the corpus: Harsh sun, thick air, mixed stone streets, and urban movement (40.0%); Dusty sun-baked streets and uneven urban surfaces (40.0%); Oppressive humid heat, sweat, dust, and bodily discomfort (20.0%)",
-    "perplexity_summary": "Dominant Perplexity clusters in the corpus: Mixed Middle Eastern / North African sensory urban framing (77.8%); Dense markets, humid alleys, food, and sensory street life (11.1%); Street food, coffee, dust, diesel, and local aromas (11.1%)\n\nGemini writes longer descriptions; Perplexity uses more sensory vocabulary; Gemini is more emotionally intense; Gemini is more descriptively dense"
+    "model_clusters": {
+      "gemini": [
+        {
+          "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+          "percentage": 40
+        },
+        {
+          "theme": "Dusty sun-baked streets and uneven urban surfaces",
+          "percentage": 40
+        },
+        {
+          "theme": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+          "percentage": 20
+        }
+      ],
+      "perplexity": [
+        {
+          "theme": "Mixed Middle Eastern / North African sensory urban framing",
+          "percentage": 77.78
+        },
+        {
+          "theme": "Dense markets, humid alleys, food, and sensory street life",
+          "percentage": 11.11
+        },
+        {
+          "theme": "Street food, coffee, dust, diesel, and local aromas",
+          "percentage": 11.11
+        }
+      ]
+    },
+    "keywords": {
+      "gemini": [
+        "auto",
+        "chai",
+        "yellow black",
+        "relentless",
+        "bangles",
+        "constant",
+        "garlands",
+        "saris",
+        "like",
+        "black"
+      ],
+      "perplexity": [
+        "saris",
+        "sea",
+        "like",
+        "stalls",
+        "food",
+        "tamarind",
+        "salty",
+        "occasional",
+        "snacks",
+        "vendors"
+      ],
+      "shared": [
+        "like",
+        "saris"
+      ]
+    },
+    "interesting_insight": "Mumbai is mainly framed through themes such as Dusty sun-baked streets and uneven urban surfaces, Oppressive humid heat, sweat, dust, and bodily discomfort, Harsh sun, thick air, mixed stone streets, and urban movement, Street food, coffee, dust, diesel, and local aromas.",
+    "gemini_summary": "Harsh sun, thick air, mixed stone streets, and urban movement",
+    "perplexity_summary": "Mixed Middle Eastern / North African sensory urban framing"
   },
   {
     "city": "Muscat",
@@ -675,8 +3012,65 @@
       "modern-urban",
       "street-energy"
     ],
-    "gemini_summary": "Muscat is mainly framed through themes such as Modern coastal harbour, salt air, glass, ferries, and urban movement, Soft golden warmth, ancient streets, and romanticised walking, Ancient heat, stone, marble, and historic grandeur, Highland hillsides, ochre stone, and terraced architecture.\n\nDominant Gemini clusters in the corpus: Soft golden warmth, ancient streets, and romanticised walking (40.0%); Ancient heat, stone, marble, and historic grandeur (30.0%); Highland hillsides, ochre stone, and terraced architecture (20.0%)",
-    "perplexity_summary": "Dominant Perplexity clusters in the corpus: Dense markets, humid alleys, food, and sensory street life (88.9%); Structured sensory-guide style with heritage and overload framing (11.1%)\n\nGemini writes longer descriptions; Gemini uses more sensory vocabulary; Gemini is more emotionally intense; Gemini is more descriptively dense"
+    "model_clusters": {
+      "gemini": [
+        {
+          "theme": "Soft golden warmth, ancient streets, and romanticised walking",
+          "percentage": 40
+        },
+        {
+          "theme": "Ancient heat, stone, marble, and historic grandeur",
+          "percentage": 30
+        },
+        {
+          "theme": "Highland hillsides, ochre stone, and terraced architecture",
+          "percentage": 20
+        }
+      ],
+      "perplexity": [
+        {
+          "theme": "Dense markets, humid alleys, food, and sensory street life",
+          "percentage": 88.89
+        },
+        {
+          "theme": "Structured sensory-guide style with heritage and overload framing",
+          "percentage": 11.11
+        }
+      ]
+    },
+    "keywords": {
+      "gemini": [
+        "frankincense",
+        "white",
+        "pristine",
+        "quiet",
+        "dry",
+        "date",
+        "flowing white",
+        "like",
+        "abayas",
+        "clean"
+      ],
+      "perplexity": [
+        "frankincense",
+        "marketplace",
+        "like",
+        "dates",
+        "waterfront",
+        "cardamom",
+        "silver",
+        "alleyways",
+        "maze",
+        "narrow alleyways"
+      ],
+      "shared": [
+        "frankincense",
+        "like"
+      ]
+    },
+    "interesting_insight": "Muscat is mainly framed through themes such as Modern coastal harbour, salt air, glass, ferries, and urban movement, Soft golden warmth, ancient streets, and romanticised walking, Ancient heat, stone, marble, and historic grandeur, Highland hillsides, ochre stone, and terraced architecture.",
+    "gemini_summary": "Soft golden warmth, ancient streets, and romanticised walking",
+    "perplexity_summary": "Dense markets, humid alleys, food, and sensory street life"
   },
   {
     "city": "Mysuru",
@@ -693,8 +3087,72 @@
       "modern-urban",
       "street-energy"
     ],
-    "gemini_summary": "Mysuru is mainly framed through themes such as Soft golden warmth, ancient streets, and romanticised walking, Ancient heat, stone, marble, and historic grandeur, Golden-hour historic-modern contrast with glass towers and old stone, Highland hillsides, ochre stone, and terraced architecture.\n\nDominant Gemini clusters in the corpus: Soft golden warmth, ancient streets, and romanticised walking (70.0%); Highland hillsides, ochre stone, and terraced architecture (10.0%); Ancient heat, stone, marble, and historic grandeur (10.0%)",
-    "perplexity_summary": "Dominant Perplexity clusters in the corpus: Golden-hour historic-modern contrast with glass towers and old stone (44.4%); Dense markets, humid alleys, food, and sensory street life (33.3%); Structured sensory-guide style with heritage and overload framing (11.1%)\n\nGemini writes longer descriptions; Perplexity uses more sensory vocabulary; Gemini is more emotionally intense; Gemini is more descriptively dense"
+    "model_clusters": {
+      "gemini": [
+        {
+          "theme": "Soft golden warmth, ancient streets, and romanticised walking",
+          "percentage": 70
+        },
+        {
+          "theme": "Highland hillsides, ochre stone, and terraced architecture",
+          "percentage": 10
+        },
+        {
+          "theme": "Ancient heat, stone, marble, and historic grandeur",
+          "percentage": 10
+        }
+      ],
+      "perplexity": [
+        {
+          "theme": "Golden-hour historic-modern contrast with glass towers and old stone",
+          "percentage": 44.44
+        },
+        {
+          "theme": "Dense markets, humid alleys, food, and sensory street life",
+          "percentage": 33.33
+        },
+        {
+          "theme": "Structured sensory-guide style with heritage and overload framing",
+          "percentage": 11.11
+        }
+      ]
+    },
+    "keywords": {
+      "gemini": [
+        "garlands",
+        "auto",
+        "filter coffee",
+        "temple",
+        "auto rickshaw",
+        "jasmine",
+        "filter",
+        "rickshaw",
+        "bangles",
+        "sandalwood"
+      ],
+      "perplexity": [
+        "sandalwood",
+        "pottery",
+        "filter coffee",
+        "jasmine",
+        "fresh produce",
+        "produce",
+        "incense",
+        "turmeric",
+        "filter",
+        "temple"
+      ],
+      "shared": [
+        "filter",
+        "filter coffee",
+        "jasmine",
+        "sandalwood",
+        "temple"
+      ]
+    },
+    "interesting_insight": "Mysuru is mainly framed through themes such as Soft golden warmth, ancient streets, and romanticised walking, Ancient heat, stone, marble, and historic grandeur, Golden-hour historic-modern contrast with glass towers and old stone, Highland hillsides, ochre stone, and terraced architecture.",
+    "gemini_summary": "Soft golden warmth, ancient streets, and romanticised walking",
+    "perplexity_summary": "Golden-hour historic-modern contrast with glass towers and old stone"
   },
   {
     "city": "Nairobi",
@@ -708,8 +3166,66 @@
       "historic-architecture",
       "street-energy"
     ],
-    "gemini_summary": "Nairobi is mainly framed through themes such as Dusty sun-baked streets and uneven urban surfaces, Oppressive humid heat, sweat, dust, and bodily discomfort, Harsh sun, thick air, mixed stone streets, and urban movement, Polluted metropolis, haze, greenery, and environmental contrast.\n\nDominant Gemini clusters in the corpus: Dusty sun-baked streets and uneven urban surfaces (60.0%); Harsh sun, thick air, mixed stone streets, and urban movement (30.0%); Oppressive humid heat, sweat, dust, and bodily discomfort (10.0%)",
-    "perplexity_summary": "Dominant Perplexity clusters in the corpus: Polluted metropolis, haze, greenery, and environmental contrast (44.4%); Altitude, plateau, hills, and climate-based city identity (33.3%); Mixed warm urban atmosphere, rain, dust, high-rises, and movement (22.2%)\n\nGemini writes longer descriptions; Gemini uses more sensory vocabulary; Gemini is more emotionally intense; Gemini is more descriptively dense"
+    "model_clusters": {
+      "gemini": [
+        {
+          "theme": "Dusty sun-baked streets and uneven urban surfaces",
+          "percentage": 60
+        },
+        {
+          "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+          "percentage": 30
+        },
+        {
+          "theme": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+          "percentage": 10
+        }
+      ],
+      "perplexity": [
+        {
+          "theme": "Polluted metropolis, haze, greenery, and environmental contrast",
+          "percentage": 44.44
+        },
+        {
+          "theme": "Altitude, plateau, hills, and climate-based city identity",
+          "percentage": 33.33
+        },
+        {
+          "theme": "Mixed warm urban atmosphere, rain, dust, high-rises, and movement",
+          "percentage": 22.22
+        }
+      ]
+    },
+    "keywords": {
+      "gemini": [
+        "maize",
+        "mobile",
+        "destinations",
+        "dust",
+        "avocados",
+        "vibrant",
+        "brazier",
+        "pavement",
+        "ceaseless",
+        "concrete"
+      ],
+      "perplexity": [
+        "informal",
+        "informal settlements",
+        "urban",
+        "settlements",
+        "forest",
+        "unpaved",
+        "indigenous",
+        "spaces",
+        "parks",
+        "cover"
+      ],
+      "shared": []
+    },
+    "interesting_insight": "Nairobi is mainly framed through themes such as Dusty sun-baked streets and uneven urban surfaces, Oppressive humid heat, sweat, dust, and bodily discomfort, Harsh sun, thick air, mixed stone streets, and urban movement, Polluted metropolis, haze, greenery, and environmental contrast.",
+    "gemini_summary": "Dusty sun-baked streets and uneven urban surfaces",
+    "perplexity_summary": "Polluted metropolis, haze, greenery, and environmental contrast"
   },
   {
     "city": "New York City",
@@ -725,8 +3241,65 @@
       "modern-urban",
       "street-energy"
     ],
-    "gemini_summary": "New York City is mainly framed through themes such as Dusty sun-baked streets and uneven urban surfaces, Harsh sun, thick air, mixed stone streets, and urban movement, Structured urban sensory journey and model-formatting style, Mixed warm urban atmosphere, rain, dust, high-rises, and movement.\n\nDominant Gemini clusters in the corpus: Harsh sun, thick air, mixed stone streets, and urban movement (50.0%); Dusty sun-baked streets and uneven urban surfaces (50.0%)",
-    "perplexity_summary": "Dominant Perplexity clusters in the corpus: Structured urban sensory journey and model-formatting style (55.6%); Harsh sun, thick air, mixed stone streets, and urban movement (11.1%); Mixed warm urban atmosphere, rain, dust, high-rises, and movement (11.1%)\n\nGemini writes longer descriptions; Perplexity uses more sensory vocabulary; Gemini is more emotionally intense; Gemini is more descriptively dense"
+    "model_clusters": {
+      "gemini": [
+        {
+          "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+          "percentage": 50
+        },
+        {
+          "theme": "Dusty sun-baked streets and uneven urban surfaces",
+          "percentage": 50
+        }
+      ],
+      "perplexity": [
+        {
+          "theme": "Structured urban sensory journey and model-formatting style",
+          "percentage": 55.56
+        },
+        {
+          "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+          "percentage": 11.11
+        },
+        {
+          "theme": "Mixed warm urban atmosphere, rain, dust, high-rises, and movement",
+          "percentage": 11.11
+        }
+      ]
+    },
+    "keywords": {
+      "gemini": [
+        "pretzels",
+        "grate",
+        "relentless",
+        "steam",
+        "current",
+        "delivery",
+        "colossal",
+        "escapes",
+        "tourists",
+        "river humanity"
+      ],
+      "perplexity": [
+        "subway",
+        "pretzels",
+        "delivery",
+        "thump",
+        "buildings",
+        "thump thump",
+        "idling",
+        "pavement",
+        "constant",
+        "chestnuts"
+      ],
+      "shared": [
+        "delivery",
+        "pretzels"
+      ]
+    },
+    "interesting_insight": "New York City is mainly framed through themes such as Dusty sun-baked streets and uneven urban surfaces, Harsh sun, thick air, mixed stone streets, and urban movement, Structured urban sensory journey and model-formatting style, Mixed warm urban atmosphere, rain, dust, high-rises, and movement.",
+    "gemini_summary": "Harsh sun, thick air, mixed stone streets, and urban movement",
+    "perplexity_summary": "Structured urban sensory journey and model-formatting style"
   },
   {
     "city": "Paris",
@@ -741,8 +3314,66 @@
       "coastal-city",
       "modern-urban"
     ],
-    "gemini_summary": "Paris is mainly framed through themes such as Modern coastal harbour, salt air, glass, ferries, and urban movement, Ancient heat, stone, marble, and historic grandeur, Highland hillsides, ochre stone, and terraced architecture, Warm coastal/urban tapestry with palms, breeze, and mixed textures.\n\nDominant Gemini clusters in the corpus: Modern coastal harbour, salt air, glass, ferries, and urban movement (40.0%); Highland hillsides, ochre stone, and terraced architecture (30.0%); Ancient heat, stone, marble, and historic grandeur (30.0%)",
-    "perplexity_summary": "Dominant Perplexity clusters in the corpus: Warm coastal/urban tapestry with palms, breeze, and mixed textures (77.8%); Golden-hour historic-modern contrast with glass towers and old stone (22.2%)\n\nGemini writes longer descriptions; Perplexity uses more sensory vocabulary; Gemini is more emotionally intense; Gemini is more descriptively dense"
+    "model_clusters": {
+      "gemini": [
+        {
+          "theme": "Modern coastal harbour, salt air, glass, ferries, and urban movement",
+          "percentage": 40
+        },
+        {
+          "theme": "Highland hillsides, ochre stone, and terraced architecture",
+          "percentage": 30
+        },
+        {
+          "theme": "Ancient heat, stone, marble, and historic grandeur",
+          "percentage": 30
+        }
+      ],
+      "perplexity": [
+        {
+          "theme": "Warm coastal/urban tapestry with palms, breeze, and mixed textures",
+          "percentage": 77.78
+        },
+        {
+          "theme": "Golden-hour historic-modern contrast with glass towers and old stone",
+          "percentage": 22.22
+        }
+      ]
+    },
+    "keywords": {
+      "gemini": [
+        "bridges",
+        "stone",
+        "baguettes",
+        "accordion",
+        "quiet",
+        "elegant",
+        "delicate",
+        "chairs",
+        "wrought iron balconies",
+        "lilies"
+      ],
+      "perplexity": [
+        "cigarette smoke",
+        "cigarette",
+        "baguettes",
+        "stone",
+        "accordion",
+        "iron",
+        "espresso",
+        "wrought iron",
+        "wrought",
+        "iron balconies"
+      ],
+      "shared": [
+        "accordion",
+        "baguettes",
+        "stone"
+      ]
+    },
+    "interesting_insight": "Paris is mainly framed through themes such as Modern coastal harbour, salt air, glass, ferries, and urban movement, Ancient heat, stone, marble, and historic grandeur, Highland hillsides, ochre stone, and terraced architecture, Warm coastal/urban tapestry with palms, breeze, and mixed textures.",
+    "gemini_summary": "Modern coastal harbour, salt air, glass, ferries, and urban movement",
+    "perplexity_summary": "Warm coastal/urban tapestry with palms, breeze, and mixed textures"
   },
   {
     "city": "Porto",
@@ -759,8 +3390,70 @@
       "modern-urban",
       "street-energy"
     ],
-    "gemini_summary": "Porto is mainly framed through themes such as Modern coastal harbour, salt air, glass, ferries, and urban movement, Ancient heat, stone, marble, and historic grandeur, Highland hillsides, ochre stone, and terraced architecture, Street food, coffee, dust, diesel, and local aromas.\n\nDominant Gemini clusters in the corpus: Highland hillsides, ochre stone, and terraced architecture (40.0%); Ancient heat, stone, marble, and historic grandeur (40.0%); Modern coastal harbour, salt air, glass, ferries, and urban movement (20.0%)",
-    "perplexity_summary": "Dominant Perplexity clusters in the corpus: Colonial/heritage cobblestones and old-quarter architecture (33.3%); Structured sensory-guide style with heritage and overload framing (22.2%); Street food, coffee, dust, diesel, and local aromas (22.2%)\n\nGemini writes longer descriptions; Perplexity uses more sensory vocabulary; Gemini is more emotionally intense; Gemini is more descriptively dense"
+    "model_clusters": {
+      "gemini": [
+        {
+          "theme": "Highland hillsides, ochre stone, and terraced architecture",
+          "percentage": 40
+        },
+        {
+          "theme": "Ancient heat, stone, marble, and historic grandeur",
+          "percentage": 40
+        },
+        {
+          "theme": "Modern coastal harbour, salt air, glass, ferries, and urban movement",
+          "percentage": 20
+        }
+      ],
+      "perplexity": [
+        {
+          "theme": "Colonial/heritage cobblestones and old-quarter architecture",
+          "percentage": 33.33
+        },
+        {
+          "theme": "Structured sensory-guide style with heritage and overload framing",
+          "percentage": 22.22
+        },
+        {
+          "theme": "Street food, coffee, dust, diesel, and local aromas",
+          "percentage": 22.22
+        }
+      ]
+    },
+    "keywords": {
+      "gemini": [
+        "like",
+        "ancient",
+        "iron",
+        "river",
+        "bridge",
+        "stone",
+        "tram",
+        "water",
+        "dark",
+        "tiles"
+      ],
+      "perplexity": [
+        "granite",
+        "river",
+        "stone",
+        "tiles",
+        "wine",
+        "centuries",
+        "ceramic",
+        "cool",
+        "church bells",
+        "historic"
+      ],
+      "shared": [
+        "river",
+        "stone",
+        "tiles"
+      ]
+    },
+    "interesting_insight": "Porto is mainly framed through themes such as Modern coastal harbour, salt air, glass, ferries, and urban movement, Ancient heat, stone, marble, and historic grandeur, Highland hillsides, ochre stone, and terraced architecture, Street food, coffee, dust, diesel, and local aromas.",
+    "gemini_summary": "Highland hillsides, ochre stone, and terraced architecture",
+    "perplexity_summary": "Colonial/heritage cobblestones and old-quarter architecture"
   },
   {
     "city": "Quito",
@@ -776,8 +3469,70 @@
       "modern-urban",
       "street-energy"
     ],
-    "gemini_summary": "Quito is mainly framed through themes such as Soft golden warmth, ancient streets, and romanticised walking, Ancient heat, stone, marble, and historic grandeur, Highland hillsides, ochre stone, and terraced architecture, Oppressive humid heat, sweat, dust, and bodily discomfort.\n\nDominant Gemini clusters in the corpus: Soft golden warmth, ancient streets, and romanticised walking (40.0%); Ancient heat, stone, marble, and historic grandeur (30.0%); Highland hillsides, ochre stone, and terraced architecture (20.0%)",
-    "perplexity_summary": "Dominant Perplexity clusters in the corpus: Colonial/heritage cobblestones and old-quarter architecture (66.7%); Street food, coffee, dust, diesel, and local aromas (11.1%); Ancient heat, stone, marble, and historic grandeur (11.1%)\n\nGemini writes longer descriptions; Gemini uses more sensory vocabulary; Gemini is more emotionally intense; Gemini is more descriptively dense"
+    "model_clusters": {
+      "gemini": [
+        {
+          "theme": "Soft golden warmth, ancient streets, and romanticised walking",
+          "percentage": 40
+        },
+        {
+          "theme": "Ancient heat, stone, marble, and historic grandeur",
+          "percentage": 30
+        },
+        {
+          "theme": "Highland hillsides, ochre stone, and terraced architecture",
+          "percentage": 20
+        }
+      ],
+      "perplexity": [
+        {
+          "theme": "Colonial/heritage cobblestones and old-quarter architecture",
+          "percentage": 66.67
+        },
+        {
+          "theme": "Street food, coffee, dust, diesel, and local aromas",
+          "percentage": 11.11
+        },
+        {
+          "theme": "Ancient heat, stone, marble, and historic grandeur",
+          "percentage": 11.11
+        }
+      ]
+    },
+    "keywords": {
+      "gemini": [
+        "plantains",
+        "stone",
+        "altitude",
+        "empanadas",
+        "carved",
+        "ancient",
+        "cool",
+        "peaks",
+        "incline",
+        "plaza"
+      ],
+      "perplexity": [
+        "church",
+        "stone",
+        "gilded",
+        "altitude",
+        "centuries",
+        "indigenous",
+        "plaza",
+        "mountain",
+        "baroque",
+        "colonial"
+      ],
+      "shared": [
+        "altitude",
+        "plaza",
+        "stone"
+      ]
+    },
+    "interesting_insight": "Quito is mainly framed through themes such as Soft golden warmth, ancient streets, and romanticised walking, Ancient heat, stone, marble, and historic grandeur, Highland hillsides, ochre stone, and terraced architecture, Oppressive humid heat, sweat, dust, and bodily discomfort.",
+    "gemini_summary": "Soft golden warmth, ancient streets, and romanticised walking",
+    "perplexity_summary": "Colonial/heritage cobblestones and old-quarter architecture"
   },
   {
     "city": "Rio de Janeiro",
@@ -792,8 +3547,70 @@
       "historic-architecture",
       "street-energy"
     ],
-    "gemini_summary": "Rio de Janeiro is mainly framed through themes such as Street food, coffee, dust, diesel, and local aromas, Soft golden warmth, ancient streets, and romanticised walking, Ancient heat, stone, marble, and historic grandeur, Oppressive humid heat, sweat, dust, and bodily discomfort.\n\nDominant Gemini clusters in the corpus: Oppressive humid heat, sweat, dust, and bodily discomfort (50.0%); Street food, coffee, dust, diesel, and local aromas (30.0%); Soft golden warmth, ancient streets, and romanticised walking (10.0%)",
-    "perplexity_summary": "Dominant Perplexity clusters in the corpus: Vibrant neighbourhood life, cafés, colours, and social rhythm (44.4%); Street food, coffee, dust, diesel, and local aromas (33.3%); Structured sensory-guide style with heritage and overload framing (11.1%)\n\nGemini writes longer descriptions; Gemini uses more sensory vocabulary; Gemini is more emotionally intense; Gemini is more descriptively dense"
+    "model_clusters": {
+      "gemini": [
+        {
+          "theme": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+          "percentage": 50
+        },
+        {
+          "theme": "Street food, coffee, dust, diesel, and local aromas",
+          "percentage": 30
+        },
+        {
+          "theme": "Soft golden warmth, ancient streets, and romanticised walking",
+          "percentage": 10
+        }
+      ],
+      "perplexity": [
+        {
+          "theme": "Vibrant neighbourhood life, cafés, colours, and social rhythm",
+          "percentage": 44.44
+        },
+        {
+          "theme": "Street food, coffee, dust, diesel, and local aromas",
+          "percentage": 33.33
+        },
+        {
+          "theme": "Structured sensory-guide style with heritage and overload framing",
+          "percentage": 11.11
+        }
+      ]
+    },
+    "keywords": {
+      "gemini": [
+        "ocean",
+        "peaks",
+        "sand",
+        "sea",
+        "vibrant",
+        "samba",
+        "promenade",
+        "like",
+        "salt",
+        "distant"
+      ],
+      "perplexity": [
+        "samba",
+        "tropical",
+        "ocean",
+        "pork",
+        "art",
+        "food",
+        "homes",
+        "like",
+        "murals",
+        "life"
+      ],
+      "shared": [
+        "like",
+        "ocean",
+        "samba"
+      ]
+    },
+    "interesting_insight": "Rio de Janeiro is mainly framed through themes such as Street food, coffee, dust, diesel, and local aromas, Soft golden warmth, ancient streets, and romanticised walking, Ancient heat, stone, marble, and historic grandeur, Oppressive humid heat, sweat, dust, and bodily discomfort.",
+    "gemini_summary": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+    "perplexity_summary": "Vibrant neighbourhood life, cafés, colours, and social rhythm"
   },
   {
     "city": "Rome",
@@ -807,8 +3624,67 @@
       "historic-architecture",
       "modern-urban"
     ],
-    "gemini_summary": "Rome is mainly framed through themes such as Ancient heat, stone, marble, and historic grandeur, Highland hillsides, ochre stone, and terraced architecture, Structured sensory-guide style with heritage and overload framing, Golden-hour historic-modern contrast with glass towers and old stone.\n\nDominant Gemini clusters in the corpus: Highland hillsides, ochre stone, and terraced architecture (80.0%); Ancient heat, stone, marble, and historic grandeur (20.0%)",
-    "perplexity_summary": "Dominant Perplexity clusters in the corpus: Colonial/heritage cobblestones and old-quarter architecture (66.7%); Structured sensory-guide style with heritage and overload framing (22.2%); Golden-hour historic-modern contrast with glass towers and old stone (11.1%)\n\nGemini writes longer descriptions; Gemini uses more sensory vocabulary; Gemini is more emotionally intense; Gemini is more descriptively dense"
+    "model_clusters": {
+      "gemini": [
+        {
+          "theme": "Highland hillsides, ochre stone, and terraced architecture",
+          "percentage": 80
+        },
+        {
+          "theme": "Ancient heat, stone, marble, and historic grandeur",
+          "percentage": 20
+        }
+      ],
+      "perplexity": [
+        {
+          "theme": "Colonial/heritage cobblestones and old-quarter architecture",
+          "percentage": 66.67
+        },
+        {
+          "theme": "Structured sensory-guide style with heritage and overload framing",
+          "percentage": 22.22
+        },
+        {
+          "theme": "Golden-hour historic-modern contrast with glass towers and old stone",
+          "percentage": 11.11
+        }
+      ]
+    },
+    "keywords": {
+      "gemini": [
+        "ancient",
+        "stone",
+        "espresso",
+        "archway",
+        "vibrant",
+        "geraniums",
+        "fountain",
+        "centuries",
+        "crumbling",
+        "dark"
+      ],
+      "perplexity": [
+        "espresso",
+        "porcelain cups",
+        "stone",
+        "fountain",
+        "porcelain",
+        "clinking porcelain",
+        "weathered",
+        "linger",
+        "fresco",
+        "centuries"
+      ],
+      "shared": [
+        "centuries",
+        "espresso",
+        "fountain",
+        "stone"
+      ]
+    },
+    "interesting_insight": "Rome is mainly framed through themes such as Ancient heat, stone, marble, and historic grandeur, Highland hillsides, ochre stone, and terraced architecture, Structured sensory-guide style with heritage and overload framing, Golden-hour historic-modern contrast with glass towers and old stone.",
+    "gemini_summary": "Highland hillsides, ochre stone, and terraced architecture",
+    "perplexity_summary": "Colonial/heritage cobblestones and old-quarter architecture"
   },
   {
     "city": "San Juan",
@@ -825,8 +3701,69 @@
       "modern-urban",
       "street-energy"
     ],
-    "gemini_summary": "San Juan is mainly framed through themes such as Street food, coffee, dust, diesel, and local aromas, Soft golden warmth, ancient streets, and romanticised walking, Ancient heat, stone, marble, and historic grandeur, Vibrant neighbourhood life, cafés, colours, and social rhythm.\n\nDominant Gemini clusters in the corpus: Soft golden warmth, ancient streets, and romanticised walking (50.0%); Street food, coffee, dust, diesel, and local aromas (30.0%); Ancient heat, stone, marble, and historic grandeur (20.0%)",
-    "perplexity_summary": "Dominant Perplexity clusters in the corpus: Street food, coffee, dust, diesel, and local aromas (44.4%); Golden-hour historic-modern contrast with glass towers and old stone (22.2%); Structured sensory-guide style with heritage and overload framing (11.1%)\n\nGemini writes longer descriptions; Gemini uses more sensory vocabulary; Gemini is more emotionally intense; Gemini is more descriptively dense"
+    "model_clusters": {
+      "gemini": [
+        {
+          "theme": "Soft golden warmth, ancient streets, and romanticised walking",
+          "percentage": 50
+        },
+        {
+          "theme": "Street food, coffee, dust, diesel, and local aromas",
+          "percentage": 30
+        },
+        {
+          "theme": "Ancient heat, stone, marble, and historic grandeur",
+          "percentage": 20
+        }
+      ],
+      "perplexity": [
+        {
+          "theme": "Street food, coffee, dust, diesel, and local aromas",
+          "percentage": 44.44
+        },
+        {
+          "theme": "Golden-hour historic-modern contrast with glass towers and old stone",
+          "percentage": 22.22
+        },
+        {
+          "theme": "Structured sensory-guide style with heritage and overload framing",
+          "percentage": 11.11
+        }
+      ]
+    },
+    "keywords": {
+      "gemini": [
+        "salsa",
+        "centuries",
+        "ocean",
+        "plantains",
+        "vibrant",
+        "spanish",
+        "ancient",
+        "blue",
+        "bougainvillea",
+        "cerulean"
+      ],
+      "perplexity": [
+        "salsa",
+        "breeze",
+        "open",
+        "mingling",
+        "magenta",
+        "salt",
+        "bougainvillea",
+        "faint",
+        "dominoes",
+        "sea"
+      ],
+      "shared": [
+        "bougainvillea",
+        "salsa"
+      ]
+    },
+    "interesting_insight": "San Juan is mainly framed through themes such as Street food, coffee, dust, diesel, and local aromas, Soft golden warmth, ancient streets, and romanticised walking, Ancient heat, stone, marble, and historic grandeur, Vibrant neighbourhood life, cafés, colours, and social rhythm.",
+    "gemini_summary": "Soft golden warmth, ancient streets, and romanticised walking",
+    "perplexity_summary": "Street food, coffee, dust, diesel, and local aromas"
   },
   {
     "city": "Santiago",
@@ -843,8 +3780,68 @@
       "modern-urban",
       "street-energy"
     ],
-    "gemini_summary": "Santiago is mainly framed through themes such as Soft golden warmth, ancient streets, and romanticised walking, Ancient heat, stone, marble, and historic grandeur, Mixed warm urban atmosphere, rain, dust, high-rises, and movement, Harsh sun, thick air, mixed stone streets, and urban movement.\n\nDominant Gemini clusters in the corpus: Modern coastal harbour, salt air, glass, ferries, and urban movement (20.0%); Soft golden warmth, ancient streets, and romanticised walking (20.0%); Dusty sun-baked streets and uneven urban surfaces (20.0%)",
-    "perplexity_summary": "Dominant Perplexity clusters in the corpus: Golden-hour historic-modern contrast with glass towers and old stone (33.3%); Structured sensory-guide style with heritage and overload framing (22.2%); Vibrant neighbourhood life, cafés, colours, and social rhythm (22.2%)\n\nGemini writes longer descriptions; Perplexity uses more sensory vocabulary; Gemini is more emotionally intense; Gemini is more descriptively dense"
+    "model_clusters": {
+      "gemini": [
+        {
+          "theme": "Modern coastal harbour, salt air, glass, ferries, and urban movement",
+          "percentage": 20
+        },
+        {
+          "theme": "Soft golden warmth, ancient streets, and romanticised walking",
+          "percentage": 20
+        },
+        {
+          "theme": "Dusty sun-baked streets and uneven urban surfaces",
+          "percentage": 20
+        }
+      ],
+      "perplexity": [
+        {
+          "theme": "Golden-hour historic-modern contrast with glass towers and old stone",
+          "percentage": 33.33
+        },
+        {
+          "theme": "Structured sensory-guide style with heritage and overload framing",
+          "percentage": 22.22
+        },
+        {
+          "theme": "Vibrant neighbourhood life, cafés, colours, and social rhythm",
+          "percentage": 22.22
+        }
+      ]
+    },
+    "keywords": {
+      "gemini": [
+        "spanish",
+        "vibrant",
+        "mountains",
+        "neoclassical",
+        "jagged",
+        "peaks",
+        "distant",
+        "shoe shiner",
+        "shiner",
+        "students"
+      ],
+      "perplexity": [
+        "click",
+        "seafood",
+        "slap",
+        "teenagers",
+        "peanuts",
+        "instruments",
+        "heels",
+        "murals",
+        "vibrant",
+        "empanadas"
+      ],
+      "shared": [
+        "vibrant"
+      ]
+    },
+    "interesting_insight": "Santiago is mainly framed through themes such as Soft golden warmth, ancient streets, and romanticised walking, Ancient heat, stone, marble, and historic grandeur, Mixed warm urban atmosphere, rain, dust, high-rises, and movement, Harsh sun, thick air, mixed stone streets, and urban movement.",
+    "gemini_summary": "Modern coastal harbour, salt air, glass, ferries, and urban movement",
+    "perplexity_summary": "Golden-hour historic-modern contrast with glass towers and old stone"
   },
   {
     "city": "São Paulo",
@@ -858,8 +3855,69 @@
       "historic-architecture",
       "street-energy"
     ],
-    "gemini_summary": "Sa╠âo Paulo is mainly framed through themes such as Harsh sun, thick air, mixed stone streets, and urban movement, Dusty sun-baked streets and uneven urban surfaces, Mixed warm urban atmosphere, rain, dust, high-rises, and movement, Polluted metropolis, haze, greenery, and environmental contrast.\n\nDominant Gemini clusters in the corpus: Harsh sun, thick air, mixed stone streets, and urban movement (50.0%); Dusty sun-baked streets and uneven urban surfaces (40.0%); Mixed warm urban atmosphere, rain, dust, high-rises, and movement (10.0%)",
-    "perplexity_summary": "Dominant Perplexity clusters in the corpus: Polluted metropolis, haze, greenery, and environmental contrast (44.4%); Altitude, plateau, hills, and climate-based city identity (44.4%); Mixed warm urban atmosphere, rain, dust, high-rises, and movement (11.1%)\n\nGemini writes longer descriptions; Gemini uses more sensory vocabulary; Gemini is more emotionally intense; Gemini is more descriptively dense"
+    "model_clusters": {
+      "gemini": [
+        {
+          "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+          "percentage": 50
+        },
+        {
+          "theme": "Dusty sun-baked streets and uneven urban surfaces",
+          "percentage": 40
+        },
+        {
+          "theme": "Mixed warm urban atmosphere, rain, dust, high-rises, and movement",
+          "percentage": 10
+        }
+      ],
+      "perplexity": [
+        {
+          "theme": "Polluted metropolis, haze, greenery, and environmental contrast",
+          "percentage": 44.44
+        },
+        {
+          "theme": "Altitude, plateau, hills, and climate-based city identity",
+          "percentage": 44.44
+        },
+        {
+          "theme": "Mixed warm urban atmosphere, rain, dust, high-rises, and movement",
+          "percentage": 11.11
+        }
+      ]
+    },
+    "keywords": {
+      "gemini": [
+        "concrete",
+        "vibrant",
+        "relentless",
+        "past",
+        "urban",
+        "constant",
+        "graffiti",
+        "glass",
+        "sky",
+        "engines"
+      ],
+      "perplexity": [
+        "concrete",
+        "urban",
+        "atlantic",
+        "vertical",
+        "valleys",
+        "native",
+        "gardens",
+        "rivers",
+        "skyscrapers",
+        "dense"
+      ],
+      "shared": [
+        "concrete",
+        "urban"
+      ]
+    },
+    "interesting_insight": "Sa╠âo Paulo is mainly framed through themes such as Harsh sun, thick air, mixed stone streets, and urban movement, Dusty sun-baked streets and uneven urban surfaces, Mixed warm urban atmosphere, rain, dust, high-rises, and movement, Polluted metropolis, haze, greenery, and environmental contrast.",
+    "gemini_summary": "Harsh sun, thick air, mixed stone streets, and urban movement",
+    "perplexity_summary": "Polluted metropolis, haze, greenery, and environmental contrast"
   },
   {
     "city": "Seoul",
@@ -876,8 +3934,62 @@
       "modern-urban",
       "street-energy"
     ],
-    "gemini_summary": "Seoul is mainly framed through themes such as Dusty sun-baked streets and uneven urban surfaces, Harsh sun, thick air, mixed stone streets, and urban movement, Dense markets, humid alleys, food, and sensory street life, Mixed Middle Eastern / North African sensory urban framing.\n\nDominant Gemini clusters in the corpus: Dusty sun-baked streets and uneven urban surfaces (70.0%); Harsh sun, thick air, mixed stone streets, and urban movement (30.0%)",
-    "perplexity_summary": "Dominant Perplexity clusters in the corpus: West African markets, coffee, spices, and coastal street life (44.4%); Golden-hour historic-modern contrast with glass towers and old stone (22.2%); Dense markets, humid alleys, food, and sensory street life (11.1%)\n\nGemini writes longer descriptions; Gemini uses more sensory vocabulary; Gemini is more emotionally intense; Gemini is more descriptively dense"
+    "model_clusters": {
+      "gemini": [
+        {
+          "theme": "Dusty sun-baked streets and uneven urban surfaces",
+          "percentage": 70
+        },
+        {
+          "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+          "percentage": 30
+        }
+      ],
+      "perplexity": [
+        {
+          "theme": "West African markets, coffee, spices, and coastal street life",
+          "percentage": 44.44
+        },
+        {
+          "theme": "Golden-hour historic-modern contrast with glass towers and old stone",
+          "percentage": 22.22
+        },
+        {
+          "theme": "Dense markets, humid alleys, food, and sensory street life",
+          "percentage": 11.11
+        }
+      ]
+    },
+    "keywords": {
+      "gemini": [
+        "characters",
+        "impeccably",
+        "glass",
+        "delivery",
+        "pop",
+        "dressed",
+        "meticulously",
+        "screens",
+        "sharp",
+        "subway"
+      ],
+      "perplexity": [
+        "traditional",
+        "palace",
+        "wooden",
+        "alleyways",
+        "stone",
+        "fermented",
+        "antique",
+        "food",
+        "smooth",
+        "narrow alleyways"
+      ],
+      "shared": []
+    },
+    "interesting_insight": "Seoul is mainly framed through themes such as Dusty sun-baked streets and uneven urban surfaces, Harsh sun, thick air, mixed stone streets, and urban movement, Dense markets, humid alleys, food, and sensory street life, Mixed Middle Eastern / North African sensory urban framing.",
+    "gemini_summary": "Dusty sun-baked streets and uneven urban surfaces",
+    "perplexity_summary": "West African markets, coffee, spices, and coastal street life"
   },
   {
     "city": "Tallinn",
@@ -891,8 +4003,64 @@
       "historic-architecture",
       "modern-urban"
     ],
-    "gemini_summary": "Tallinn is mainly framed through themes such as Ancient heat, stone, marble, and historic grandeur, Highland hillsides, ochre stone, and terraced architecture, Golden-hour historic-modern contrast with glass towers and old stone, Colonial/heritage cobblestones and old-quarter architecture.\n\nDominant Gemini clusters in the corpus: Highland hillsides, ochre stone, and terraced architecture (70.0%); Ancient heat, stone, marble, and historic grandeur (30.0%)",
-    "perplexity_summary": "Dominant Perplexity clusters in the corpus: Colonial/heritage cobblestones and old-quarter architecture (77.8%); Ancient heat, stone, marble, and historic grandeur (11.1%); Golden-hour historic-modern contrast with glass towers and old stone (11.1%)\n\nPerplexity writes longer descriptions; Gemini uses more sensory vocabulary; Gemini is more emotionally intense; Gemini is more descriptively dense"
+    "model_clusters": {
+      "gemini": [
+        {
+          "theme": "Highland hillsides, ochre stone, and terraced architecture",
+          "percentage": 70
+        },
+        {
+          "theme": "Ancient heat, stone, marble, and historic grandeur",
+          "percentage": 30
+        }
+      ],
+      "perplexity": [
+        {
+          "theme": "Colonial/heritage cobblestones and old-quarter architecture",
+          "percentage": 77.78
+        },
+        {
+          "theme": "Ancient heat, stone, marble, and historic grandeur",
+          "percentage": 11.11
+        },
+        {
+          "theme": "Golden-hour historic-modern contrast with glass towers and old stone",
+          "percentage": 11.11
+        }
+      ]
+    },
+    "keywords": {
+      "gemini": [
+        "gabled",
+        "stone",
+        "ancient",
+        "boots",
+        "quiet",
+        "grey",
+        "cobblestones",
+        "distant",
+        "rough",
+        "accordion"
+      ],
+      "perplexity": [
+        "medieval",
+        "town",
+        "centuries",
+        "stone",
+        "onion",
+        "gothic",
+        "walls",
+        "church",
+        "spires",
+        "domes"
+      ],
+      "shared": [
+        "stone"
+      ]
+    },
+    "interesting_insight": "Tallinn is mainly framed through themes such as Ancient heat, stone, marble, and historic grandeur, Highland hillsides, ochre stone, and terraced architecture, Golden-hour historic-modern contrast with glass towers and old stone, Colonial/heritage cobblestones and old-quarter architecture.",
+    "gemini_summary": "Highland hillsides, ochre stone, and terraced architecture",
+    "perplexity_summary": "Colonial/heritage cobblestones and old-quarter architecture"
   },
   {
     "city": "Tehran",
@@ -906,8 +4074,64 @@
       "historic-architecture",
       "street-energy"
     ],
-    "gemini_summary": "Tehran is mainly framed through themes such as Ancient heat, stone, marble, and historic grandeur, Harsh sun, thick air, mixed stone streets, and urban movement, Dusty sun-baked streets and uneven urban surfaces, Oppressive humid heat, sweat, dust, and bodily discomfort.\n\nDominant Gemini clusters in the corpus: Highland hillsides, ochre stone, and terraced architecture (30.0%); Dusty sun-baked streets and uneven urban surfaces (30.0%); Ancient heat, stone, marble, and historic grandeur (20.0%)",
-    "perplexity_summary": "Dominant Perplexity clusters in the corpus: Polluted metropolis, haze, greenery, and environmental contrast (77.8%); Mixed warm urban atmosphere, rain, dust, high-rises, and movement (22.2%)\n\nGemini writes longer descriptions; Gemini uses more sensory vocabulary; Gemini is more emotionally intense; Gemini is more descriptively dense"
+    "model_clusters": {
+      "gemini": [
+        {
+          "theme": "Highland hillsides, ochre stone, and terraced architecture",
+          "percentage": 30
+        },
+        {
+          "theme": "Dusty sun-baked streets and uneven urban surfaces",
+          "percentage": 30
+        },
+        {
+          "theme": "Ancient heat, stone, marble, and historic grandeur",
+          "percentage": 20
+        }
+      ],
+      "perplexity": [
+        {
+          "theme": "Polluted metropolis, haze, greenery, and environmental contrast",
+          "percentage": 77.78
+        },
+        {
+          "theme": "Mixed warm urban atmosphere, rain, dust, high-rises, and movement",
+          "percentage": 22.22
+        }
+      ]
+    },
+    "keywords": {
+      "gemini": [
+        "pomegranates",
+        "men",
+        "vibrant",
+        "tea",
+        "women",
+        "aggressive",
+        "distant",
+        "headscarves",
+        "spilled",
+        "ancient"
+      ],
+      "perplexity": [
+        "mountains",
+        "modern",
+        "rugged",
+        "urban",
+        "distant",
+        "north",
+        "parks",
+        "modern rises",
+        "faint",
+        "prayer"
+      ],
+      "shared": [
+        "distant"
+      ]
+    },
+    "interesting_insight": "Tehran is mainly framed through themes such as Ancient heat, stone, marble, and historic grandeur, Harsh sun, thick air, mixed stone streets, and urban movement, Dusty sun-baked streets and uneven urban surfaces, Oppressive humid heat, sweat, dust, and bodily discomfort.",
+    "gemini_summary": "Highland hillsides, ochre stone, and terraced architecture",
+    "perplexity_summary": "Polluted metropolis, haze, greenery, and environmental contrast"
   },
   {
     "city": "Tokyo",
@@ -923,8 +4147,62 @@
       "modern-urban",
       "street-energy"
     ],
-    "gemini_summary": "Tokyo is mainly framed through themes such as Ancient heat, stone, marble, and historic grandeur, Dusty sun-baked streets and uneven urban surfaces, Modern coastal harbour, salt air, glass, ferries, and urban movement, Harsh sun, thick air, mixed stone streets, and urban movement.\n\nDominant Gemini clusters in the corpus: Dusty sun-baked streets and uneven urban surfaces (50.0%); Ancient heat, stone, marble, and historic grandeur (30.0%); Modern coastal harbour, salt air, glass, ferries, and urban movement (10.0%)",
-    "perplexity_summary": "Dominant Perplexity clusters in the corpus: Structured urban sensory journey and model-formatting style (88.9%); Golden-hour historic-modern contrast with glass towers and old stone (11.1%)\n\nGemini writes longer descriptions; Gemini uses more sensory vocabulary; Gemini is more emotionally intense; Gemini is more descriptively dense"
+    "model_clusters": {
+      "gemini": [
+        {
+          "theme": "Dusty sun-baked streets and uneven urban surfaces",
+          "percentage": 50
+        },
+        {
+          "theme": "Ancient heat, stone, marble, and historic grandeur",
+          "percentage": 30
+        },
+        {
+          "theme": "Modern coastal harbour, salt air, glass, ferries, and urban movement",
+          "percentage": 10
+        }
+      ],
+      "perplexity": [
+        {
+          "theme": "Structured urban sensory journey and model-formatting style",
+          "percentage": 88.89
+        },
+        {
+          "theme": "Golden-hour historic-modern contrast with glass towers and old stone",
+          "percentage": 11.11
+        }
+      ]
+    },
+    "keywords": {
+      "gemini": [
+        "polite",
+        "machines",
+        "dark",
+        "impeccably",
+        "clean",
+        "dark suits",
+        "meticulously",
+        "constant",
+        "train",
+        "vibrant"
+      ],
+      "perplexity": [
+        "digital",
+        "water",
+        "space",
+        "orchids",
+        "cool",
+        "barefoot",
+        "stars",
+        "lights",
+        "led",
+        "flowers"
+      ],
+      "shared": []
+    },
+    "interesting_insight": "Tokyo is mainly framed through themes such as Ancient heat, stone, marble, and historic grandeur, Dusty sun-baked streets and uneven urban surfaces, Modern coastal harbour, salt air, glass, ferries, and urban movement, Harsh sun, thick air, mixed stone streets, and urban movement.",
+    "gemini_summary": "Dusty sun-baked streets and uneven urban surfaces",
+    "perplexity_summary": "Structured urban sensory journey and model-formatting style"
   },
   {
     "city": "Toronto",
@@ -941,8 +4219,64 @@
       "modern-urban",
       "street-energy"
     ],
-    "gemini_summary": "Toronto is mainly framed through themes such as Dusty sun-baked streets and uneven urban surfaces, Harsh sun, thick air, mixed stone streets, and urban movement, Structured urban sensory journey and model-formatting style, Warm coastal/urban tapestry with palms, breeze, and mixed textures.\n\nDominant Gemini clusters in the corpus: Dusty sun-baked streets and uneven urban surfaces (80.0%); Harsh sun, thick air, mixed stone streets, and urban movement (20.0%)",
-    "perplexity_summary": "Dominant Perplexity clusters in the corpus: West African markets, coffee, spices, and coastal street life (33.3%); Warm coastal/urban tapestry with palms, breeze, and mixed textures (22.2%); Golden-hour historic-modern contrast with glass towers and old stone (22.2%)\n\nGemini writes longer descriptions; Perplexity uses more sensory vocabulary; Perplexity is more emotionally intense; Gemini is more descriptively dense"
+    "model_clusters": {
+      "gemini": [
+        {
+          "theme": "Dusty sun-baked streets and uneven urban surfaces",
+          "percentage": 80
+        },
+        {
+          "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+          "percentage": 20
+        }
+      ],
+      "perplexity": [
+        {
+          "theme": "West African markets, coffee, spices, and coastal street life",
+          "percentage": 33.33
+        },
+        {
+          "theme": "Warm coastal/urban tapestry with palms, breeze, and mixed textures",
+          "percentage": 22.22
+        },
+        {
+          "theme": "Golden-hour historic-modern contrast with glass towers and old stone",
+          "percentage": 22.22
+        }
+      ]
+    },
+    "keywords": {
+      "gemini": [
+        "clack",
+        "brick",
+        "past",
+        "clack clack",
+        "truck",
+        "suits",
+        "faint",
+        "distant",
+        "sky",
+        "urban"
+      ],
+      "perplexity": [
+        "restaurants",
+        "boutiques",
+        "cobblestone",
+        "winter",
+        "historic",
+        "vintage",
+        "urban",
+        "cozy",
+        "chill",
+        "cheeks"
+      ],
+      "shared": [
+        "urban"
+      ]
+    },
+    "interesting_insight": "Toronto is mainly framed through themes such as Dusty sun-baked streets and uneven urban surfaces, Harsh sun, thick air, mixed stone streets, and urban movement, Structured urban sensory journey and model-formatting style, Warm coastal/urban tapestry with palms, breeze, and mixed textures.",
+    "gemini_summary": "Dusty sun-baked streets and uneven urban surfaces",
+    "perplexity_summary": "West African markets, coffee, spices, and coastal street life"
   },
   {
     "city": "Ulaanbaatar",
@@ -956,8 +4290,66 @@
       "historic-architecture",
       "street-energy"
     ],
-    "gemini_summary": "Ulaanbaatar is mainly framed through themes such as Dusty sun-baked streets and uneven urban surfaces, Oppressive humid heat, sweat, dust, and bodily discomfort, Harsh sun, thick air, mixed stone streets, and urban movement, Polluted metropolis, haze, greenery, and environmental contrast.\n\nDominant Gemini clusters in the corpus: Dusty sun-baked streets and uneven urban surfaces (70.0%); Harsh sun, thick air, mixed stone streets, and urban movement (20.0%); Oppressive humid heat, sweat, dust, and bodily discomfort (10.0%)",
-    "perplexity_summary": "Dominant Perplexity clusters in the corpus: Polluted metropolis, haze, greenery, and environmental contrast (33.3%); Mixed warm urban atmosphere, rain, dust, high-rises, and movement (33.3%); Altitude, plateau, hills, and climate-based city identity (33.3%)\n\nGemini writes longer descriptions; Gemini uses more sensory vocabulary; Gemini is more emotionally intense; Gemini is more descriptively dense"
+    "model_clusters": {
+      "gemini": [
+        {
+          "theme": "Dusty sun-baked streets and uneven urban surfaces",
+          "percentage": 70
+        },
+        {
+          "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+          "percentage": 20
+        },
+        {
+          "theme": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+          "percentage": 10
+        }
+      ],
+      "perplexity": [
+        {
+          "theme": "Polluted metropolis, haze, greenery, and environmental contrast",
+          "percentage": 33.33
+        },
+        {
+          "theme": "Mixed warm urban atmosphere, rain, dust, high-rises, and movement",
+          "percentage": 33.33
+        },
+        {
+          "theme": "Altitude, plateau, hills, and climate-based city identity",
+          "percentage": 33.33
+        }
+      ]
+    },
+    "keywords": {
+      "gemini": [
+        "concrete",
+        "vast",
+        "dry",
+        "sharp",
+        "distant",
+        "sky",
+        "dough",
+        "construction",
+        "suits",
+        "concrete blocks"
+      ],
+      "perplexity": [
+        "soviet",
+        "roads",
+        "valley",
+        "apartment",
+        "traditional",
+        "areas",
+        "districts",
+        "avenue",
+        "urban",
+        "smoke"
+      ],
+      "shared": []
+    },
+    "interesting_insight": "Ulaanbaatar is mainly framed through themes such as Dusty sun-baked streets and uneven urban surfaces, Oppressive humid heat, sweat, dust, and bodily discomfort, Harsh sun, thick air, mixed stone streets, and urban movement, Polluted metropolis, haze, greenery, and environmental contrast.",
+    "gemini_summary": "Dusty sun-baked streets and uneven urban surfaces",
+    "perplexity_summary": "Polluted metropolis, haze, greenery, and environmental contrast"
   },
   {
     "city": "Vientiane",
@@ -974,8 +4366,69 @@
       "modern-urban",
       "street-energy"
     ],
-    "gemini_summary": "Vientiane is mainly framed through themes such as Street food, coffee, dust, diesel, and local aromas, Soft golden warmth, ancient streets, and romanticised walking, Ancient heat, stone, marble, and historic grandeur, Oppressive humid heat, sweat, dust, and bodily discomfort.\n\nDominant Gemini clusters in the corpus: Soft golden warmth, ancient streets, and romanticised walking (70.0%); Oppressive humid heat, sweat, dust, and bodily discomfort (10.0%); Street food, coffee, dust, diesel, and local aromas (10.0%)",
-    "perplexity_summary": "Dominant Perplexity clusters in the corpus: Dense markets, humid alleys, food, and sensory street life (33.3%); Street food, coffee, dust, diesel, and local aromas (22.2%); Structured sensory-guide style with heritage and overload framing (11.1%)\n\nGemini writes longer descriptions; Gemini uses more sensory vocabulary; Gemini is more emotionally intense; Gemini is more descriptively dense"
+    "model_clusters": {
+      "gemini": [
+        {
+          "theme": "Soft golden warmth, ancient streets, and romanticised walking",
+          "percentage": 70
+        },
+        {
+          "theme": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+          "percentage": 10
+        },
+        {
+          "theme": "Street food, coffee, dust, diesel, and local aromas",
+          "percentage": 10
+        }
+      ],
+      "perplexity": [
+        {
+          "theme": "Dense markets, humid alleys, food, and sensory street life",
+          "percentage": 33.33
+        },
+        {
+          "theme": "Street food, coffee, dust, diesel, and local aromas",
+          "percentage": 22.22
+        },
+        {
+          "theme": "Structured sensory-guide style with heritage and overload framing",
+          "percentage": 11.11
+        }
+      ]
+    },
+    "keywords": {
+      "gemini": [
+        "temple",
+        "frangipani",
+        "saffron robes",
+        "languid",
+        "saffron",
+        "robes",
+        "unhurried",
+        "quiet",
+        "tuk",
+        "chop"
+      ],
+      "perplexity": [
+        "temple",
+        "colonial buildings",
+        "french",
+        "temples",
+        "colonial",
+        "incense",
+        "river",
+        "frangipani",
+        "occasional",
+        "frangipani blossoms"
+      ],
+      "shared": [
+        "frangipani",
+        "temple"
+      ]
+    },
+    "interesting_insight": "Vientiane is mainly framed through themes such as Street food, coffee, dust, diesel, and local aromas, Soft golden warmth, ancient streets, and romanticised walking, Ancient heat, stone, marble, and historic grandeur, Oppressive humid heat, sweat, dust, and bodily discomfort.",
+    "gemini_summary": "Soft golden warmth, ancient streets, and romanticised walking",
+    "perplexity_summary": "Dense markets, humid alleys, food, and sensory street life"
   },
   {
     "city": "Warsaw",
@@ -991,7 +4444,68 @@
       "modern-urban",
       "street-energy"
     ],
-    "gemini_summary": "Warsaw is mainly framed through themes such as Modern coastal harbour, salt air, glass, ferries, and urban movement, Ancient heat, stone, marble, and historic grandeur, Dusty sun-baked streets and uneven urban surfaces, Highland hillsides, ochre stone, and terraced architecture.\n\nDominant Gemini clusters in the corpus: Highland hillsides, ochre stone, and terraced architecture (60.0%); Ancient heat, stone, marble, and historic grandeur (20.0%); Modern coastal harbour, salt air, glass, ferries, and urban movement (10.0%)",
-    "perplexity_summary": "Dominant Perplexity clusters in the corpus: Warm coastal/urban tapestry with palms, breeze, and mixed textures (55.6%); Golden-hour historic-modern contrast with glass towers and old stone (22.2%); Altitude, plateau, hills, and climate-based city identity (11.1%)\n\nGemini writes longer descriptions; Perplexity uses more sensory vocabulary; Gemini is more emotionally intense; Gemini is more descriptively dense"
+    "model_clusters": {
+      "gemini": [
+        {
+          "theme": "Highland hillsides, ochre stone, and terraced architecture",
+          "percentage": 60
+        },
+        {
+          "theme": "Ancient heat, stone, marble, and historic grandeur",
+          "percentage": 20
+        },
+        {
+          "theme": "Modern coastal harbour, salt air, glass, ferries, and urban movement",
+          "percentage": 10
+        }
+      ],
+      "perplexity": [
+        {
+          "theme": "Warm coastal/urban tapestry with palms, breeze, and mixed textures",
+          "percentage": 55.56
+        },
+        {
+          "theme": "Golden-hour historic-modern contrast with glass towers and old stone",
+          "percentage": 22.22
+        },
+        {
+          "theme": "Altitude, plateau, hills, and climate-based city identity",
+          "percentage": 11.11
+        }
+      ]
+    },
+    "keywords": {
+      "gemini": [
+        "quiet",
+        "bronze",
+        "tram",
+        "accordion",
+        "square",
+        "gabled",
+        "ancient",
+        "distant",
+        "past",
+        "sky"
+      ],
+      "perplexity": [
+        "trams",
+        "tram",
+        "cafés",
+        "distant",
+        "buildings",
+        "chill",
+        "quality",
+        "bark",
+        "notice",
+        "occasional"
+      ],
+      "shared": [
+        "distant",
+        "tram"
+      ]
+    },
+    "interesting_insight": "Warsaw is mainly framed through themes such as Modern coastal harbour, salt air, glass, ferries, and urban movement, Ancient heat, stone, marble, and historic grandeur, Dusty sun-baked streets and uneven urban surfaces, Highland hillsides, ochre stone, and terraced architecture.",
+    "gemini_summary": "Highland hillsides, ochre stone, and terraced architecture",
+    "perplexity_summary": "Warm coastal/urban tapestry with palms, breeze, and mixed textures"
   }
 ]

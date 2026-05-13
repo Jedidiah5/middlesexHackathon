@@ -98,17 +98,7 @@ export default function UrbanGlobe({
 
   const selectCity = useCallback(
     (c: City) => {
-      onSelectCity({
-        city: c.city,
-        country: c.country,
-        lat: c.lat,
-        lon: c.lon,
-        gemini_sentiment: c.gemini_sentiment,
-        perplexity_sentiment: c.perplexity_sentiment,
-        top_themes: c.top_themes,
-        gemini_summary: c.gemini_summary,
-        perplexity_summary: c.perplexity_summary,
-      });
+      onSelectCity(c);
     },
     [onSelectCity],
   );

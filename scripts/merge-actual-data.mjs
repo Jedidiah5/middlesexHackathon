@@ -43,21 +43,6 @@ function loadJson(p) {
   return JSON.parse(fs.readFileSync(p, "utf8"));
 }
 
-function formatClusterLine(label, entries) {
-  if (!entries?.length) return "";
-  return entries
-    .map(
-      (e) =>
-        `${e.theme} (${typeof e.percentage === "number" ? e.percentage.toFixed(1) : e.percentage}%)`,
-    )
-    .join("; ");
-}
-
-function clip(s, max = 1600) {
-  if (s.length <= max) return s;
-  return `${s.slice(0, max - 1).trim()}…`;
-}
-
 const perception = loadJson(PATH_PERCEPTION);
 const top3 = loadJson(PATH_TOP3);
 const base = loadJson(PATH_BASE);
@@ -81,21 +66,28 @@ for (const row of base) {
     continue;
   }
 
-  const gLine = formatClusterLine(
-    "Gemini",
-    top.models?.Gemini ?? top.models?.gemini,
+  const geminiClusters = (top.models?.Gemini ?? top.models?.gemini ?? []).map(
+    (e) => ({
+      theme: e.theme,
+      percentage: Number(e.percentage),
+    }),
   );
-  const pLine = formatClusterLine(
-    "Perplexity",
-    top.models?.Perplexity ?? top.models?.perplexity,
-  );
+  const perplexityClusters = (
+    top.models?.Perplexity ??
+    top.models?.perplexity ??
+    []
+  ).map((e) => ({
+    theme: e.theme,
+    percentage: Number(e.percentage),
+  }));
 
-  const gemini_summary = clip(
-    `${perc.interesting_insight ?? ""}\n\nDominant Gemini clusters in the corpus: ${gLine}`,
-  );
-  const perplexity_summary = clip(
-    `Dominant Perplexity clusters in the corpus: ${pLine}\n\n${perc.model_difference ?? ""}`,
-  );
+  const keywords = {
+    gemini: Array.isArray(perc.keywords?.gemini) ? [...perc.keywords.gemini] : [],
+    perplexity: Array.isArray(perc.keywords?.perplexity)
+      ? [...perc.keywords.perplexity]
+      : [],
+    shared: Array.isArray(perc.keywords?.shared) ? [...perc.keywords.shared] : [],
+  };
 
   merged.push({
     city: row.city,
@@ -107,8 +99,15 @@ for (const row of base) {
     top_themes: Array.isArray(perc.website_tags)
       ? [...perc.website_tags]
       : row.top_themes,
-    gemini_summary,
-    perplexity_summary,
+    model_clusters: {
+      gemini: geminiClusters,
+      perplexity: perplexityClusters,
+    },
+    keywords,
+    interesting_insight: perc.interesting_insight ?? "",
+    gemini_summary: geminiClusters[0]?.theme ?? row.gemini_summary ?? "",
+    perplexity_summary:
+      perplexityClusters[0]?.theme ?? row.perplexity_summary ?? "",
   });
 }
 

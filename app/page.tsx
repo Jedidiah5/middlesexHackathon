@@ -143,7 +143,12 @@ export default function Home() {
         </main>
       </div>
 
-      <CityPanel city={selectedCity} onClose={handleClosePanel} />
+      <CityPanel
+        city={selectedCity}
+        cities={cities}
+        onSelectCity={handleSelectCity}
+        onClose={handleClosePanel}
+      />
     </div>
     </>
   );
