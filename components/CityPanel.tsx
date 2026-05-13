@@ -42,15 +42,15 @@ export default function CityPanel({ city, onClose }: CityPanelProps) {
 
   return (
     <aside
-      className={`relative flex shrink-0 flex-col glass-card transition-[width,transform,opacity,border-color] duration-300 ease-out xl:h-auto xl:border-l xl:shadow-none ${
+      className={`flex shrink-0 flex-col glass-card transition-[width,transform,opacity,border-color] duration-300 ease-out max-xl:fixed max-xl:inset-x-0 max-xl:top-0 max-xl:z-50 max-xl:max-h-[min(92dvh,100%)] max-xl:w-full max-xl:overflow-hidden max-xl:border-x-0 max-xl:border-t-0 max-xl:border-b max-xl:rounded-b-2xl max-xl:pt-[max(0px,env(safe-area-inset-top))] xl:h-auto xl:border-l xl:shadow-none ${
         open
-          ? "pointer-events-auto fixed right-0 top-0 z-50 h-full w-full max-w-[420px] translate-x-0 border-l opacity-100 xl:relative xl:z-auto xl:max-w-none xl:translate-x-0 xl:self-stretch xl:border-l xl:opacity-100 xl:shadow-sm"
-          : "pointer-events-none fixed right-0 top-0 z-50 h-full w-full max-w-[420px] translate-x-full border-transparent opacity-0 xl:relative xl:z-auto xl:max-w-none xl:translate-x-0 xl:overflow-hidden xl:border-l-0 xl:opacity-100 xl:shadow-none"
-      } ${open ? "xl:w-[420px]" : "xl:w-0 xl:border-l-0"}`}
+          ? "pointer-events-auto max-xl:translate-y-0 max-xl:opacity-100 xl:relative xl:z-auto xl:h-auto xl:max-w-none xl:translate-x-0 xl:translate-y-0 xl:self-stretch xl:border-l xl:opacity-100 xl:shadow-sm"
+          : "pointer-events-none max-xl:-translate-y-full max-xl:opacity-0 xl:relative xl:z-auto xl:max-w-none xl:translate-x-0 xl:translate-y-0 xl:overflow-hidden xl:border-l-0 xl:opacity-100 xl:shadow-none"
+      } ${open ? "xl:w-[420px]" : "xl:w-0 xl:translate-x-0 xl:border-l-0"}`}
       aria-hidden={!open}
     >
       {city ? (
-        <div className="flex h-full min-h-0 flex-col">
+        <div className="flex min-h-0 flex-1 flex-col overflow-hidden">
           <div className="flex items-start justify-between gap-3 border-b border-black/10 px-5 py-4">
             <div>
               <h2 className="text-xl font-semibold tracking-tight text-black">
