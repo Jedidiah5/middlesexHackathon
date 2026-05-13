@@ -5,6 +5,7 @@ import type { City } from "@/lib/types";
 import StatBar from "@/components/StatBar";
 import WorldMap from "@/components/WorldMap";
 import CityPanel from "@/components/CityPanel";
+import ClaudeChatBubble from "@/components/ClaudeChatBubble";
 import ComparisonChart from "@/components/ComparisonChart";
 import ThemeExplorer from "@/components/ThemeExplorer";
 
@@ -153,6 +154,7 @@ export default function Home() {
         onClose={handleClosePanel}
       />
     </div>
+    <ClaudeChatBubble city={selectedCity} />
     </>
   );
 }
