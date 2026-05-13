@@ -25,9 +25,14 @@ const config: Config = {
           "0%, 100%": { transform: "scale(1)", opacity: "1" },
           "50%": { transform: "scale(1.12)", opacity: "0.92" },
         },
+        "fade-in": {
+          "0%": { opacity: "0" },
+          "100%": { opacity: "1" },
+        },
       },
       animation: {
         "marker-pulse": "marker-pulse 1.4s ease-in-out infinite",
+        "fade-in": "fade-in 0.45s ease-out forwards",
       },
     },
   },

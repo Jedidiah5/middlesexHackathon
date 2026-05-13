@@ -112,6 +112,9 @@ export default function CityPanel({
   const open = city !== null;
   const [geminiSnippet, setGeminiSnippet] = useState("");
   const [perplexitySnippet, setPerplexitySnippet] = useState("");
+  const [claudeQuestion, setClaudeQuestion] = useState("");
+  const [claudeAnswer, setClaudeAnswer] = useState("");
+  const [claudeLoading, setClaudeLoading] = useState(false);
 
   const similar = useMemo(() => {
     if (!city) return [];
@@ -133,6 +136,35 @@ export default function CityPanel({
     setGeminiSnippet(poolG.length ? poolG[Math.floor(Math.random() * poolG.length)]! : "");
     setPerplexitySnippet(poolP.length ? poolP[Math.floor(Math.random() * poolP.length)]! : "");
   }, [city?.city, city?.model_clusters, city?.keywords]);
+
+  useEffect(() => {
+    setClaudeQuestion("");
+    setClaudeAnswer("");
+    setClaudeLoading(false);
+  }, [city?.city]);
+
+  const askClaude = async () => {
+    if (!city || !claudeQuestion.trim()) return;
+    setClaudeLoading(true);
+    setClaudeAnswer("");
+    try {
+      const res = await fetch("/api/chat", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ message: claudeQuestion.trim(), city }),
+      });
+      const data = (await res.json()) as { reply?: string; error?: string };
+      if (!res.ok) {
+        setClaudeAnswer(data.error ?? `Request failed (${res.status})`);
+        return;
+      }
+      setClaudeAnswer(data.reply ?? "");
+    } catch {
+      setClaudeAnswer("Could not reach the chat service. Try again.");
+    } finally {
+      setClaudeLoading(false);
+    }
+  };
 
   const g = city?.model_clusters?.gemini ?? [];
   const p = city?.model_clusters?.perplexity ?? [];
@@ -191,122 +223,156 @@ export default function CityPanel({
             <SentimentTick value={city.perplexity_sentiment} label="Perplexity" color="#525252" />
           </div>
 
-          {rich ? (
-            <div className="min-h-0 flex-1 overflow-y-auto px-5 pb-6 scrollbar-thin">
-              <div className="mt-4 grid gap-3 md:grid-cols-2">
-                <div className="glass-card--dense rounded-xl p-3">
-                  <p className="mb-1 text-[10px] font-semibold uppercase tracking-wider text-accent">Gemini</p>
-                  <p className="text-sm font-medium leading-snug text-black">&ldquo;{geminiSnippet}&rdquo;</p>
-                </div>
-                <div className="glass-card--dense rounded-xl p-3">
-                  <p className="mb-1 text-[10px] font-semibold uppercase tracking-wider text-black/55">
-                    Perplexity
-                  </p>
-                  <p className="text-sm font-medium leading-snug text-black">&ldquo;{perplexitySnippet}&rdquo;</p>
-                </div>
-              </div>
+          <div className="flex min-h-0 flex-1 flex-col">
+            <div className="min-h-0 flex-1 overflow-y-auto px-5 pb-3 scrollbar-thin">
+              {rich ? (
+                <>
+                  <div className="mt-4 grid gap-3 md:grid-cols-2">
+                    <div className="glass-card--dense rounded-xl p-3">
+                      <p className="mb-1 text-[10px] font-semibold uppercase tracking-wider text-accent">Gemini</p>
+                      <p className="text-sm font-medium leading-snug text-black">&ldquo;{geminiSnippet}&rdquo;</p>
+                    </div>
+                    <div className="glass-card--dense rounded-xl p-3">
+                      <p className="mb-1 text-[10px] font-semibold uppercase tracking-wider text-black/55">
+                        Perplexity
+                      </p>
+                      <p className="text-sm font-medium leading-snug text-black">&ldquo;{perplexitySnippet}&rdquo;</p>
+                    </div>
+                  </div>
 
-              {city.interesting_insight ? (
-                <div className="mt-4 rounded-xl border border-black/10 bg-white/30 px-4 py-3">
-                  <p className="mb-2 text-[11px] font-semibold uppercase tracking-wider text-black/55">
-                    Interesting insight
-                  </p>
-                  <p className="text-sm leading-relaxed text-black/85">{city.interesting_insight}</p>
+                  {city.interesting_insight ? (
+                    <div className="mt-4 rounded-xl border border-black/10 bg-white/30 px-4 py-3">
+                      <p className="mb-2 text-[11px] font-semibold uppercase tracking-wider text-black/55">
+                        Interesting insight
+                      </p>
+                      <p className="text-sm leading-relaxed text-black/85">{city.interesting_insight}</p>
+                    </div>
+                  ) : null}
+
+                  <div className="mt-6 grid gap-4 sm:grid-cols-2">
+                    <div className="text-center sm:text-left">
+                      <p className="text-[10px] font-semibold uppercase tracking-wider text-accent">Gemini · top share</p>
+                      <p className="mt-1 text-5xl font-bold tabular-nums leading-none tracking-tight text-black sm:text-6xl">
+                        {g[0] ? formatPct(g[0].percentage) : "—"}
+                      </p>
+                      <p className="mt-2 text-xs leading-snug text-black/75">{g[0]?.theme}</p>
+                    </div>
+                    <div className="text-center sm:text-left">
+                      <p className="text-[10px] font-semibold uppercase tracking-wider text-black/55">
+                        Perplexity · top share
+                      </p>
+                      <p className="mt-1 text-5xl font-bold tabular-nums leading-none tracking-tight text-black sm:text-6xl">
+                        {p[0] ? formatPct(p[0].percentage) : "—"}
+                      </p>
+                      <p className="mt-2 text-xs leading-snug text-black/75">{p[0]?.theme}</p>
+                    </div>
+                  </div>
+
+                  <div className="mt-6 grid gap-3 sm:grid-cols-2">
+                    <ClusterRows label="Gemini themes" rows={g} pctClass="text-2xl font-bold tabular-nums w-[4.25rem] shrink-0" />
+                    <ClusterRows
+                      label="Perplexity themes"
+                      rows={p}
+                      pctClass="text-2xl font-bold tabular-nums w-[4.25rem] shrink-0"
+                    />
+                  </div>
+
+                  <div className="mt-6 space-y-4">
+                    <div>
+                      <p className="mb-2 text-[11px] font-semibold uppercase tracking-wider text-accent">
+                        Gemini keywords
+                      </p>
+                      <KeywordChips items={city.keywords?.gemini ?? []} emptyLabel="No keywords listed." />
+                    </div>
+                    <div>
+                      <p className="mb-2 text-[11px] font-semibold uppercase tracking-wider text-black/55">
+                        Perplexity keywords
+                      </p>
+                      <KeywordChips items={city.keywords?.perplexity ?? []} emptyLabel="No keywords listed." />
+                    </div>
+                    <div>
+                      <p className="mb-2 text-[11px] font-semibold uppercase tracking-wider text-black/55">
+                        Shared keywords
+                      </p>
+                      <KeywordChips items={city.keywords?.shared ?? []} emptyLabel="No shared keywords." />
+                    </div>
+                  </div>
+
+                  <div className="mt-6 pb-2">
+                    <p className="mb-2 text-[11px] font-semibold uppercase tracking-wider text-black/55">
+                      Website tags
+                    </p>
+                    <div className="flex flex-wrap gap-2">
+                      {city.top_themes.map((t) => (
+                        <span
+                          key={t}
+                          className="glass-chip rounded-full border-black/10 px-3 py-1 text-xs text-black"
+                        >
+                          {t}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                </>
+              ) : (
+                <>
+                  <div className="mt-4 space-y-4">
+                    <div className="glass-card--dense rounded-xl p-4">
+                      <p className="mb-2 text-xs font-semibold text-accent">Gemini</p>
+                      <p className="text-sm leading-relaxed text-black/80">{city.gemini_summary}</p>
+                    </div>
+                    <div className="glass-card--dense rounded-xl p-4">
+                      <p className="mb-2 text-xs font-semibold text-accent">Perplexity</p>
+                      <p className="text-sm leading-relaxed text-black/80">{city.perplexity_summary}</p>
+                    </div>
+                  </div>
+                  <div className="mt-6 pb-2">
+                    <p className="mb-2 text-[11px] font-semibold uppercase tracking-wider text-black/55">Themes</p>
+                    <div className="flex flex-wrap gap-2">
+                      {city.top_themes.map((t) => (
+                        <span
+                          key={t}
+                          className="glass-chip rounded-full border-black/10 px-3 py-1 text-xs text-black"
+                        >
+                          {t}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                </>
+              )}
+            </div>
+
+            <div className="shrink-0 border-t border-black/10 bg-white/25 px-5 py-4 backdrop-blur-md">
+              <h3 className="text-sm font-semibold tracking-tight text-black">Ask Claude</h3>
+              <p className="mt-1 text-xs text-black/55">Ask Claude about this city</p>
+              <textarea
+                className="mt-3 w-full resize-none rounded-lg border border-black/15 bg-white/50 p-3 text-sm text-black shadow-inner placeholder:text-black/35 focus:border-accent focus:outline-none focus:ring-1 focus:ring-accent/30"
+                rows={2}
+                placeholder="Why is this city described this way?"
+                value={claudeQuestion}
+                onChange={(e) => setClaudeQuestion(e.target.value)}
+                disabled={claudeLoading}
+                aria-label="Question for Claude"
+              />
+              <button
+                type="button"
+                onClick={askClaude}
+                disabled={claudeLoading || !claudeQuestion.trim()}
+                className="mt-2 w-full rounded-lg bg-blue-600 py-2 text-sm font-medium text-white shadow-sm transition hover:bg-blue-500 disabled:cursor-not-allowed disabled:opacity-50"
+              >
+                {claudeLoading ? "Thinking..." : "Send"}
+              </button>
+              {claudeAnswer ? (
+                <div
+                  key={claudeAnswer.slice(0, 120)}
+                  className="animate-fade-in mt-3 rounded-lg border border-black/10 bg-white/45 p-3 text-sm leading-relaxed text-black/85 shadow-sm"
+                >
+                  {claudeAnswer}
                 </div>
               ) : null}
-
-              <div className="mt-6 grid gap-4 sm:grid-cols-2">
-                <div className="text-center sm:text-left">
-                  <p className="text-[10px] font-semibold uppercase tracking-wider text-accent">Gemini · top share</p>
-                  <p className="mt-1 text-5xl font-bold tabular-nums leading-none tracking-tight text-black sm:text-6xl">
-                    {g[0] ? formatPct(g[0].percentage) : "—"}
-                  </p>
-                  <p className="mt-2 text-xs leading-snug text-black/75">{g[0]?.theme}</p>
-                </div>
-                <div className="text-center sm:text-left">
-                  <p className="text-[10px] font-semibold uppercase tracking-wider text-black/55">
-                    Perplexity · top share
-                  </p>
-                  <p className="mt-1 text-5xl font-bold tabular-nums leading-none tracking-tight text-black sm:text-6xl">
-                    {p[0] ? formatPct(p[0].percentage) : "—"}
-                  </p>
-                  <p className="mt-2 text-xs leading-snug text-black/75">{p[0]?.theme}</p>
-                </div>
-              </div>
-
-              <div className="mt-6 grid gap-3 sm:grid-cols-2">
-                <ClusterRows label="Gemini themes" rows={g} pctClass="text-2xl font-bold tabular-nums w-[4.25rem] shrink-0" />
-                <ClusterRows
-                  label="Perplexity themes"
-                  rows={p}
-                  pctClass="text-2xl font-bold tabular-nums w-[4.25rem] shrink-0"
-                />
-              </div>
-
-              <div className="mt-6 space-y-4">
-                <div>
-                  <p className="mb-2 text-[11px] font-semibold uppercase tracking-wider text-accent">
-                    Gemini keywords
-                  </p>
-                  <KeywordChips items={city.keywords?.gemini ?? []} emptyLabel="No keywords listed." />
-                </div>
-                <div>
-                  <p className="mb-2 text-[11px] font-semibold uppercase tracking-wider text-black/55">
-                    Perplexity keywords
-                  </p>
-                  <KeywordChips items={city.keywords?.perplexity ?? []} emptyLabel="No keywords listed." />
-                </div>
-                <div>
-                  <p className="mb-2 text-[11px] font-semibold uppercase tracking-wider text-black/55">
-                    Shared keywords
-                  </p>
-                  <KeywordChips items={city.keywords?.shared ?? []} emptyLabel="No shared keywords." />
-                </div>
-              </div>
-
-              <div className="mt-6">
-                <p className="mb-2 text-[11px] font-semibold uppercase tracking-wider text-black/55">
-                  Website tags
-                </p>
-                <div className="flex flex-wrap gap-2">
-                  {city.top_themes.map((t) => (
-                    <span
-                      key={t}
-                      className="glass-chip rounded-full border-black/10 px-3 py-1 text-xs text-black"
-                    >
-                      {t}
-                    </span>
-                  ))}
-                </div>
-              </div>
             </div>
-          ) : (
-            <div className="min-h-0 flex-1 overflow-y-auto px-5 pb-6 scrollbar-thin">
-              <div className="mt-4 space-y-4">
-                <div className="glass-card--dense rounded-xl p-4">
-                  <p className="mb-2 text-xs font-semibold text-accent">Gemini</p>
-                  <p className="text-sm leading-relaxed text-black/80">{city.gemini_summary}</p>
-                </div>
-                <div className="glass-card--dense rounded-xl p-4">
-                  <p className="mb-2 text-xs font-semibold text-accent">Perplexity</p>
-                  <p className="text-sm leading-relaxed text-black/80">{city.perplexity_summary}</p>
-                </div>
-              </div>
-              <div className="mt-6">
-                <p className="mb-2 text-[11px] font-semibold uppercase tracking-wider text-black/55">Themes</p>
-                <div className="flex flex-wrap gap-2">
-                  {city.top_themes.map((t) => (
-                    <span
-                      key={t}
-                      className="glass-chip rounded-full border-black/10 px-3 py-1 text-xs text-black"
-                    >
-                      {t}
-                    </span>
-                  ))}
-                </div>
-              </div>
-            </div>
-          )}
+          </div>
         </div>
       ) : null}
     </aside>

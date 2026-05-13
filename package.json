@@ -10,6 +10,7 @@
     "merge:cities": "node scripts/merge-actual-data.mjs"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.95.2",
     "next": "14.2.35",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
