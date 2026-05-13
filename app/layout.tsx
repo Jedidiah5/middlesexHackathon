@@ -27,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${dmSans.variable} ${jetbrains.variable} min-h-screen bg-white font-sans text-neutral-900`}
+        className={`${dmSans.variable} ${jetbrains.variable} min-h-screen bg-white font-sans text-black`}
       >
         {children}
       </body>

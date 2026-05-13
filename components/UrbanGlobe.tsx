@@ -56,7 +56,7 @@ export default function UrbanGlobe({
           color: sentimentToMono(avg),
           altitude: 0.014,
           radius: sel ? 0.64 : hi ? 0.52 : 0.4,
-          label: `<div style="padding:8px 12px;background:#0a0a0a;color:#fafafa;border-radius:10px;font-size:12px;font-family:system-ui,sans-serif;box-shadow:0 4px 20px rgba(0,0,0,0.25)"><strong>${c.city}</strong><br/><span style="opacity:0.75">avg ${avg.toFixed(2)}</span></div>`,
+          label: `<div style="padding:8px 12px;background:#fff;color:#0a0a0a;border:1px solid rgba(0,0,0,0.12);border-radius:10px;font-size:12px;font-family:system-ui,sans-serif;box-shadow:0 4px 20px rgba(0,0,0,0.08)"><strong style="color:#15803d">${c.city}</strong><br/><span style="color:rgba(0,0,0,0.55)">avg ${avg.toFixed(2)}</span></div>`,
         };
       }),
     [cities, selectedCity, highlightedCity],

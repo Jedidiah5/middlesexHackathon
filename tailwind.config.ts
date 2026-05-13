@@ -11,8 +11,10 @@ const config: Config = {
       colors: {
         gemini: "#171717",
         perplexity: "#404040",
-        surface: "#fafafa",
+        surface: "#ffffff",
         "surface-elevated": "#ffffff",
+        /** Accent green for selective emphasis on B&W UI */
+        accent: "#15803d",
       },
       fontFamily: {
         sans: ["var(--font-sans)", "system-ui", "sans-serif"],

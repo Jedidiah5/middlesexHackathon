@@ -12,24 +12,24 @@ function SentimentTick({ value, label, color }: { value: number; label: string; 
   return (
     <div>
       <div className="mb-1 flex items-center justify-between text-xs">
-        <span className="font-medium text-neutral-500">{label}</span>
-        <span className="font-mono text-neutral-900">{value.toFixed(2)}</span>
+        <span className="font-medium text-black/60">{label}</span>
+        <span className="font-mono text-black">{value.toFixed(2)}</span>
       </div>
-      <div className="relative h-2 overflow-hidden rounded-full bg-neutral-200">
+      <div className="relative h-2 overflow-hidden rounded-full border border-black/10 bg-white">
         <div
-          className="absolute inset-y-0 left-0 w-1/2 bg-gradient-to-r from-neutral-400/50 to-transparent"
+          className="absolute inset-y-0 left-0 w-1/2 bg-gradient-to-r from-black/10 to-transparent"
           aria-hidden
         />
         <div
-          className="absolute inset-y-0 right-0 w-1/2 bg-gradient-to-l from-neutral-300/50 to-transparent"
+          className="absolute inset-y-0 right-0 w-1/2 bg-gradient-to-l from-black/8 to-transparent"
           aria-hidden
         />
         <div
-          className="absolute top-1/2 h-3 w-0.5 -translate-x-1/2 -translate-y-1/2 rounded-full bg-neutral-950 shadow"
+          className="absolute top-1/2 h-3 w-0.5 -translate-x-1/2 -translate-y-1/2 rounded-full bg-black shadow"
           style={{ left: `${pct}%` }}
         />
         <div
-          className="absolute top-1/2 h-2 w-2 -translate-x-1/2 -translate-y-1/2 rounded-full border border-neutral-950 shadow-md"
+          className="absolute top-1/2 h-2 w-2 -translate-x-1/2 -translate-y-1/2 rounded-full border border-black shadow-md"
           style={{ left: `${pct}%`, backgroundColor: color }}
         />
       </div>
@@ -42,7 +42,7 @@ export default function CityPanel({ city, onClose }: CityPanelProps) {
 
   return (
     <aside
-      className={`relative flex shrink-0 flex-col border-neutral-200 bg-white shadow-2xl transition-[width,transform,opacity,border-color] duration-300 ease-out xl:h-auto xl:border-l xl:shadow-sm ${
+      className={`relative flex shrink-0 flex-col border-black/10 bg-white shadow-2xl transition-[width,transform,opacity,border-color] duration-300 ease-out xl:h-auto xl:border-l xl:shadow-sm ${
         open
           ? "pointer-events-auto fixed right-0 top-0 z-50 h-full w-full max-w-[420px] translate-x-0 border-l opacity-100 xl:relative xl:z-auto xl:max-w-none xl:translate-x-0 xl:self-stretch xl:border-l xl:opacity-100 xl:shadow-sm"
           : "pointer-events-none fixed right-0 top-0 z-50 h-full w-full max-w-[420px] translate-x-full border-transparent opacity-0 xl:relative xl:z-auto xl:max-w-none xl:translate-x-0 xl:overflow-hidden xl:border-l-0 xl:opacity-100 xl:shadow-none"
@@ -51,17 +51,17 @@ export default function CityPanel({ city, onClose }: CityPanelProps) {
     >
       {city ? (
         <div className="flex h-full min-h-0 flex-col">
-          <div className="flex items-start justify-between gap-3 border-b border-neutral-200 px-5 py-4">
+          <div className="flex items-start justify-between gap-3 border-b border-black/10 px-5 py-4">
             <div>
-              <h2 className="text-xl font-semibold tracking-tight text-neutral-950">
+              <h2 className="text-xl font-semibold tracking-tight text-black">
                 {city.city}
               </h2>
-              <p className="text-sm text-neutral-500">{city.country}</p>
+              <p className="text-sm text-black/60">{city.country}</p>
             </div>
             <button
               type="button"
               onClick={onClose}
-              className="rounded-lg border border-neutral-300 p-2 text-neutral-500 transition hover:border-neutral-400 hover:bg-neutral-100 hover:text-neutral-900"
+              className="rounded-lg border border-black/15 p-2 text-black/50 transition hover:border-black/25 hover:bg-black/[0.03] hover:text-black"
               aria-label="Close panel"
             >
               <svg className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -84,35 +84,35 @@ export default function CityPanel({ city, onClose }: CityPanelProps) {
           </div>
 
           <div className="min-h-0 flex-1 overflow-y-auto px-5 pb-6 scrollbar-thin">
-            <p className="mb-3 text-[11px] font-semibold uppercase tracking-wider text-neutral-500">
+            <p className="mb-3 text-[11px] font-semibold uppercase tracking-wider text-accent">
               Model narratives
             </p>
             <div className="grid gap-4 sm:grid-cols-2">
-              <div className="rounded-xl border border-neutral-200 bg-neutral-50 p-4">
-                <p className="mb-2 text-xs font-semibold text-neutral-950">Gemini</p>
-                <p className="text-sm leading-relaxed text-neutral-700">
+              <div className="rounded-xl border border-black/10 bg-white p-4">
+                <p className="mb-2 text-xs font-semibold text-accent">Gemini</p>
+                <p className="text-sm leading-relaxed text-black/80">
                   {city.gemini_summary}
                 </p>
               </div>
-              <div className="rounded-xl border border-neutral-300 bg-neutral-100/60 p-4">
-                <p className="mb-2 text-xs font-semibold text-neutral-700">
+              <div className="rounded-xl border border-black/10 bg-white p-4">
+                <p className="mb-2 text-xs font-semibold text-accent">
                   Perplexity
                 </p>
-                <p className="text-sm leading-relaxed text-neutral-700">
+                <p className="text-sm leading-relaxed text-black/80">
                   {city.perplexity_summary}
                 </p>
               </div>
             </div>
 
             <div className="mt-6">
-              <p className="mb-2 text-[11px] font-semibold uppercase tracking-wider text-neutral-500">
+              <p className="mb-2 text-[11px] font-semibold uppercase tracking-wider text-black/55">
                 Top themes
               </p>
               <div className="flex flex-wrap gap-2">
                 {city.top_themes.map((t) => (
                   <span
                     key={t}
-                    className="rounded-full border border-neutral-300 bg-white px-3 py-1 text-xs text-neutral-800"
+                    className="rounded-full border border-black/15 bg-white px-3 py-1 text-xs text-black"
                   >
                     {t}
                   </span>

@@ -7,12 +7,12 @@
 }
 
 body {
-  @apply bg-white text-neutral-900 antialiased;
+  @apply bg-white text-black antialiased;
 }
 
 @layer utilities {
   .scrollbar-thin {
     scrollbar-width: thin;
-    scrollbar-color: rgb(212 212 212) transparent;
+    scrollbar-color: rgb(0 0 0 / 0.2) transparent;
   }
 }

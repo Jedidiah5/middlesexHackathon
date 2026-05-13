@@ -81,29 +81,32 @@ export default function Home() {
       {selectedCity ? (
         <button
           type="button"
-          className="fixed inset-0 z-40 bg-neutral-900/35 backdrop-blur-[2px] transition-opacity xl:hidden"
+          className="fixed inset-0 z-40 bg-black/25 backdrop-blur-[2px] transition-opacity xl:hidden"
           aria-label="Close city panel"
           onClick={handleClosePanel}
         />
       ) : null}
       <div className="mx-auto flex min-h-screen w-full max-w-[1600px] flex-col xl:flex-row xl:items-stretch">
       <div className="flex min-w-0 flex-1 flex-col">
-        <header className="border-b border-neutral-200 bg-white px-6 py-10 lg:px-10 lg:py-12">
-          <h1 className="text-3xl font-semibold tracking-tight text-neutral-950 sm:text-4xl lg:text-5xl">
+        <header className="border-b border-black/10 bg-white px-6 py-10 lg:px-10 lg:py-12">
+          <h1 className="text-3xl font-semibold tracking-tight text-black sm:text-4xl lg:text-5xl">
             Urban Lens
           </h1>
-          <p className="mt-3 max-w-2xl text-base text-neutral-600 sm:text-lg">
-            How AI sees the world&apos;s cities
+          <p className="mt-3 max-w-2xl text-base text-black sm:text-lg">
+            How <span className="font-medium text-accent">AI perceives</span>{" "}
+            the world&apos;s cities
           </p>
-          <p className="mt-2 max-w-2xl text-sm text-neutral-500">
-            Interactive 3D globe with side-by-side sentiment from Gemini and
-            Perplexity — static export data for this demo.
+          <p className="mt-2 max-w-2xl text-sm text-black/70">
+            Interactive 3D globe with side-by-side sentiment from{" "}
+            <span className="font-medium text-accent">Gemini</span> and{" "}
+            <span className="font-medium text-accent">Perplexity</span> — static
+            export data for this demo.
           </p>
         </header>
 
-        <main className="flex flex-1 flex-col gap-8 bg-neutral-50/80 px-6 py-8 lg:gap-10 lg:px-10 lg:py-10">
+        <main className="flex flex-1 flex-col gap-8 bg-white px-6 py-8 lg:gap-10 lg:px-10 lg:py-10">
           {loadError ? (
-            <div className="rounded-xl border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-900">
+            <div className="rounded-xl border border-black/15 bg-white px-4 py-3 text-sm text-black">
               {loadError}
             </div>
           ) : null}
@@ -129,9 +132,10 @@ export default function Home() {
             onToggleTheme={toggleTheme}
           />
 
-          <footer className="border-t border-neutral-200 pt-6 text-xs text-neutral-500">
-            Static demo data from{" "}
-            <code className="rounded bg-neutral-100 px-1 py-0.5 text-neutral-700">
+          <footer className="border-t border-black/10 pt-6 text-xs text-black/60">
+            <span className="font-medium text-accent">Static demo</span> — data
+            from{" "}
+            <code className="rounded border border-black/10 bg-white px-1 py-0.5 text-black">
               /public/cities_data.json
             </code>
             . Globe textures load from a public CDN (no backend APIs).

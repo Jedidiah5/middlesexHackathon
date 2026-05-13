@@ -41,22 +41,24 @@ export default function ComparisonChart({
     .sort((a, b) => b.avg - a.avg);
 
   return (
-    <div className="rounded-2xl border border-neutral-200 bg-white p-4 shadow-sm lg:p-6">
+    <div className="rounded-2xl border border-black/10 bg-white p-4 shadow-sm lg:p-6">
       <div className="mb-4 flex flex-col gap-1 sm:flex-row sm:items-end sm:justify-between">
         <div>
-          <h3 className="text-lg font-semibold text-neutral-950">
+          <h3 className="text-lg font-semibold text-black">
             Gemini vs Perplexity
           </h3>
-          <p className="text-sm text-neutral-600">
-            Sentiment by city (click a bar to highlight on the globe)
+          <p className="text-sm text-black/70">
+            Sentiment by city — click a bar to{" "}
+            <span className="font-medium text-accent">highlight on the globe</span>
           </p>
         </div>
-        <div className="flex gap-4 text-xs text-neutral-500">
+        <div className="flex gap-4 text-xs text-black/60">
           <span className="flex items-center gap-1.5">
-            <span className="h-2 w-2 rounded-sm bg-gemini" /> Gemini
+            <span className="h-2 w-2 rounded-sm bg-accent" />{" "}
+            <span className="font-medium text-accent">Gemini</span>
           </span>
           <span className="flex items-center gap-1.5">
-            <span className="h-2 w-2 rounded-sm bg-perplexity" /> Perplexity
+            <span className="h-2 w-2 rounded-sm bg-black" /> Perplexity
           </span>
         </div>
       </div>
@@ -72,31 +74,31 @@ export default function ComparisonChart({
             barCategoryGap={18}
             barGap={6}
           >
-            <CartesianGrid strokeDasharray="3 3" stroke="#e5e5e5" horizontal={false} />
+            <CartesianGrid strokeDasharray="3 3" stroke="#00000014" horizontal={false} />
             <XAxis
               type="number"
               domain={[-1, 1]}
               tickCount={9}
-              stroke="#a3a3a3"
-              tick={{ fill: "#525252", fontSize: 11 }}
+              stroke="#00000033"
+              tick={{ fill: "#00000099", fontSize: 11 }}
             />
             <YAxis
               type="category"
               dataKey="city"
               width={88}
-              stroke="#a3a3a3"
-              tick={{ fill: "#171717", fontSize: 12 }}
+              stroke="#00000033"
+              tick={{ fill: "#000000", fontSize: 12 }}
             />
             <Tooltip
               cursor={{ fill: "rgba(0, 0, 0, 0.04)" }}
               contentStyle={{
                 backgroundColor: "#ffffff",
-                border: "1px solid #e5e5e5",
+                border: "1px solid rgba(0,0,0,0.12)",
                 borderRadius: "10px",
                 fontSize: "12px",
                 boxShadow: "0 8px 30px rgba(0,0,0,0.08)",
               }}
-              labelStyle={{ color: "#0a0a0a", fontWeight: 600 }}
+              labelStyle={{ color: "#000000", fontWeight: 600 }}
             />
             <Bar
               dataKey="gemini_sentiment"

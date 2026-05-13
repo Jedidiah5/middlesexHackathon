@@ -34,22 +34,25 @@ export default function StatBar({ cities }: StatBarProps) {
   }
 
   const items = [
-    { label: "Cities analysed", value: String(n), hint: "in dataset" },
-    { label: "Avg Gemini", value: formatScore(avgGem), hint: "mean sentiment" },
+    { label: "Cities analysed", value: String(n), hint: "in dataset", accent: false },
+    { label: "Avg Gemini", value: formatScore(avgGem), hint: "mean sentiment", accent: false },
     {
       label: "Avg Perplexity",
       value: formatScore(avgPerp),
       hint: "mean sentiment",
+      accent: false,
     },
     {
       label: "Most positive",
       value: mostPositive?.city ?? "—",
       hint: mostPositive ? averageSentiment(mostPositive).toFixed(2) : "",
+      accent: true,
     },
     {
       label: "Most negative",
       value: mostNegative?.city ?? "—",
       hint: mostNegative ? averageSentiment(mostNegative).toFixed(2) : "",
+      accent: false,
     },
   ];
 
@@ -58,16 +61,20 @@ export default function StatBar({ cities }: StatBarProps) {
       {items.map((item) => (
         <div
           key={item.label}
-          className="rounded-xl border border-neutral-200 bg-white px-4 py-3 shadow-sm"
+          className="rounded-xl border border-black/10 bg-white px-4 py-3 shadow-sm"
         >
-          <p className="text-[11px] font-medium uppercase tracking-wider text-neutral-500">
+          <p
+            className={`text-[11px] font-medium uppercase tracking-wider ${
+              item.accent ? "text-accent" : "text-black/55"
+            }`}
+          >
             {item.label}
           </p>
-          <p className="mt-1 font-mono text-xl font-semibold tracking-tight text-neutral-950 lg:text-2xl">
+          <p className="mt-1 font-mono text-xl font-semibold tracking-tight text-black lg:text-2xl">
             {item.value}
           </p>
           {item.hint ? (
-            <p className="mt-0.5 text-xs text-neutral-500">{item.hint}</p>
+            <p className="mt-0.5 text-xs text-black/50">{item.hint}</p>
           ) : null}
         </div>
       ))}
