@@ -3,7 +3,11 @@
 import Globe, { type GlobeMethods } from "react-globe.gl";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { City } from "@/lib/types";
+import { nearestCityWithin } from "@/lib/geo";
 import { averageSentiment } from "@/lib/sentiment";
+
+/** If the ray hits the globe instead of a point, snap to the nearest city within this distance. */
+const GLOBE_CLICK_SNAP_KM = 920;
 
 const LG_BREAKPOINT = "(min-width: 1024px)";
 
@@ -92,6 +96,23 @@ export default function UrbanGlobe({
     [cities],
   );
 
+  const selectCity = useCallback(
+    (c: City) => {
+      onSelectCity({
+        city: c.city,
+        country: c.country,
+        lat: c.lat,
+        lon: c.lon,
+        gemini_sentiment: c.gemini_sentiment,
+        perplexity_sentiment: c.perplexity_sentiment,
+        top_themes: c.top_themes,
+        gemini_summary: c.gemini_summary,
+        perplexity_summary: c.perplexity_summary,
+      });
+    },
+    [onSelectCity],
+  );
+
   const pointsData: GlobePoint[] = useMemo(
     () =>
       cities.map((c) => {
@@ -103,7 +124,7 @@ export default function UrbanGlobe({
           lng: c.lon,
           color: sel || hi ? "#ffffff" : "#fef2f2",
           altitude: 0.018,
-          radius: sel ? 0.68 : hi ? 0.56 : 0.44,
+          radius: sel ? 0.78 : hi ? 0.64 : 0.52,
           label: `<div style="padding:8px 12px;background:#fff;color:#0a0a0a;border:1px solid rgba(0,0,0,0.12);border-radius:10px;font-size:12px;font-family:system-ui,sans-serif;box-shadow:0 4px 20px rgba(0,0,0,0.08)"><strong style="color:#15803d">${c.city}</strong><br/><span style="color:rgba(0,0,0,0.55)">avg ${avg.toFixed(2)}</span></div>`,
         };
       }),
@@ -117,19 +138,27 @@ export default function UrbanGlobe({
         g.controls().autoRotate = false;
       }
       const p = point as GlobePoint;
-      onSelectCity({
-        city: p.city,
-        country: p.country,
-        lat: p.lat,
-        lon: p.lon,
-        gemini_sentiment: p.gemini_sentiment,
-        perplexity_sentiment: p.perplexity_sentiment,
-        top_themes: p.top_themes,
-        gemini_summary: p.gemini_summary,
-        perplexity_summary: p.perplexity_summary,
-      });
+      selectCity(p);
     },
-    [onSelectCity],
+    [selectCity],
+  );
+
+  /** Globe surface hit (point missed raycast): open closest city if click was near enough on the ground. */
+  const handleGlobeClick = useCallback(
+    (coords: { lat: number; lng: number }) => {
+      const g = globeRef.current;
+      if (g) {
+        g.controls().autoRotate = false;
+      }
+      const hit = nearestCityWithin(
+        coords.lat,
+        coords.lng,
+        cities,
+        GLOBE_CLICK_SNAP_KM,
+      );
+      if (hit) selectCity(hit);
+    },
+    [cities, selectCity],
   );
 
   /** Stop auto-rotate when a city is selected + fly camera; resume rotate after panel closes. */
@@ -240,6 +269,10 @@ export default function UrbanGlobe({
       }}
       onPointerLeave={() => {
         pointerOverRef.current = false;
+        const el = globeRef.current?.renderer()?.domElement as
+          | HTMLCanvasElement
+          | undefined;
+        if (el) el.style.cursor = "";
       }}
       tabIndex={-1}
     >
@@ -253,7 +286,11 @@ export default function UrbanGlobe({
           enablePointerInteraction
           pointerEventsFilter={globePointerEventsFilter}
           lineHoverPrecision={8}
-          {...{ clickAfterDrag: true }}
+          {...{
+            pointsHoverPrecision: 10,
+            clickAfterDrag: true,
+          }}
+          onGlobeClick={handleGlobeClick}
           globeImageUrl="https://unpkg.com/three-globe/example/img/earth-day.jpg"
           bumpImageUrl="https://unpkg.com/three-globe/example/img/earth-topology.png"
           showAtmosphere
@@ -276,6 +313,13 @@ export default function UrbanGlobe({
           pointResolution={20}
           pointLabel="label"
           onPointClick={handlePointClick}
+          onPointHover={(pt) => {
+            const el = globeRef.current?.renderer()?.domElement as
+              | HTMLCanvasElement
+              | undefined;
+            if (!el) return;
+            el.style.cursor = pt ? "pointer" : "grab";
+          }}
           onGlobeReady={() => {
             const g = globeRef.current;
             if (!g) return;
