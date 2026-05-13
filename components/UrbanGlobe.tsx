@@ -2,8 +2,18 @@
 
 import Globe, { type GlobeMethods } from "react-globe.gl";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import type { Object3D } from "three";
 import type { City } from "@/lib/types";
 import { averageSentiment } from "@/lib/sentiment";
+
+const LG_BREAKPOINT = "(min-width: 1024px)";
+
+/** Rings + atmosphere sit in front of points in the raycast stack; ignore them so city markers receive clicks. */
+function globePointerEventsFilter(obj: Object3D): boolean {
+  const t = (obj as Object3D & { __globeObjType?: string }).__globeObjType;
+  if (t === "ring" || t === "atmosphere") return false;
+  return true;
+}
 
 export type UrbanGlobeProps = {
   cities: City[];
@@ -47,21 +57,28 @@ export default function UrbanGlobe({
   const wrapRef = useRef<HTMLDivElement>(null);
   const pointerOverRef = useRef(false);
   const autoRotateResumeRef = useRef<ReturnType<typeof setTimeout> | null>(null);
-  const [dims, setDims] = useState({ w: 960, h: 1114 });
+  const [dims, setDims] = useState({ w: 480, h: 360 });
 
   useEffect(() => {
     const el = wrapRef.current;
     if (!el) return;
+    const mql = window.matchMedia(LG_BREAKPOINT);
     const measure = () => {
       const w = el.clientWidth;
-      // ~2× previous footprint: was max(340, min(580, w*0.58))
-      const h = Math.max(680, Math.min(1160, w * 1.16));
+      const large = mql.matches;
+      const h = large
+        ? Math.max(680, Math.min(1160, w * 1.16))
+        : Math.max(340, Math.min(580, w * 0.58));
       setDims({ w, h });
     };
     measure();
     const ro = new ResizeObserver(measure);
     ro.observe(el);
-    return () => ro.disconnect();
+    mql.addEventListener("change", measure);
+    return () => {
+      ro.disconnect();
+      mql.removeEventListener("change", measure);
+    };
   }, []);
 
   const ringsData: CityRing[] = useMemo(
@@ -87,7 +104,7 @@ export default function UrbanGlobe({
           lng: c.lon,
           color: sel || hi ? "#ffffff" : "#fef2f2",
           altitude: 0.018,
-          radius: sel ? 0.58 : hi ? 0.48 : 0.36,
+          radius: sel ? 0.68 : hi ? 0.56 : 0.44,
           label: `<div style="padding:8px 12px;background:#fff;color:#0a0a0a;border:1px solid rgba(0,0,0,0.12);border-radius:10px;font-size:12px;font-family:system-ui,sans-serif;box-shadow:0 4px 20px rgba(0,0,0,0.08)"><strong style="color:#15803d">${c.city}</strong><br/><span style="color:rgba(0,0,0,0.55)">avg ${avg.toFixed(2)}</span></div>`,
         };
       }),
@@ -96,6 +113,10 @@ export default function UrbanGlobe({
 
   const handlePointClick = useCallback(
     (point: object) => {
+      const g = globeRef.current;
+      if (g) {
+        g.controls().autoRotate = false;
+      }
       const p = point as GlobePoint;
       onSelectCity({
         city: p.city,
@@ -112,13 +133,23 @@ export default function UrbanGlobe({
     [onSelectCity],
   );
 
+  /** Stop auto-rotate when a city is selected + fly camera; resume rotate after panel closes. */
   useEffect(() => {
     const g = globeRef.current;
-    if (!g || !selectedCity) return;
-    g.pointOfView(
-      { lat: selectedCity.lat, lng: selectedCity.lon, altitude: 1.9 },
-      1100,
-    );
+    if (!g) return;
+    const c = g.controls();
+    if (selectedCity) {
+      c.autoRotate = false;
+      g.pointOfView(
+        { lat: selectedCity.lat, lng: selectedCity.lon, altitude: 1.9 },
+        1100,
+      );
+      return;
+    }
+    const id = window.setTimeout(() => {
+      c.autoRotate = true;
+    }, 1600);
+    return () => window.clearTimeout(id);
   }, [selectedCity]);
 
   /** Wheel over canvas: page scroll only. Pinch-zoom on trackpad = Ctrl/Meta + wheel; touch pinch uses separate handlers. */
@@ -204,7 +235,7 @@ export default function UrbanGlobe({
   return (
     <div
       ref={wrapRef}
-      className="h-full min-h-[min(76vh,720px)] w-full bg-transparent outline-none"
+      className="h-full min-h-[min(52vh,360px)] w-full bg-transparent outline-none lg:min-h-[min(76vh,720px)]"
       onPointerEnter={() => {
         pointerOverRef.current = true;
       }}
@@ -220,6 +251,10 @@ export default function UrbanGlobe({
           width={dims.w}
           height={dims.h}
           backgroundColor="rgba(0,0,0,0)"
+          enablePointerInteraction
+          pointerEventsFilter={globePointerEventsFilter}
+          lineHoverPrecision={8}
+          {...{ clickAfterDrag: true }}
           globeImageUrl="https://unpkg.com/three-globe/example/img/earth-day.jpg"
           bumpImageUrl="https://unpkg.com/three-globe/example/img/earth-topology.png"
           showAtmosphere

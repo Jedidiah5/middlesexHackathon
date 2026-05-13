@@ -6,7 +6,7 @@ import type { City } from "@/lib/types";
 const UrbanGlobe = dynamic(() => import("./UrbanGlobe"), {
   ssr: false,
   loading: () => (
-    <div className="flex min-h-[min(76vh,720px)] w-full items-center justify-center">
+    <div className="flex min-h-[min(52vh,360px)] w-full items-center justify-center lg:min-h-[min(76vh,720px)]">
       <p className="text-sm text-black/55">
         Loading <span className="font-medium text-accent">3D globe</span>…
       </p>
@@ -33,7 +33,7 @@ export default function WorldMap({
       className="relative w-full overflow-visible px-6 pb-10 pt-1 lg:px-10"
     >
       {/* No card chrome — soft levitation shadow only */}
-      <div className="relative mx-auto max-w-[min(100%,1200px)]">
+      <div className="relative mx-auto max-w-[min(100%,960px)] lg:max-w-[min(100%,1200px)]">
         <div
           className="relative isolate [transform:translateZ(0)]"
           style={{
