@@ -45,8 +45,9 @@ export default function WorldMap({
         <span className="hidden text-black/30 sm:inline">|</span>
         <span className="hidden text-black/55 sm:inline">Darker → lighter (avg)</span>
       </div>
-      <p className="pointer-events-none absolute right-4 top-4 rounded-md border border-black/10 bg-white px-2 py-1 text-[10px] font-medium uppercase tracking-wide text-black/50 shadow-sm">
-        Drag to orbit · scroll to zoom
+      <p className="pointer-events-none absolute right-4 top-4 max-w-[200px] rounded-md border border-black/10 bg-white px-2 py-1 text-left text-[10px] font-medium leading-snug text-black/55 shadow-sm sm:max-w-none">
+        Drag to orbit · <span className="text-black">Ctrl + scroll</span> or pinch
+        to zoom · <span className="text-black">← →</span> when over globe
       </p>
     </div>
   );
