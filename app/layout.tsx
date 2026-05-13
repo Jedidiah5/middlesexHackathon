@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { DM_Sans, JetBrains_Mono } from "next/font/google";
+import { DM_Sans, JetBrains_Mono, Nunito } from "next/font/google";
 import "./globals.css";
 
 const dmSans = DM_Sans({
@@ -14,9 +14,17 @@ const jetbrains = JetBrains_Mono({
   display: "swap",
 });
 
+const tripeeDisplay = Nunito({
+  subsets: ["latin"],
+  variable: "--font-tripee",
+  display: "swap",
+  weight: ["700", "800"],
+});
+
 export const metadata: Metadata = {
-  title: "Urban Lens",
-  description: "How AI sees the world's cities — Gemini vs Perplexity",
+  title: "Tripee",
+  description:
+    "Tripee — how AI perceives the world's cities on an interactive 3D globe (Gemini vs Perplexity).",
 };
 
 export default function RootLayout({
@@ -27,7 +35,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${dmSans.variable} ${jetbrains.variable} min-h-screen bg-white font-sans text-black`}
+        className={`${dmSans.variable} ${jetbrains.variable} ${tripeeDisplay.variable} min-h-screen bg-white font-sans text-black`}
       >
         {children}
       </body>

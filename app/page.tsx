@@ -89,8 +89,8 @@ export default function Home() {
       <div className="mx-auto flex min-h-screen w-full max-w-[1600px] flex-col xl:flex-row xl:items-stretch">
       <div className="flex min-w-0 flex-1 flex-col">
         <header className="glass-header px-6 py-10 lg:px-10 lg:py-12">
-          <h1 className="text-3xl font-semibold tracking-tight text-black sm:text-4xl lg:text-5xl">
-            Urban Lens
+          <h1 className="font-tripee text-5xl font-extrabold leading-[0.95] tracking-tight text-black sm:text-6xl md:text-7xl lg:text-8xl">
+            Tripee
           </h1>
           <p className="mt-3 max-w-2xl text-base text-black sm:text-lg">
             How <span className="font-medium text-accent">AI perceives</span>{" "}

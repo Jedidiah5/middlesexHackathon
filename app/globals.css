@@ -15,6 +15,11 @@ body {
  * Needs non-opaque content behind (e.g. main gradient) for blur to read.
  */
 @layer components {
+  /* Tripee wordmark */
+  .font-tripee {
+    font-family: var(--font-tripee), system-ui, sans-serif;
+  }
+
   .glass-card {
     border: 1px solid rgba(255, 255, 255, 0.78);
     background: rgba(255, 255, 255, 0.36);
