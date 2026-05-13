@@ -1,0 +1,2579 @@
+[
+    {
+        "city": "Accra",
+        "models": {
+            "Gemini": [
+                {
+                    "cluster": 3,
+                    "theme": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+                    "count": 5,
+                    "percentage": 50.0
+                },
+                {
+                    "cluster": 4,
+                    "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+                    "count": 2,
+                    "percentage": 20.0
+                },
+                {
+                    "cluster": 9,
+                    "theme": "Dusty sun-baked streets and uneven urban surfaces",
+                    "count": 2,
+                    "percentage": 20.0
+                }
+            ],
+            "perplexity": [
+                {
+                    "cluster": 11,
+                    "theme": "Street food, coffee, dust, diesel, and local aromas",
+                    "count": 2,
+                    "percentage": 22.22
+                },
+                {
+                    "cluster": 13,
+                    "theme": "Mixed Middle Eastern / North African sensory urban framing",
+                    "count": 2,
+                    "percentage": 22.22
+                },
+                {
+                    "cluster": 15,
+                    "theme": "West African markets, coffee, spices, and coastal street life",
+                    "count": 2,
+                    "percentage": 22.22
+                }
+            ]
+        }
+    },
+    {
+        "city": "Addis Ababa",
+        "models": {
+            "Gemini": [
+                {
+                    "cluster": 9,
+                    "theme": "Dusty sun-baked streets and uneven urban surfaces",
+                    "count": 4,
+                    "percentage": 40.0
+                },
+                {
+                    "cluster": 3,
+                    "theme": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+                    "count": 3,
+                    "percentage": 30.0
+                },
+                {
+                    "cluster": 4,
+                    "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+                    "count": 1,
+                    "percentage": 10.0
+                }
+            ],
+            "perplexity": [
+                {
+                    "cluster": 15,
+                    "theme": "West African markets, coffee, spices, and coastal street life",
+                    "count": 5,
+                    "percentage": 55.56
+                },
+                {
+                    "cluster": 2,
+                    "theme": "Dense markets, humid alleys, food, and sensory street life",
+                    "count": 2,
+                    "percentage": 22.22
+                },
+                {
+                    "cluster": 11,
+                    "theme": "Street food, coffee, dust, diesel, and local aromas",
+                    "count": 2,
+                    "percentage": 22.22
+                }
+            ]
+        }
+    },
+    {
+        "city": "Amman",
+        "models": {
+            "Gemini": [
+                {
+                    "cluster": 7,
+                    "theme": "Highland hillsides, ochre stone, and terraced architecture",
+                    "count": 5,
+                    "percentage": 50.0
+                },
+                {
+                    "cluster": 17,
+                    "theme": "Ancient heat, stone, marble, and historic grandeur",
+                    "count": 2,
+                    "percentage": 20.0
+                },
+                {
+                    "cluster": 3,
+                    "theme": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+                    "count": 1,
+                    "percentage": 10.0
+                }
+            ],
+            "perplexity": [
+                {
+                    "cluster": 11,
+                    "theme": "Street food, coffee, dust, diesel, and local aromas",
+                    "count": 4,
+                    "percentage": 44.44
+                },
+                {
+                    "cluster": 8,
+                    "theme": "Mixed warm urban atmosphere, rain, dust, high-rises, and movement",
+                    "count": 1,
+                    "percentage": 11.11
+                },
+                {
+                    "cluster": 13,
+                    "theme": "Mixed Middle Eastern / North African sensory urban framing",
+                    "count": 1,
+                    "percentage": 11.11
+                }
+            ]
+        }
+    },
+    {
+        "city": "Athens",
+        "models": {
+            "Gemini": [
+                {
+                    "cluster": 7,
+                    "theme": "Highland hillsides, ochre stone, and terraced architecture",
+                    "count": 4,
+                    "percentage": 40.0
+                },
+                {
+                    "cluster": 6,
+                    "theme": "Soft golden warmth, ancient streets, and romanticised walking",
+                    "count": 3,
+                    "percentage": 30.0
+                },
+                {
+                    "cluster": 17,
+                    "theme": "Ancient heat, stone, marble, and historic grandeur",
+                    "count": 3,
+                    "percentage": 30.0
+                }
+            ],
+            "perplexity": [
+                {
+                    "cluster": 10,
+                    "theme": "Structured sensory-guide style with heritage and overload framing",
+                    "count": 3,
+                    "percentage": 33.33
+                },
+                {
+                    "cluster": 15,
+                    "theme": "West African markets, coffee, spices, and coastal street life",
+                    "count": 3,
+                    "percentage": 33.33
+                },
+                {
+                    "cluster": 19,
+                    "theme": "Golden-hour historic-modern contrast with glass towers and old stone",
+                    "count": 2,
+                    "percentage": 22.22
+                }
+            ]
+        }
+    },
+    {
+        "city": "Auckland",
+        "models": {
+            "Gemini": [
+                {
+                    "cluster": 1,
+                    "theme": "Modern coastal harbour, salt air, glass, ferries, and urban movement",
+                    "count": 6,
+                    "percentage": 60.0
+                },
+                {
+                    "cluster": 9,
+                    "theme": "Dusty sun-baked streets and uneven urban surfaces",
+                    "count": 3,
+                    "percentage": 30.0
+                },
+                {
+                    "cluster": 4,
+                    "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+                    "count": 1,
+                    "percentage": 10.0
+                }
+            ],
+            "perplexity": [
+                {
+                    "cluster": 19,
+                    "theme": "Golden-hour historic-modern contrast with glass towers and old stone",
+                    "count": 4,
+                    "percentage": 44.44
+                },
+                {
+                    "cluster": 16,
+                    "theme": "Structured urban sensory journey and model-formatting style",
+                    "count": 3,
+                    "percentage": 33.33
+                },
+                {
+                    "cluster": 8,
+                    "theme": "Mixed warm urban atmosphere, rain, dust, high-rises, and movement",
+                    "count": 1,
+                    "percentage": 11.11
+                }
+            ]
+        }
+    },
+    {
+        "city": "Baghdad",
+        "models": {
+            "Gemini": [
+                {
+                    "cluster": 7,
+                    "theme": "Highland hillsides, ochre stone, and terraced architecture",
+                    "count": 8,
+                    "percentage": 80.0
+                },
+                {
+                    "cluster": 3,
+                    "theme": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+                    "count": 1,
+                    "percentage": 10.0
+                },
+                {
+                    "cluster": 17,
+                    "theme": "Ancient heat, stone, marble, and historic grandeur",
+                    "count": 1,
+                    "percentage": 10.0
+                }
+            ],
+            "perplexity": [
+                {
+                    "cluster": 11,
+                    "theme": "Street food, coffee, dust, diesel, and local aromas",
+                    "count": 4,
+                    "percentage": 44.44
+                },
+                {
+                    "cluster": 13,
+                    "theme": "Mixed Middle Eastern / North African sensory urban framing",
+                    "count": 4,
+                    "percentage": 44.44
+                },
+                {
+                    "cluster": 15,
+                    "theme": "West African markets, coffee, spices, and coastal street life",
+                    "count": 1,
+                    "percentage": 11.11
+                }
+            ]
+        }
+    },
+    {
+        "city": "Bangkok",
+        "models": {
+            "Gemini": [
+                {
+                    "cluster": 3,
+                    "theme": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+                    "count": 7,
+                    "percentage": 70.0
+                },
+                {
+                    "cluster": 4,
+                    "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+                    "count": 1,
+                    "percentage": 10.0
+                },
+                {
+                    "cluster": 13,
+                    "theme": "Mixed Middle Eastern / North African sensory urban framing",
+                    "count": 1,
+                    "percentage": 10.0
+                }
+            ],
+            "perplexity": [
+                {
+                    "cluster": 2,
+                    "theme": "Dense markets, humid alleys, food, and sensory street life",
+                    "count": 4,
+                    "percentage": 44.44
+                },
+                {
+                    "cluster": 13,
+                    "theme": "Mixed Middle Eastern / North African sensory urban framing",
+                    "count": 3,
+                    "percentage": 33.33
+                },
+                {
+                    "cluster": 10,
+                    "theme": "Structured sensory-guide style with heritage and overload framing",
+                    "count": 2,
+                    "percentage": 22.22
+                }
+            ]
+        }
+    },
+    {
+        "city": "Beijing",
+        "models": {
+            "Gemini": [
+                {
+                    "cluster": 7,
+                    "theme": "Highland hillsides, ochre stone, and terraced architecture",
+                    "count": 3,
+                    "percentage": 30.0
+                },
+                {
+                    "cluster": 9,
+                    "theme": "Dusty sun-baked streets and uneven urban surfaces",
+                    "count": 3,
+                    "percentage": 30.0
+                },
+                {
+                    "cluster": 17,
+                    "theme": "Ancient heat, stone, marble, and historic grandeur",
+                    "count": 2,
+                    "percentage": 20.0
+                }
+            ],
+            "perplexity": [
+                {
+                    "cluster": 19,
+                    "theme": "Golden-hour historic-modern contrast with glass towers and old stone",
+                    "count": 4,
+                    "percentage": 44.44
+                },
+                {
+                    "cluster": 0,
+                    "theme": "Polluted metropolis, haze, greenery, and environmental contrast",
+                    "count": 2,
+                    "percentage": 22.22
+                },
+                {
+                    "cluster": 16,
+                    "theme": "Structured urban sensory journey and model-formatting style",
+                    "count": 2,
+                    "percentage": 22.22
+                }
+            ]
+        }
+    },
+    {
+        "city": "Beirut",
+        "models": {
+            "Gemini": [
+                {
+                    "cluster": 6,
+                    "theme": "Soft golden warmth, ancient streets, and romanticised walking",
+                    "count": 5,
+                    "percentage": 50.0
+                },
+                {
+                    "cluster": 9,
+                    "theme": "Dusty sun-baked streets and uneven urban surfaces",
+                    "count": 3,
+                    "percentage": 30.0
+                },
+                {
+                    "cluster": 3,
+                    "theme": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+                    "count": 1,
+                    "percentage": 10.0
+                }
+            ],
+            "perplexity": [
+                {
+                    "cluster": 11,
+                    "theme": "Street food, coffee, dust, diesel, and local aromas",
+                    "count": 5,
+                    "percentage": 55.56
+                },
+                {
+                    "cluster": 0,
+                    "theme": "Polluted metropolis, haze, greenery, and environmental contrast",
+                    "count": 1,
+                    "percentage": 11.11
+                },
+                {
+                    "cluster": 13,
+                    "theme": "Mixed Middle Eastern / North African sensory urban framing",
+                    "count": 1,
+                    "percentage": 11.11
+                }
+            ]
+        }
+    },
+    {
+        "city": "Bengaluru",
+        "models": {
+            "Gemini": [
+                {
+                    "cluster": 9,
+                    "theme": "Dusty sun-baked streets and uneven urban surfaces",
+                    "count": 3,
+                    "percentage": 30.0
+                },
+                {
+                    "cluster": 4,
+                    "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+                    "count": 2,
+                    "percentage": 20.0
+                },
+                {
+                    "cluster": 6,
+                    "theme": "Soft golden warmth, ancient streets, and romanticised walking",
+                    "count": 2,
+                    "percentage": 20.0
+                }
+            ],
+            "perplexity": [
+                {
+                    "cluster": 0,
+                    "theme": "Polluted metropolis, haze, greenery, and environmental contrast",
+                    "count": 5,
+                    "percentage": 55.56
+                },
+                {
+                    "cluster": 8,
+                    "theme": "Mixed warm urban atmosphere, rain, dust, high-rises, and movement",
+                    "count": 2,
+                    "percentage": 22.22
+                },
+                {
+                    "cluster": 19,
+                    "theme": "Golden-hour historic-modern contrast with glass towers and old stone",
+                    "count": 2,
+                    "percentage": 22.22
+                }
+            ]
+        }
+    },
+    {
+        "city": "Berlin",
+        "models": {
+            "Gemini": [
+                {
+                    "cluster": 4,
+                    "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+                    "count": 3,
+                    "percentage": 30.0
+                },
+                {
+                    "cluster": 17,
+                    "theme": "Ancient heat, stone, marble, and historic grandeur",
+                    "count": 3,
+                    "percentage": 30.0
+                },
+                {
+                    "cluster": 9,
+                    "theme": "Dusty sun-baked streets and uneven urban surfaces",
+                    "count": 2,
+                    "percentage": 20.0
+                }
+            ],
+            "perplexity": [
+                {
+                    "cluster": 16,
+                    "theme": "Structured urban sensory journey and model-formatting style",
+                    "count": 5,
+                    "percentage": 55.56
+                },
+                {
+                    "cluster": 18,
+                    "theme": "Warm coastal/urban tapestry with palms, breeze, and mixed textures",
+                    "count": 2,
+                    "percentage": 22.22
+                },
+                {
+                    "cluster": 19,
+                    "theme": "Golden-hour historic-modern contrast with glass towers and old stone",
+                    "count": 2,
+                    "percentage": 22.22
+                }
+            ]
+        }
+    },
+    {
+        "city": "Bogota╠ü",
+        "models": {
+            "Gemini": [
+                {
+                    "cluster": 3,
+                    "theme": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+                    "count": 3,
+                    "percentage": 30.0
+                },
+                {
+                    "cluster": 4,
+                    "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+                    "count": 3,
+                    "percentage": 30.0
+                },
+                {
+                    "cluster": 17,
+                    "theme": "Ancient heat, stone, marble, and historic grandeur",
+                    "count": 3,
+                    "percentage": 30.0
+                }
+            ],
+            "perplexity": [
+                {
+                    "cluster": 14,
+                    "theme": "Altitude, plateau, hills, and climate-based city identity",
+                    "count": 3,
+                    "percentage": 33.33
+                },
+                {
+                    "cluster": 19,
+                    "theme": "Golden-hour historic-modern contrast with glass towers and old stone",
+                    "count": 2,
+                    "percentage": 22.22
+                },
+                {
+                    "cluster": 0,
+                    "theme": "Polluted metropolis, haze, greenery, and environmental contrast",
+                    "count": 1,
+                    "percentage": 11.11
+                }
+            ]
+        }
+    },
+    {
+        "city": "Brisbane",
+        "models": {
+            "Gemini": [
+                {
+                    "cluster": 1,
+                    "theme": "Modern coastal harbour, salt air, glass, ferries, and urban movement",
+                    "count": 6,
+                    "percentage": 60.0
+                },
+                {
+                    "cluster": 6,
+                    "theme": "Soft golden warmth, ancient streets, and romanticised walking",
+                    "count": 3,
+                    "percentage": 30.0
+                },
+                {
+                    "cluster": 3,
+                    "theme": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+                    "count": 1,
+                    "percentage": 10.0
+                }
+            ],
+            "perplexity": [
+                {
+                    "cluster": 18,
+                    "theme": "Warm coastal/urban tapestry with palms, breeze, and mixed textures",
+                    "count": 3,
+                    "percentage": 33.33
+                },
+                {
+                    "cluster": 19,
+                    "theme": "Golden-hour historic-modern contrast with glass towers and old stone",
+                    "count": 3,
+                    "percentage": 33.33
+                },
+                {
+                    "cluster": 14,
+                    "theme": "Altitude, plateau, hills, and climate-based city identity",
+                    "count": 2,
+                    "percentage": 22.22
+                }
+            ]
+        }
+    },
+    {
+        "city": "Budapest",
+        "models": {
+            "Gemini": [
+                {
+                    "cluster": 7,
+                    "theme": "Highland hillsides, ochre stone, and terraced architecture",
+                    "count": 6,
+                    "percentage": 60.0
+                },
+                {
+                    "cluster": 1,
+                    "theme": "Modern coastal harbour, salt air, glass, ferries, and urban movement",
+                    "count": 2,
+                    "percentage": 20.0
+                },
+                {
+                    "cluster": 17,
+                    "theme": "Ancient heat, stone, marble, and historic grandeur",
+                    "count": 2,
+                    "percentage": 20.0
+                }
+            ],
+            "perplexity": [
+                {
+                    "cluster": 19,
+                    "theme": "Golden-hour historic-modern contrast with glass towers and old stone",
+                    "count": 3,
+                    "percentage": 33.33
+                },
+                {
+                    "cluster": 15,
+                    "theme": "West African markets, coffee, spices, and coastal street life",
+                    "count": 2,
+                    "percentage": 22.22
+                },
+                {
+                    "cluster": 16,
+                    "theme": "Structured urban sensory journey and model-formatting style",
+                    "count": 2,
+                    "percentage": 22.22
+                }
+            ]
+        }
+    },
+    {
+        "city": "Buenos Aires",
+        "models": {
+            "Gemini": [
+                {
+                    "cluster": 17,
+                    "theme": "Ancient heat, stone, marble, and historic grandeur",
+                    "count": 3,
+                    "percentage": 30.0
+                },
+                {
+                    "cluster": 1,
+                    "theme": "Modern coastal harbour, salt air, glass, ferries, and urban movement",
+                    "count": 2,
+                    "percentage": 20.0
+                },
+                {
+                    "cluster": 7,
+                    "theme": "Highland hillsides, ochre stone, and terraced architecture",
+                    "count": 2,
+                    "percentage": 20.0
+                }
+            ],
+            "perplexity": [
+                {
+                    "cluster": 10,
+                    "theme": "Structured sensory-guide style with heritage and overload framing",
+                    "count": 3,
+                    "percentage": 33.33
+                },
+                {
+                    "cluster": 12,
+                    "theme": "Vibrant neighbourhood life, cafés, colours, and social rhythm",
+                    "count": 3,
+                    "percentage": 33.33
+                },
+                {
+                    "cluster": 19,
+                    "theme": "Golden-hour historic-modern contrast with glass towers and old stone",
+                    "count": 2,
+                    "percentage": 22.22
+                }
+            ]
+        }
+    },
+    {
+        "city": "Cairo",
+        "models": {
+            "Gemini": [
+                {
+                    "cluster": 17,
+                    "theme": "Ancient heat, stone, marble, and historic grandeur",
+                    "count": 4,
+                    "percentage": 40.0
+                },
+                {
+                    "cluster": 3,
+                    "theme": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+                    "count": 2,
+                    "percentage": 20.0
+                },
+                {
+                    "cluster": 4,
+                    "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+                    "count": 2,
+                    "percentage": 20.0
+                }
+            ],
+            "perplexity": [
+                {
+                    "cluster": 2,
+                    "theme": "Dense markets, humid alleys, food, and sensory street life",
+                    "count": 3,
+                    "percentage": 33.33
+                },
+                {
+                    "cluster": 11,
+                    "theme": "Street food, coffee, dust, diesel, and local aromas",
+                    "count": 3,
+                    "percentage": 33.33
+                },
+                {
+                    "cluster": 10,
+                    "theme": "Structured sensory-guide style with heritage and overload framing",
+                    "count": 2,
+                    "percentage": 22.22
+                }
+            ]
+        }
+    },
+    {
+        "city": "Chicago",
+        "models": {
+            "Gemini": [
+                {
+                    "cluster": 9,
+                    "theme": "Dusty sun-baked streets and uneven urban surfaces",
+                    "count": 7,
+                    "percentage": 70.0
+                },
+                {
+                    "cluster": 4,
+                    "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+                    "count": 2,
+                    "percentage": 20.0
+                },
+                {
+                    "cluster": 1,
+                    "theme": "Modern coastal harbour, salt air, glass, ferries, and urban movement",
+                    "count": 1,
+                    "percentage": 10.0
+                }
+            ],
+            "perplexity": [
+                {
+                    "cluster": 0,
+                    "theme": "Polluted metropolis, haze, greenery, and environmental contrast",
+                    "count": 3,
+                    "percentage": 33.33
+                },
+                {
+                    "cluster": 8,
+                    "theme": "Mixed warm urban atmosphere, rain, dust, high-rises, and movement",
+                    "count": 3,
+                    "percentage": 33.33
+                },
+                {
+                    "cluster": 18,
+                    "theme": "Warm coastal/urban tapestry with palms, breeze, and mixed textures",
+                    "count": 2,
+                    "percentage": 22.22
+                }
+            ]
+        }
+    },
+    {
+        "city": "Dakar",
+        "models": {
+            "Gemini": [
+                {
+                    "cluster": 3,
+                    "theme": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+                    "count": 6,
+                    "percentage": 60.0
+                },
+                {
+                    "cluster": 4,
+                    "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+                    "count": 2,
+                    "percentage": 20.0
+                },
+                {
+                    "cluster": 17,
+                    "theme": "Ancient heat, stone, marble, and historic grandeur",
+                    "count": 2,
+                    "percentage": 20.0
+                }
+            ],
+            "perplexity": [
+                {
+                    "cluster": 13,
+                    "theme": "Mixed Middle Eastern / North African sensory urban framing",
+                    "count": 3,
+                    "percentage": 33.33
+                },
+                {
+                    "cluster": 11,
+                    "theme": "Street food, coffee, dust, diesel, and local aromas",
+                    "count": 2,
+                    "percentage": 22.22
+                },
+                {
+                    "cluster": 2,
+                    "theme": "Dense markets, humid alleys, food, and sensory street life",
+                    "count": 1,
+                    "percentage": 11.11
+                }
+            ]
+        }
+    },
+    {
+        "city": "Dubai",
+        "models": {
+            "Gemini": [
+                {
+                    "cluster": 3,
+                    "theme": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+                    "count": 6,
+                    "percentage": 60.0
+                },
+                {
+                    "cluster": 4,
+                    "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+                    "count": 2,
+                    "percentage": 20.0
+                },
+                {
+                    "cluster": 1,
+                    "theme": "Modern coastal harbour, salt air, glass, ferries, and urban movement",
+                    "count": 1,
+                    "percentage": 10.0
+                }
+            ],
+            "perplexity": [
+                {
+                    "cluster": 11,
+                    "theme": "Street food, coffee, dust, diesel, and local aromas",
+                    "count": 5,
+                    "percentage": 55.56
+                },
+                {
+                    "cluster": 16,
+                    "theme": "Structured urban sensory journey and model-formatting style",
+                    "count": 3,
+                    "percentage": 33.33
+                },
+                {
+                    "cluster": 2,
+                    "theme": "Dense markets, humid alleys, food, and sensory street life",
+                    "count": 1,
+                    "percentage": 11.11
+                }
+            ]
+        }
+    },
+    {
+        "city": "Havana",
+        "models": {
+            "Gemini": [
+                {
+                    "cluster": 11,
+                    "theme": "Street food, coffee, dust, diesel, and local aromas",
+                    "count": 4,
+                    "percentage": 40.0
+                },
+                {
+                    "cluster": 6,
+                    "theme": "Soft golden warmth, ancient streets, and romanticised walking",
+                    "count": 2,
+                    "percentage": 20.0
+                },
+                {
+                    "cluster": 17,
+                    "theme": "Ancient heat, stone, marble, and historic grandeur",
+                    "count": 2,
+                    "percentage": 20.0
+                }
+            ],
+            "perplexity": [
+                {
+                    "cluster": 19,
+                    "theme": "Golden-hour historic-modern contrast with glass towers and old stone",
+                    "count": 6,
+                    "percentage": 66.67
+                },
+                {
+                    "cluster": 11,
+                    "theme": "Street food, coffee, dust, diesel, and local aromas",
+                    "count": 2,
+                    "percentage": 22.22
+                },
+                {
+                    "cluster": 12,
+                    "theme": "Vibrant neighbourhood life, cafés, colours, and social rhythm",
+                    "count": 1,
+                    "percentage": 11.11
+                }
+            ]
+        }
+    },
+    {
+        "city": "Houston",
+        "models": {
+            "Gemini": [
+                {
+                    "cluster": 9,
+                    "theme": "Dusty sun-baked streets and uneven urban surfaces",
+                    "count": 8,
+                    "percentage": 80.0
+                },
+                {
+                    "cluster": 4,
+                    "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+                    "count": 2,
+                    "percentage": 20.0
+                }
+            ],
+            "perplexity": [
+                {
+                    "cluster": 0,
+                    "theme": "Polluted metropolis, haze, greenery, and environmental contrast",
+                    "count": 5,
+                    "percentage": 55.56
+                },
+                {
+                    "cluster": 8,
+                    "theme": "Mixed warm urban atmosphere, rain, dust, high-rises, and movement",
+                    "count": 3,
+                    "percentage": 33.33
+                },
+                {
+                    "cluster": 14,
+                    "theme": "Altitude, plateau, hills, and climate-based city identity",
+                    "count": 1,
+                    "percentage": 11.11
+                }
+            ]
+        }
+    },
+    {
+        "city": "Istanbul",
+        "models": {
+            "Gemini": [
+                {
+                    "cluster": 7,
+                    "theme": "Highland hillsides, ochre stone, and terraced architecture",
+                    "count": 7,
+                    "percentage": 70.0
+                },
+                {
+                    "cluster": 17,
+                    "theme": "Ancient heat, stone, marble, and historic grandeur",
+                    "count": 3,
+                    "percentage": 30.0
+                }
+            ],
+            "perplexity": [
+                {
+                    "cluster": 2,
+                    "theme": "Dense markets, humid alleys, food, and sensory street life",
+                    "count": 7,
+                    "percentage": 77.78
+                },
+                {
+                    "cluster": 11,
+                    "theme": "Street food, coffee, dust, diesel, and local aromas",
+                    "count": 1,
+                    "percentage": 11.11
+                },
+                {
+                    "cluster": 19,
+                    "theme": "Golden-hour historic-modern contrast with glass towers and old stone",
+                    "count": 1,
+                    "percentage": 11.11
+                }
+            ]
+        }
+    },
+    {
+        "city": "Jakarta",
+        "models": {
+            "Gemini": [
+                {
+                    "cluster": 4,
+                    "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+                    "count": 5,
+                    "percentage": 50.0
+                },
+                {
+                    "cluster": 9,
+                    "theme": "Dusty sun-baked streets and uneven urban surfaces",
+                    "count": 4,
+                    "percentage": 40.0
+                },
+                {
+                    "cluster": 3,
+                    "theme": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+                    "count": 1,
+                    "percentage": 10.0
+                }
+            ],
+            "perplexity": [
+                {
+                    "cluster": 19,
+                    "theme": "Golden-hour historic-modern contrast with glass towers and old stone",
+                    "count": 5,
+                    "percentage": 55.56
+                },
+                {
+                    "cluster": 13,
+                    "theme": "Mixed Middle Eastern / North African sensory urban framing",
+                    "count": 2,
+                    "percentage": 22.22
+                },
+                {
+                    "cluster": 10,
+                    "theme": "Structured sensory-guide style with heritage and overload framing",
+                    "count": 1,
+                    "percentage": 11.11
+                }
+            ]
+        }
+    },
+    {
+        "city": "Johannesburg",
+        "models": {
+            "Gemini": [
+                {
+                    "cluster": 4,
+                    "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+                    "count": 5,
+                    "percentage": 50.0
+                },
+                {
+                    "cluster": 3,
+                    "theme": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+                    "count": 2,
+                    "percentage": 20.0
+                },
+                {
+                    "cluster": 9,
+                    "theme": "Dusty sun-baked streets and uneven urban surfaces",
+                    "count": 2,
+                    "percentage": 20.0
+                }
+            ],
+            "perplexity": [
+                {
+                    "cluster": 8,
+                    "theme": "Mixed warm urban atmosphere, rain, dust, high-rises, and movement",
+                    "count": 4,
+                    "percentage": 44.44
+                },
+                {
+                    "cluster": 0,
+                    "theme": "Polluted metropolis, haze, greenery, and environmental contrast",
+                    "count": 3,
+                    "percentage": 33.33
+                },
+                {
+                    "cluster": 14,
+                    "theme": "Altitude, plateau, hills, and climate-based city identity",
+                    "count": 2,
+                    "percentage": 22.22
+                }
+            ]
+        }
+    },
+    {
+        "city": "Kigali",
+        "models": {
+            "Gemini": [
+                {
+                    "cluster": 6,
+                    "theme": "Soft golden warmth, ancient streets, and romanticised walking",
+                    "count": 4,
+                    "percentage": 40.0
+                },
+                {
+                    "cluster": 9,
+                    "theme": "Dusty sun-baked streets and uneven urban surfaces",
+                    "count": 3,
+                    "percentage": 30.0
+                },
+                {
+                    "cluster": 4,
+                    "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+                    "count": 2,
+                    "percentage": 20.0
+                }
+            ],
+            "perplexity": [
+                {
+                    "cluster": 0,
+                    "theme": "Polluted metropolis, haze, greenery, and environmental contrast",
+                    "count": 5,
+                    "percentage": 55.56
+                },
+                {
+                    "cluster": 8,
+                    "theme": "Mixed warm urban atmosphere, rain, dust, high-rises, and movement",
+                    "count": 3,
+                    "percentage": 33.33
+                },
+                {
+                    "cluster": 14,
+                    "theme": "Altitude, plateau, hills, and climate-based city identity",
+                    "count": 1,
+                    "percentage": 11.11
+                }
+            ]
+        }
+    },
+    {
+        "city": "Kingston",
+        "models": {
+            "Gemini": [
+                {
+                    "cluster": 4,
+                    "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+                    "count": 4,
+                    "percentage": 40.0
+                },
+                {
+                    "cluster": 3,
+                    "theme": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+                    "count": 2,
+                    "percentage": 20.0
+                },
+                {
+                    "cluster": 6,
+                    "theme": "Soft golden warmth, ancient streets, and romanticised walking",
+                    "count": 1,
+                    "percentage": 10.0
+                }
+            ],
+            "perplexity": [
+                {
+                    "cluster": 15,
+                    "theme": "West African markets, coffee, spices, and coastal street life",
+                    "count": 3,
+                    "percentage": 33.33
+                },
+                {
+                    "cluster": 19,
+                    "theme": "Golden-hour historic-modern contrast with glass towers and old stone",
+                    "count": 3,
+                    "percentage": 33.33
+                },
+                {
+                    "cluster": 11,
+                    "theme": "Street food, coffee, dust, diesel, and local aromas",
+                    "count": 1,
+                    "percentage": 11.11
+                }
+            ]
+        }
+    },
+    {
+        "city": "Kuala Lumpur",
+        "models": {
+            "Gemini": [
+                {
+                    "cluster": 3,
+                    "theme": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+                    "count": 4,
+                    "percentage": 40.0
+                },
+                {
+                    "cluster": 4,
+                    "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+                    "count": 4,
+                    "percentage": 40.0
+                },
+                {
+                    "cluster": 6,
+                    "theme": "Soft golden warmth, ancient streets, and romanticised walking",
+                    "count": 1,
+                    "percentage": 10.0
+                }
+            ],
+            "perplexity": [
+                {
+                    "cluster": 11,
+                    "theme": "Street food, coffee, dust, diesel, and local aromas",
+                    "count": 3,
+                    "percentage": 33.33
+                },
+                {
+                    "cluster": 12,
+                    "theme": "Vibrant neighbourhood life, cafés, colours, and social rhythm",
+                    "count": 2,
+                    "percentage": 22.22
+                },
+                {
+                    "cluster": 0,
+                    "theme": "Polluted metropolis, haze, greenery, and environmental contrast",
+                    "count": 1,
+                    "percentage": 11.11
+                }
+            ]
+        }
+    },
+    {
+        "city": "La Paz",
+        "models": {
+            "Gemini": [
+                {
+                    "cluster": 3,
+                    "theme": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+                    "count": 4,
+                    "percentage": 40.0
+                },
+                {
+                    "cluster": 4,
+                    "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+                    "count": 4,
+                    "percentage": 40.0
+                },
+                {
+                    "cluster": 11,
+                    "theme": "Street food, coffee, dust, diesel, and local aromas",
+                    "count": 1,
+                    "percentage": 10.0
+                }
+            ],
+            "perplexity": [
+                {
+                    "cluster": 11,
+                    "theme": "Street food, coffee, dust, diesel, and local aromas",
+                    "count": 4,
+                    "percentage": 44.44
+                },
+                {
+                    "cluster": 13,
+                    "theme": "Mixed Middle Eastern / North African sensory urban framing",
+                    "count": 2,
+                    "percentage": 22.22
+                },
+                {
+                    "cluster": 8,
+                    "theme": "Mixed warm urban atmosphere, rain, dust, high-rises, and movement",
+                    "count": 1,
+                    "percentage": 11.11
+                }
+            ]
+        }
+    },
+    {
+        "city": "Lagos",
+        "models": {
+            "Gemini": [
+                {
+                    "cluster": 9,
+                    "theme": "Dusty sun-baked streets and uneven urban surfaces",
+                    "count": 6,
+                    "percentage": 60.0
+                },
+                {
+                    "cluster": 3,
+                    "theme": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+                    "count": 2,
+                    "percentage": 20.0
+                },
+                {
+                    "cluster": 4,
+                    "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+                    "count": 2,
+                    "percentage": 20.0
+                }
+            ],
+            "perplexity": [
+                {
+                    "cluster": 13,
+                    "theme": "Mixed Middle Eastern / North African sensory urban framing",
+                    "count": 6,
+                    "percentage": 66.67
+                },
+                {
+                    "cluster": 11,
+                    "theme": "Street food, coffee, dust, diesel, and local aromas",
+                    "count": 2,
+                    "percentage": 22.22
+                },
+                {
+                    "cluster": 8,
+                    "theme": "Mixed warm urban atmosphere, rain, dust, high-rises, and movement",
+                    "count": 1,
+                    "percentage": 11.11
+                }
+            ]
+        }
+    },
+    {
+        "city": "Lima",
+        "models": {
+            "Gemini": [
+                {
+                    "cluster": 3,
+                    "theme": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+                    "count": 2,
+                    "percentage": 20.0
+                },
+                {
+                    "cluster": 9,
+                    "theme": "Dusty sun-baked streets and uneven urban surfaces",
+                    "count": 2,
+                    "percentage": 20.0
+                },
+                {
+                    "cluster": 17,
+                    "theme": "Ancient heat, stone, marble, and historic grandeur",
+                    "count": 2,
+                    "percentage": 20.0
+                }
+            ],
+            "perplexity": [
+                {
+                    "cluster": 10,
+                    "theme": "Structured sensory-guide style with heritage and overload framing",
+                    "count": 3,
+                    "percentage": 33.33
+                },
+                {
+                    "cluster": 12,
+                    "theme": "Vibrant neighbourhood life, cafés, colours, and social rhythm",
+                    "count": 2,
+                    "percentage": 22.22
+                },
+                {
+                    "cluster": 19,
+                    "theme": "Golden-hour historic-modern contrast with glass towers and old stone",
+                    "count": 2,
+                    "percentage": 22.22
+                }
+            ]
+        }
+    },
+    {
+        "city": "London",
+        "models": {
+            "Gemini": [
+                {
+                    "cluster": 7,
+                    "theme": "Highland hillsides, ochre stone, and terraced architecture",
+                    "count": 4,
+                    "percentage": 40.0
+                },
+                {
+                    "cluster": 4,
+                    "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+                    "count": 3,
+                    "percentage": 30.0
+                },
+                {
+                    "cluster": 9,
+                    "theme": "Dusty sun-baked streets and uneven urban surfaces",
+                    "count": 2,
+                    "percentage": 20.0
+                }
+            ],
+            "perplexity": [
+                {
+                    "cluster": 18,
+                    "theme": "Warm coastal/urban tapestry with palms, breeze, and mixed textures",
+                    "count": 5,
+                    "percentage": 55.56
+                },
+                {
+                    "cluster": 16,
+                    "theme": "Structured urban sensory journey and model-formatting style",
+                    "count": 2,
+                    "percentage": 22.22
+                },
+                {
+                    "cluster": 11,
+                    "theme": "Street food, coffee, dust, diesel, and local aromas",
+                    "count": 1,
+                    "percentage": 11.11
+                }
+            ]
+        }
+    },
+    {
+        "city": "Los Angeles",
+        "models": {
+            "Gemini": [
+                {
+                    "cluster": 4,
+                    "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+                    "count": 5,
+                    "percentage": 50.0
+                },
+                {
+                    "cluster": 3,
+                    "theme": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+                    "count": 2,
+                    "percentage": 20.0
+                },
+                {
+                    "cluster": 9,
+                    "theme": "Dusty sun-baked streets and uneven urban surfaces",
+                    "count": 2,
+                    "percentage": 20.0
+                }
+            ],
+            "perplexity": [
+                {
+                    "cluster": 18,
+                    "theme": "Warm coastal/urban tapestry with palms, breeze, and mixed textures",
+                    "count": 3,
+                    "percentage": 33.33
+                },
+                {
+                    "cluster": 16,
+                    "theme": "Structured urban sensory journey and model-formatting style",
+                    "count": 2,
+                    "percentage": 22.22
+                },
+                {
+                    "cluster": 19,
+                    "theme": "Golden-hour historic-modern contrast with glass towers and old stone",
+                    "count": 2,
+                    "percentage": 22.22
+                }
+            ]
+        }
+    },
+    {
+        "city": "Madrid",
+        "models": {
+            "Gemini": [
+                {
+                    "cluster": 7,
+                    "theme": "Highland hillsides, ochre stone, and terraced architecture",
+                    "count": 6,
+                    "percentage": 60.0
+                },
+                {
+                    "cluster": 1,
+                    "theme": "Modern coastal harbour, salt air, glass, ferries, and urban movement",
+                    "count": 2,
+                    "percentage": 20.0
+                },
+                {
+                    "cluster": 17,
+                    "theme": "Ancient heat, stone, marble, and historic grandeur",
+                    "count": 2,
+                    "percentage": 20.0
+                }
+            ],
+            "perplexity": [
+                {
+                    "cluster": 12,
+                    "theme": "Vibrant neighbourhood life, cafés, colours, and social rhythm",
+                    "count": 3,
+                    "percentage": 33.33
+                },
+                {
+                    "cluster": 19,
+                    "theme": "Golden-hour historic-modern contrast with glass towers and old stone",
+                    "count": 3,
+                    "percentage": 33.33
+                },
+                {
+                    "cluster": 10,
+                    "theme": "Structured sensory-guide style with heritage and overload framing",
+                    "count": 2,
+                    "percentage": 22.22
+                }
+            ]
+        }
+    },
+    {
+        "city": "Manama",
+        "models": {
+            "Gemini": [
+                {
+                    "cluster": 3,
+                    "theme": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+                    "count": 4,
+                    "percentage": 40.0
+                },
+                {
+                    "cluster": 4,
+                    "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+                    "count": 3,
+                    "percentage": 30.0
+                },
+                {
+                    "cluster": 6,
+                    "theme": "Soft golden warmth, ancient streets, and romanticised walking",
+                    "count": 2,
+                    "percentage": 20.0
+                }
+            ],
+            "perplexity": [
+                {
+                    "cluster": 2,
+                    "theme": "Dense markets, humid alleys, food, and sensory street life",
+                    "count": 9,
+                    "percentage": 100.0
+                }
+            ]
+        }
+    },
+    {
+        "city": "Manila",
+        "models": {
+            "Gemini": [
+                {
+                    "cluster": 4,
+                    "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+                    "count": 4,
+                    "percentage": 40.0
+                },
+                {
+                    "cluster": 3,
+                    "theme": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+                    "count": 3,
+                    "percentage": 30.0
+                },
+                {
+                    "cluster": 9,
+                    "theme": "Dusty sun-baked streets and uneven urban surfaces",
+                    "count": 3,
+                    "percentage": 30.0
+                }
+            ],
+            "perplexity": [
+                {
+                    "cluster": 13,
+                    "theme": "Mixed Middle Eastern / North African sensory urban framing",
+                    "count": 4,
+                    "percentage": 44.44
+                },
+                {
+                    "cluster": 11,
+                    "theme": "Street food, coffee, dust, diesel, and local aromas",
+                    "count": 3,
+                    "percentage": 33.33
+                },
+                {
+                    "cluster": 12,
+                    "theme": "Vibrant neighbourhood life, cafés, colours, and social rhythm",
+                    "count": 1,
+                    "percentage": 11.11
+                }
+            ]
+        }
+    },
+    {
+        "city": "Mexico City",
+        "models": {
+            "Gemini": [
+                {
+                    "cluster": 6,
+                    "theme": "Soft golden warmth, ancient streets, and romanticised walking",
+                    "count": 5,
+                    "percentage": 50.0
+                },
+                {
+                    "cluster": 7,
+                    "theme": "Highland hillsides, ochre stone, and terraced architecture",
+                    "count": 2,
+                    "percentage": 20.0
+                },
+                {
+                    "cluster": 17,
+                    "theme": "Ancient heat, stone, marble, and historic grandeur",
+                    "count": 2,
+                    "percentage": 20.0
+                }
+            ],
+            "perplexity": [
+                {
+                    "cluster": 12,
+                    "theme": "Vibrant neighbourhood life, cafés, colours, and social rhythm",
+                    "count": 4,
+                    "percentage": 44.44
+                },
+                {
+                    "cluster": 19,
+                    "theme": "Golden-hour historic-modern contrast with glass towers and old stone",
+                    "count": 2,
+                    "percentage": 22.22
+                },
+                {
+                    "cluster": 10,
+                    "theme": "Structured sensory-guide style with heritage and overload framing",
+                    "count": 1,
+                    "percentage": 11.11
+                }
+            ]
+        }
+    },
+    {
+        "city": "Montevideo",
+        "models": {
+            "Gemini": [
+                {
+                    "cluster": 1,
+                    "theme": "Modern coastal harbour, salt air, glass, ferries, and urban movement",
+                    "count": 7,
+                    "percentage": 70.0
+                },
+                {
+                    "cluster": 17,
+                    "theme": "Ancient heat, stone, marble, and historic grandeur",
+                    "count": 2,
+                    "percentage": 20.0
+                },
+                {
+                    "cluster": 6,
+                    "theme": "Soft golden warmth, ancient streets, and romanticised walking",
+                    "count": 1,
+                    "percentage": 10.0
+                }
+            ],
+            "perplexity": [
+                {
+                    "cluster": 12,
+                    "theme": "Vibrant neighbourhood life, cafés, colours, and social rhythm",
+                    "count": 4,
+                    "percentage": 44.44
+                },
+                {
+                    "cluster": 19,
+                    "theme": "Golden-hour historic-modern contrast with glass towers and old stone",
+                    "count": 3,
+                    "percentage": 33.33
+                },
+                {
+                    "cluster": 10,
+                    "theme": "Structured sensory-guide style with heritage and overload framing",
+                    "count": 1,
+                    "percentage": 11.11
+                }
+            ]
+        }
+    },
+    {
+        "city": "Montreal",
+        "models": {
+            "Gemini": [
+                {
+                    "cluster": 7,
+                    "theme": "Highland hillsides, ochre stone, and terraced architecture",
+                    "count": 8,
+                    "percentage": 80.0
+                },
+                {
+                    "cluster": 17,
+                    "theme": "Ancient heat, stone, marble, and historic grandeur",
+                    "count": 1,
+                    "percentage": 10.0
+                },
+                {
+                    "cluster": 19,
+                    "theme": "Golden-hour historic-modern contrast with glass towers and old stone",
+                    "count": 1,
+                    "percentage": 10.0
+                }
+            ],
+            "perplexity": [
+                {
+                    "cluster": 5,
+                    "theme": "Colonial/heritage cobblestones and old-quarter architecture",
+                    "count": 4,
+                    "percentage": 44.44
+                },
+                {
+                    "cluster": 19,
+                    "theme": "Golden-hour historic-modern contrast with glass towers and old stone",
+                    "count": 3,
+                    "percentage": 33.33
+                },
+                {
+                    "cluster": 18,
+                    "theme": "Warm coastal/urban tapestry with palms, breeze, and mixed textures",
+                    "count": 2,
+                    "percentage": 22.22
+                }
+            ]
+        }
+    },
+    {
+        "city": "Mumbai",
+        "models": {
+            "Gemini": [
+                {
+                    "cluster": 4,
+                    "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+                    "count": 4,
+                    "percentage": 40.0
+                },
+                {
+                    "cluster": 9,
+                    "theme": "Dusty sun-baked streets and uneven urban surfaces",
+                    "count": 4,
+                    "percentage": 40.0
+                },
+                {
+                    "cluster": 3,
+                    "theme": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+                    "count": 2,
+                    "percentage": 20.0
+                }
+            ],
+            "perplexity": [
+                {
+                    "cluster": 13,
+                    "theme": "Mixed Middle Eastern / North African sensory urban framing",
+                    "count": 7,
+                    "percentage": 77.78
+                },
+                {
+                    "cluster": 2,
+                    "theme": "Dense markets, humid alleys, food, and sensory street life",
+                    "count": 1,
+                    "percentage": 11.11
+                },
+                {
+                    "cluster": 11,
+                    "theme": "Street food, coffee, dust, diesel, and local aromas",
+                    "count": 1,
+                    "percentage": 11.11
+                }
+            ]
+        }
+    },
+    {
+        "city": "Muscat",
+        "models": {
+            "Gemini": [
+                {
+                    "cluster": 6,
+                    "theme": "Soft golden warmth, ancient streets, and romanticised walking",
+                    "count": 4,
+                    "percentage": 40.0
+                },
+                {
+                    "cluster": 17,
+                    "theme": "Ancient heat, stone, marble, and historic grandeur",
+                    "count": 3,
+                    "percentage": 30.0
+                },
+                {
+                    "cluster": 7,
+                    "theme": "Highland hillsides, ochre stone, and terraced architecture",
+                    "count": 2,
+                    "percentage": 20.0
+                }
+            ],
+            "perplexity": [
+                {
+                    "cluster": 2,
+                    "theme": "Dense markets, humid alleys, food, and sensory street life",
+                    "count": 8,
+                    "percentage": 88.89
+                },
+                {
+                    "cluster": 10,
+                    "theme": "Structured sensory-guide style with heritage and overload framing",
+                    "count": 1,
+                    "percentage": 11.11
+                }
+            ]
+        }
+    },
+    {
+        "city": "Mysuru",
+        "models": {
+            "Gemini": [
+                {
+                    "cluster": 6,
+                    "theme": "Soft golden warmth, ancient streets, and romanticised walking",
+                    "count": 7,
+                    "percentage": 70.0
+                },
+                {
+                    "cluster": 7,
+                    "theme": "Highland hillsides, ochre stone, and terraced architecture",
+                    "count": 1,
+                    "percentage": 10.0
+                },
+                {
+                    "cluster": 17,
+                    "theme": "Ancient heat, stone, marble, and historic grandeur",
+                    "count": 1,
+                    "percentage": 10.0
+                }
+            ],
+            "perplexity": [
+                {
+                    "cluster": 19,
+                    "theme": "Golden-hour historic-modern contrast with glass towers and old stone",
+                    "count": 4,
+                    "percentage": 44.44
+                },
+                {
+                    "cluster": 2,
+                    "theme": "Dense markets, humid alleys, food, and sensory street life",
+                    "count": 3,
+                    "percentage": 33.33
+                },
+                {
+                    "cluster": 10,
+                    "theme": "Structured sensory-guide style with heritage and overload framing",
+                    "count": 1,
+                    "percentage": 11.11
+                }
+            ]
+        }
+    },
+    {
+        "city": "Nairobi",
+        "models": {
+            "Gemini": [
+                {
+                    "cluster": 9,
+                    "theme": "Dusty sun-baked streets and uneven urban surfaces",
+                    "count": 6,
+                    "percentage": 60.0
+                },
+                {
+                    "cluster": 4,
+                    "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+                    "count": 3,
+                    "percentage": 30.0
+                },
+                {
+                    "cluster": 3,
+                    "theme": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+                    "count": 1,
+                    "percentage": 10.0
+                }
+            ],
+            "perplexity": [
+                {
+                    "cluster": 0,
+                    "theme": "Polluted metropolis, haze, greenery, and environmental contrast",
+                    "count": 4,
+                    "percentage": 44.44
+                },
+                {
+                    "cluster": 14,
+                    "theme": "Altitude, plateau, hills, and climate-based city identity",
+                    "count": 3,
+                    "percentage": 33.33
+                },
+                {
+                    "cluster": 8,
+                    "theme": "Mixed warm urban atmosphere, rain, dust, high-rises, and movement",
+                    "count": 2,
+                    "percentage": 22.22
+                }
+            ]
+        }
+    },
+    {
+        "city": "New York City",
+        "models": {
+            "Gemini": [
+                {
+                    "cluster": 4,
+                    "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+                    "count": 5,
+                    "percentage": 50.0
+                },
+                {
+                    "cluster": 9,
+                    "theme": "Dusty sun-baked streets and uneven urban surfaces",
+                    "count": 5,
+                    "percentage": 50.0
+                }
+            ],
+            "perplexity": [
+                {
+                    "cluster": 16,
+                    "theme": "Structured urban sensory journey and model-formatting style",
+                    "count": 5,
+                    "percentage": 55.56
+                },
+                {
+                    "cluster": 4,
+                    "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+                    "count": 1,
+                    "percentage": 11.11
+                },
+                {
+                    "cluster": 8,
+                    "theme": "Mixed warm urban atmosphere, rain, dust, high-rises, and movement",
+                    "count": 1,
+                    "percentage": 11.11
+                }
+            ]
+        }
+    },
+    {
+        "city": "Paris",
+        "models": {
+            "Gemini": [
+                {
+                    "cluster": 1,
+                    "theme": "Modern coastal harbour, salt air, glass, ferries, and urban movement",
+                    "count": 4,
+                    "percentage": 40.0
+                },
+                {
+                    "cluster": 7,
+                    "theme": "Highland hillsides, ochre stone, and terraced architecture",
+                    "count": 3,
+                    "percentage": 30.0
+                },
+                {
+                    "cluster": 17,
+                    "theme": "Ancient heat, stone, marble, and historic grandeur",
+                    "count": 3,
+                    "percentage": 30.0
+                }
+            ],
+            "perplexity": [
+                {
+                    "cluster": 18,
+                    "theme": "Warm coastal/urban tapestry with palms, breeze, and mixed textures",
+                    "count": 7,
+                    "percentage": 77.78
+                },
+                {
+                    "cluster": 19,
+                    "theme": "Golden-hour historic-modern contrast with glass towers and old stone",
+                    "count": 2,
+                    "percentage": 22.22
+                }
+            ]
+        }
+    },
+    {
+        "city": "Porto",
+        "models": {
+            "Gemini": [
+                {
+                    "cluster": 7,
+                    "theme": "Highland hillsides, ochre stone, and terraced architecture",
+                    "count": 4,
+                    "percentage": 40.0
+                },
+                {
+                    "cluster": 17,
+                    "theme": "Ancient heat, stone, marble, and historic grandeur",
+                    "count": 4,
+                    "percentage": 40.0
+                },
+                {
+                    "cluster": 1,
+                    "theme": "Modern coastal harbour, salt air, glass, ferries, and urban movement",
+                    "count": 2,
+                    "percentage": 20.0
+                }
+            ],
+            "perplexity": [
+                {
+                    "cluster": 5,
+                    "theme": "Colonial/heritage cobblestones and old-quarter architecture",
+                    "count": 3,
+                    "percentage": 33.33
+                },
+                {
+                    "cluster": 10,
+                    "theme": "Structured sensory-guide style with heritage and overload framing",
+                    "count": 2,
+                    "percentage": 22.22
+                },
+                {
+                    "cluster": 11,
+                    "theme": "Street food, coffee, dust, diesel, and local aromas",
+                    "count": 2,
+                    "percentage": 22.22
+                }
+            ]
+        }
+    },
+    {
+        "city": "Quito",
+        "models": {
+            "Gemini": [
+                {
+                    "cluster": 6,
+                    "theme": "Soft golden warmth, ancient streets, and romanticised walking",
+                    "count": 4,
+                    "percentage": 40.0
+                },
+                {
+                    "cluster": 17,
+                    "theme": "Ancient heat, stone, marble, and historic grandeur",
+                    "count": 3,
+                    "percentage": 30.0
+                },
+                {
+                    "cluster": 7,
+                    "theme": "Highland hillsides, ochre stone, and terraced architecture",
+                    "count": 2,
+                    "percentage": 20.0
+                }
+            ],
+            "perplexity": [
+                {
+                    "cluster": 5,
+                    "theme": "Colonial/heritage cobblestones and old-quarter architecture",
+                    "count": 6,
+                    "percentage": 66.67
+                },
+                {
+                    "cluster": 11,
+                    "theme": "Street food, coffee, dust, diesel, and local aromas",
+                    "count": 1,
+                    "percentage": 11.11
+                },
+                {
+                    "cluster": 17,
+                    "theme": "Ancient heat, stone, marble, and historic grandeur",
+                    "count": 1,
+                    "percentage": 11.11
+                }
+            ]
+        }
+    },
+    {
+        "city": "Rio de Janeiro",
+        "models": {
+            "Gemini": [
+                {
+                    "cluster": 3,
+                    "theme": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+                    "count": 5,
+                    "percentage": 50.0
+                },
+                {
+                    "cluster": 11,
+                    "theme": "Street food, coffee, dust, diesel, and local aromas",
+                    "count": 3,
+                    "percentage": 30.0
+                },
+                {
+                    "cluster": 6,
+                    "theme": "Soft golden warmth, ancient streets, and romanticised walking",
+                    "count": 1,
+                    "percentage": 10.0
+                }
+            ],
+            "perplexity": [
+                {
+                    "cluster": 12,
+                    "theme": "Vibrant neighbourhood life, cafés, colours, and social rhythm",
+                    "count": 4,
+                    "percentage": 44.44
+                },
+                {
+                    "cluster": 11,
+                    "theme": "Street food, coffee, dust, diesel, and local aromas",
+                    "count": 3,
+                    "percentage": 33.33
+                },
+                {
+                    "cluster": 10,
+                    "theme": "Structured sensory-guide style with heritage and overload framing",
+                    "count": 1,
+                    "percentage": 11.11
+                }
+            ]
+        }
+    },
+    {
+        "city": "Rome",
+        "models": {
+            "Gemini": [
+                {
+                    "cluster": 7,
+                    "theme": "Highland hillsides, ochre stone, and terraced architecture",
+                    "count": 8,
+                    "percentage": 80.0
+                },
+                {
+                    "cluster": 17,
+                    "theme": "Ancient heat, stone, marble, and historic grandeur",
+                    "count": 2,
+                    "percentage": 20.0
+                }
+            ],
+            "perplexity": [
+                {
+                    "cluster": 5,
+                    "theme": "Colonial/heritage cobblestones and old-quarter architecture",
+                    "count": 6,
+                    "percentage": 66.67
+                },
+                {
+                    "cluster": 10,
+                    "theme": "Structured sensory-guide style with heritage and overload framing",
+                    "count": 2,
+                    "percentage": 22.22
+                },
+                {
+                    "cluster": 19,
+                    "theme": "Golden-hour historic-modern contrast with glass towers and old stone",
+                    "count": 1,
+                    "percentage": 11.11
+                }
+            ]
+        }
+    },
+    {
+        "city": "San Juan",
+        "models": {
+            "Gemini": [
+                {
+                    "cluster": 6,
+                    "theme": "Soft golden warmth, ancient streets, and romanticised walking",
+                    "count": 5,
+                    "percentage": 50.0
+                },
+                {
+                    "cluster": 11,
+                    "theme": "Street food, coffee, dust, diesel, and local aromas",
+                    "count": 3,
+                    "percentage": 30.0
+                },
+                {
+                    "cluster": 17,
+                    "theme": "Ancient heat, stone, marble, and historic grandeur",
+                    "count": 2,
+                    "percentage": 20.0
+                }
+            ],
+            "perplexity": [
+                {
+                    "cluster": 11,
+                    "theme": "Street food, coffee, dust, diesel, and local aromas",
+                    "count": 4,
+                    "percentage": 44.44
+                },
+                {
+                    "cluster": 19,
+                    "theme": "Golden-hour historic-modern contrast with glass towers and old stone",
+                    "count": 2,
+                    "percentage": 22.22
+                },
+                {
+                    "cluster": 10,
+                    "theme": "Structured sensory-guide style with heritage and overload framing",
+                    "count": 1,
+                    "percentage": 11.11
+                }
+            ]
+        }
+    },
+    {
+        "city": "Santiago",
+        "models": {
+            "Gemini": [
+                {
+                    "cluster": 1,
+                    "theme": "Modern coastal harbour, salt air, glass, ferries, and urban movement",
+                    "count": 2,
+                    "percentage": 20.0
+                },
+                {
+                    "cluster": 6,
+                    "theme": "Soft golden warmth, ancient streets, and romanticised walking",
+                    "count": 2,
+                    "percentage": 20.0
+                },
+                {
+                    "cluster": 9,
+                    "theme": "Dusty sun-baked streets and uneven urban surfaces",
+                    "count": 2,
+                    "percentage": 20.0
+                }
+            ],
+            "perplexity": [
+                {
+                    "cluster": 19,
+                    "theme": "Golden-hour historic-modern contrast with glass towers and old stone",
+                    "count": 3,
+                    "percentage": 33.33
+                },
+                {
+                    "cluster": 10,
+                    "theme": "Structured sensory-guide style with heritage and overload framing",
+                    "count": 2,
+                    "percentage": 22.22
+                },
+                {
+                    "cluster": 12,
+                    "theme": "Vibrant neighbourhood life, cafés, colours, and social rhythm",
+                    "count": 2,
+                    "percentage": 22.22
+                }
+            ]
+        }
+    },
+    {
+        "city": "Sa╠âo Paulo",
+        "models": {
+            "Gemini": [
+                {
+                    "cluster": 4,
+                    "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+                    "count": 5,
+                    "percentage": 50.0
+                },
+                {
+                    "cluster": 9,
+                    "theme": "Dusty sun-baked streets and uneven urban surfaces",
+                    "count": 4,
+                    "percentage": 40.0
+                },
+                {
+                    "cluster": 8,
+                    "theme": "Mixed warm urban atmosphere, rain, dust, high-rises, and movement",
+                    "count": 1,
+                    "percentage": 10.0
+                }
+            ],
+            "perplexity": [
+                {
+                    "cluster": 0,
+                    "theme": "Polluted metropolis, haze, greenery, and environmental contrast",
+                    "count": 4,
+                    "percentage": 44.44
+                },
+                {
+                    "cluster": 14,
+                    "theme": "Altitude, plateau, hills, and climate-based city identity",
+                    "count": 4,
+                    "percentage": 44.44
+                },
+                {
+                    "cluster": 8,
+                    "theme": "Mixed warm urban atmosphere, rain, dust, high-rises, and movement",
+                    "count": 1,
+                    "percentage": 11.11
+                }
+            ]
+        }
+    },
+    {
+        "city": "Seoul",
+        "models": {
+            "Gemini": [
+                {
+                    "cluster": 9,
+                    "theme": "Dusty sun-baked streets and uneven urban surfaces",
+                    "count": 7,
+                    "percentage": 70.0
+                },
+                {
+                    "cluster": 4,
+                    "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+                    "count": 3,
+                    "percentage": 30.0
+                }
+            ],
+            "perplexity": [
+                {
+                    "cluster": 15,
+                    "theme": "West African markets, coffee, spices, and coastal street life",
+                    "count": 4,
+                    "percentage": 44.44
+                },
+                {
+                    "cluster": 19,
+                    "theme": "Golden-hour historic-modern contrast with glass towers and old stone",
+                    "count": 2,
+                    "percentage": 22.22
+                },
+                {
+                    "cluster": 2,
+                    "theme": "Dense markets, humid alleys, food, and sensory street life",
+                    "count": 1,
+                    "percentage": 11.11
+                }
+            ]
+        }
+    },
+    {
+        "city": "Tallinn",
+        "models": {
+            "Gemini": [
+                {
+                    "cluster": 7,
+                    "theme": "Highland hillsides, ochre stone, and terraced architecture",
+                    "count": 7,
+                    "percentage": 70.0
+                },
+                {
+                    "cluster": 17,
+                    "theme": "Ancient heat, stone, marble, and historic grandeur",
+                    "count": 3,
+                    "percentage": 30.0
+                }
+            ],
+            "perplexity": [
+                {
+                    "cluster": 5,
+                    "theme": "Colonial/heritage cobblestones and old-quarter architecture",
+                    "count": 7,
+                    "percentage": 77.78
+                },
+                {
+                    "cluster": 17,
+                    "theme": "Ancient heat, stone, marble, and historic grandeur",
+                    "count": 1,
+                    "percentage": 11.11
+                },
+                {
+                    "cluster": 19,
+                    "theme": "Golden-hour historic-modern contrast with glass towers and old stone",
+                    "count": 1,
+                    "percentage": 11.11
+                }
+            ]
+        }
+    },
+    {
+        "city": "Tehran",
+        "models": {
+            "Gemini": [
+                {
+                    "cluster": 7,
+                    "theme": "Highland hillsides, ochre stone, and terraced architecture",
+                    "count": 3,
+                    "percentage": 30.0
+                },
+                {
+                    "cluster": 9,
+                    "theme": "Dusty sun-baked streets and uneven urban surfaces",
+                    "count": 3,
+                    "percentage": 30.0
+                },
+                {
+                    "cluster": 17,
+                    "theme": "Ancient heat, stone, marble, and historic grandeur",
+                    "count": 2,
+                    "percentage": 20.0
+                }
+            ],
+            "perplexity": [
+                {
+                    "cluster": 0,
+                    "theme": "Polluted metropolis, haze, greenery, and environmental contrast",
+                    "count": 7,
+                    "percentage": 77.78
+                },
+                {
+                    "cluster": 8,
+                    "theme": "Mixed warm urban atmosphere, rain, dust, high-rises, and movement",
+                    "count": 2,
+                    "percentage": 22.22
+                }
+            ]
+        }
+    },
+    {
+        "city": "Tokyo",
+        "models": {
+            "Gemini": [
+                {
+                    "cluster": 9,
+                    "theme": "Dusty sun-baked streets and uneven urban surfaces",
+                    "count": 5,
+                    "percentage": 50.0
+                },
+                {
+                    "cluster": 17,
+                    "theme": "Ancient heat, stone, marble, and historic grandeur",
+                    "count": 3,
+                    "percentage": 30.0
+                },
+                {
+                    "cluster": 1,
+                    "theme": "Modern coastal harbour, salt air, glass, ferries, and urban movement",
+                    "count": 1,
+                    "percentage": 10.0
+                }
+            ],
+            "perplexity": [
+                {
+                    "cluster": 16,
+                    "theme": "Structured urban sensory journey and model-formatting style",
+                    "count": 8,
+                    "percentage": 88.89
+                },
+                {
+                    "cluster": 19,
+                    "theme": "Golden-hour historic-modern contrast with glass towers and old stone",
+                    "count": 1,
+                    "percentage": 11.11
+                }
+            ]
+        }
+    },
+    {
+        "city": "Toronto",
+        "models": {
+            "Gemini": [
+                {
+                    "cluster": 9,
+                    "theme": "Dusty sun-baked streets and uneven urban surfaces",
+                    "count": 8,
+                    "percentage": 80.0
+                },
+                {
+                    "cluster": 4,
+                    "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+                    "count": 2,
+                    "percentage": 20.0
+                }
+            ],
+            "perplexity": [
+                {
+                    "cluster": 15,
+                    "theme": "West African markets, coffee, spices, and coastal street life",
+                    "count": 3,
+                    "percentage": 33.33
+                },
+                {
+                    "cluster": 18,
+                    "theme": "Warm coastal/urban tapestry with palms, breeze, and mixed textures",
+                    "count": 2,
+                    "percentage": 22.22
+                },
+                {
+                    "cluster": 19,
+                    "theme": "Golden-hour historic-modern contrast with glass towers and old stone",
+                    "count": 2,
+                    "percentage": 22.22
+                }
+            ]
+        }
+    },
+    {
+        "city": "Ulaanbaatar",
+        "models": {
+            "Gemini": [
+                {
+                    "cluster": 9,
+                    "theme": "Dusty sun-baked streets and uneven urban surfaces",
+                    "count": 7,
+                    "percentage": 70.0
+                },
+                {
+                    "cluster": 4,
+                    "theme": "Harsh sun, thick air, mixed stone streets, and urban movement",
+                    "count": 2,
+                    "percentage": 20.0
+                },
+                {
+                    "cluster": 3,
+                    "theme": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+                    "count": 1,
+                    "percentage": 10.0
+                }
+            ],
+            "perplexity": [
+                {
+                    "cluster": 0,
+                    "theme": "Polluted metropolis, haze, greenery, and environmental contrast",
+                    "count": 3,
+                    "percentage": 33.33
+                },
+                {
+                    "cluster": 8,
+                    "theme": "Mixed warm urban atmosphere, rain, dust, high-rises, and movement",
+                    "count": 3,
+                    "percentage": 33.33
+                },
+                {
+                    "cluster": 14,
+                    "theme": "Altitude, plateau, hills, and climate-based city identity",
+                    "count": 3,
+                    "percentage": 33.33
+                }
+            ]
+        }
+    },
+    {
+        "city": "Vientiane",
+        "models": {
+            "Gemini": [
+                {
+                    "cluster": 6,
+                    "theme": "Soft golden warmth, ancient streets, and romanticised walking",
+                    "count": 7,
+                    "percentage": 70.0
+                },
+                {
+                    "cluster": 3,
+                    "theme": "Oppressive humid heat, sweat, dust, and bodily discomfort",
+                    "count": 1,
+                    "percentage": 10.0
+                },
+                {
+                    "cluster": 11,
+                    "theme": "Street food, coffee, dust, diesel, and local aromas",
+                    "count": 1,
+                    "percentage": 10.0
+                }
+            ],
+            "perplexity": [
+                {
+                    "cluster": 2,
+                    "theme": "Dense markets, humid alleys, food, and sensory street life",
+                    "count": 3,
+                    "percentage": 33.33
+                },
+                {
+                    "cluster": 11,
+                    "theme": "Street food, coffee, dust, diesel, and local aromas",
+                    "count": 2,
+                    "percentage": 22.22
+                },
+                {
+                    "cluster": 10,
+                    "theme": "Structured sensory-guide style with heritage and overload framing",
+                    "count": 1,
+                    "percentage": 11.11
+                }
+            ]
+        }
+    },
+    {
+        "city": "Warsaw",
+        "models": {
+            "Gemini": [
+                {
+                    "cluster": 7,
+                    "theme": "Highland hillsides, ochre stone, and terraced architecture",
+                    "count": 6,
+                    "percentage": 60.0
+                },
+                {
+                    "cluster": 17,
+                    "theme": "Ancient heat, stone, marble, and historic grandeur",
+                    "count": 2,
+                    "percentage": 20.0
+                },
+                {
+                    "cluster": 1,
+                    "theme": "Modern coastal harbour, salt air, glass, ferries, and urban movement",
+                    "count": 1,
+                    "percentage": 10.0
+                }
+            ],
+            "perplexity": [
+                {
+                    "cluster": 18,
+                    "theme": "Warm coastal/urban tapestry with palms, breeze, and mixed textures",
+                    "count": 5,
+                    "percentage": 55.56
+                },
+                {
+                    "cluster": 19,
+                    "theme": "Golden-hour historic-modern contrast with glass towers and old stone",
+                    "count": 2,
+                    "percentage": 22.22
+                },
+                {
+                    "cluster": 14,
+                    "theme": "Altitude, plateau, hills, and climate-based city identity",
+                    "count": 1,
+                    "percentage": 11.11
+                }
+            ]
+        }
+    }
+]
