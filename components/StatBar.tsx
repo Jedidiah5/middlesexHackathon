@@ -61,7 +61,7 @@ export default function StatBar({ cities }: StatBarProps) {
       {items.map((item) => (
         <div
           key={item.label}
-          className="rounded-xl border border-black/10 bg-white px-4 py-3 shadow-sm"
+          className="glass-card rounded-xl px-4 py-3"
         >
           <p
             className={`text-[11px] font-medium uppercase tracking-wider ${

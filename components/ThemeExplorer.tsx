@@ -12,7 +12,7 @@ export default function ThemeExplorer({
   onToggleTheme,
 }: ThemeExplorerProps) {
   return (
-    <section className="rounded-2xl border border-black/10 bg-white p-4 shadow-sm lg:p-6">
+    <section className="glass-card rounded-2xl p-4 lg:p-6">
       <div className="mb-4">
         <h3 className="text-lg font-semibold text-black">Theme explorer</h3>
         <p className="text-sm text-black/70">
@@ -29,10 +29,10 @@ export default function ThemeExplorer({
               key={theme}
               type="button"
               onClick={() => onToggleTheme(theme)}
-              className={`rounded-full border px-3 py-1.5 text-sm transition ${
+              className={`rounded-full px-3 py-1.5 text-sm transition ${
                 active
-                  ? "border-accent bg-accent text-white shadow-sm"
-                  : "border-black/15 bg-white text-black hover:border-black/30"
+                  ? "border border-accent bg-accent text-white shadow-sm"
+                  : "glass-chip border-black/10 text-black hover:border-black/20"
               }`}
             >
               {theme}

@@ -88,7 +88,7 @@ export default function Home() {
       ) : null}
       <div className="mx-auto flex min-h-screen w-full max-w-[1600px] flex-col xl:flex-row xl:items-stretch">
       <div className="flex min-w-0 flex-1 flex-col">
-        <header className="border-b border-black/10 bg-white px-6 py-10 lg:px-10 lg:py-12">
+        <header className="glass-header px-6 py-10 lg:px-10 lg:py-12">
           <h1 className="text-3xl font-semibold tracking-tight text-black sm:text-4xl lg:text-5xl">
             Urban Lens
           </h1>
@@ -104,9 +104,9 @@ export default function Home() {
           </p>
         </header>
 
-        <main className="flex flex-1 flex-col gap-8 bg-white px-6 py-8 lg:gap-10 lg:px-10 lg:py-10">
+        <main className="flex flex-1 flex-col gap-8 bg-gradient-to-br from-neutral-200/55 via-white to-neutral-100/75 px-6 py-8 lg:gap-10 lg:px-10 lg:py-10">
           {loadError ? (
-            <div className="rounded-xl border border-black/15 bg-white px-4 py-3 text-sm text-black">
+            <div className="glass-card rounded-xl px-4 py-3 text-sm text-black">
               {loadError}
             </div>
           ) : null}
@@ -132,10 +132,10 @@ export default function Home() {
             onToggleTheme={toggleTheme}
           />
 
-          <footer className="border-t border-black/10 pt-6 text-xs text-black/60">
+          <footer className="glass-card rounded-xl px-4 py-4 text-xs text-black/60">
             <span className="font-medium text-accent">Static demo</span> — data
             from{" "}
-            <code className="rounded border border-black/10 bg-white px-1 py-0.5 text-black">
+            <code className="glass-chip rounded border border-black/10 px-1.5 py-0.5 font-mono text-[11px] text-black">
               /public/cities_data.json
             </code>
             . Globe textures load from a public CDN (no backend APIs).

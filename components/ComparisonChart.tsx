@@ -41,7 +41,7 @@ export default function ComparisonChart({
     .sort((a, b) => b.avg - a.avg);
 
   return (
-    <div className="rounded-2xl border border-black/10 bg-white p-4 shadow-sm lg:p-6">
+    <div className="glass-card rounded-2xl p-4 lg:p-6">
       <div className="mb-4 flex flex-col gap-1 sm:flex-row sm:items-end sm:justify-between">
         <div>
           <h3 className="text-lg font-semibold text-black">
@@ -92,11 +92,13 @@ export default function ComparisonChart({
             <Tooltip
               cursor={{ fill: "rgba(0, 0, 0, 0.04)" }}
               contentStyle={{
-                backgroundColor: "#ffffff",
-                border: "1px solid rgba(0,0,0,0.12)",
-                borderRadius: "10px",
+                backgroundColor: "rgba(255, 255, 255, 0.55)",
+                border: "1px solid rgba(255, 255, 255, 0.75)",
+                borderRadius: "12px",
                 fontSize: "12px",
-                boxShadow: "0 8px 30px rgba(0,0,0,0.08)",
+                boxShadow:
+                  "0 8px 32px rgba(0,0,0,0.1), inset 0 1px 0 rgba(255,255,255,0.9)",
+                backdropFilter: "blur(14px)",
               }}
               labelStyle={{ color: "#000000", fontWeight: 600 }}
             />

@@ -15,7 +15,7 @@ function SentimentTick({ value, label, color }: { value: number; label: string; 
         <span className="font-medium text-black/60">{label}</span>
         <span className="font-mono text-black">{value.toFixed(2)}</span>
       </div>
-      <div className="relative h-2 overflow-hidden rounded-full border border-black/10 bg-white">
+      <div className="relative h-2 overflow-hidden rounded-full glass-chip border-black/10">
         <div
           className="absolute inset-y-0 left-0 w-1/2 bg-gradient-to-r from-black/10 to-transparent"
           aria-hidden
@@ -42,7 +42,7 @@ export default function CityPanel({ city, onClose }: CityPanelProps) {
 
   return (
     <aside
-      className={`relative flex shrink-0 flex-col border-black/10 bg-white shadow-2xl transition-[width,transform,opacity,border-color] duration-300 ease-out xl:h-auto xl:border-l xl:shadow-sm ${
+      className={`relative flex shrink-0 flex-col glass-card transition-[width,transform,opacity,border-color] duration-300 ease-out xl:h-auto xl:border-l xl:shadow-none ${
         open
           ? "pointer-events-auto fixed right-0 top-0 z-50 h-full w-full max-w-[420px] translate-x-0 border-l opacity-100 xl:relative xl:z-auto xl:max-w-none xl:translate-x-0 xl:self-stretch xl:border-l xl:opacity-100 xl:shadow-sm"
           : "pointer-events-none fixed right-0 top-0 z-50 h-full w-full max-w-[420px] translate-x-full border-transparent opacity-0 xl:relative xl:z-auto xl:max-w-none xl:translate-x-0 xl:overflow-hidden xl:border-l-0 xl:opacity-100 xl:shadow-none"
@@ -61,7 +61,7 @@ export default function CityPanel({ city, onClose }: CityPanelProps) {
             <button
               type="button"
               onClick={onClose}
-              className="rounded-lg border border-black/15 p-2 text-black/50 transition hover:border-black/25 hover:bg-black/[0.03] hover:text-black"
+              className="glass-chip rounded-lg border-black/10 p-2 text-black/50 transition hover:border-black/20 hover:bg-white/30 hover:text-black"
               aria-label="Close panel"
             >
               <svg className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -88,13 +88,13 @@ export default function CityPanel({ city, onClose }: CityPanelProps) {
               Model narratives
             </p>
             <div className="grid gap-4 sm:grid-cols-2">
-              <div className="rounded-xl border border-black/10 bg-white p-4">
+              <div className="glass-card--dense rounded-xl p-4">
                 <p className="mb-2 text-xs font-semibold text-accent">Gemini</p>
                 <p className="text-sm leading-relaxed text-black/80">
                   {city.gemini_summary}
                 </p>
               </div>
-              <div className="rounded-xl border border-black/10 bg-white p-4">
+              <div className="glass-card--dense rounded-xl p-4">
                 <p className="mb-2 text-xs font-semibold text-accent">
                   Perplexity
                 </p>
@@ -112,7 +112,7 @@ export default function CityPanel({ city, onClose }: CityPanelProps) {
                 {city.top_themes.map((t) => (
                   <span
                     key={t}
-                    className="rounded-full border border-black/15 bg-white px-3 py-1 text-xs text-black"
+                    className="glass-chip rounded-full border-black/10 px-3 py-1 text-xs text-black"
                   >
                     {t}
                   </span>
