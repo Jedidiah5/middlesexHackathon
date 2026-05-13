@@ -27,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${dmSans.variable} ${jetbrains.variable} min-h-screen bg-white font-sans text-black`}
+        className={`${dmSans.variable} ${jetbrains.variable} surface-apple min-h-screen font-sans text-black`}
       >
         {children}
       </body>

@@ -92,13 +92,15 @@ export default function ComparisonChart({
             <Tooltip
               cursor={{ fill: "rgba(0, 0, 0, 0.04)" }}
               contentStyle={{
-                backgroundColor: "rgba(255, 255, 255, 0.55)",
-                border: "1px solid rgba(255, 255, 255, 0.75)",
-                borderRadius: "12px",
+                background:
+                  "linear-gradient(175deg, rgba(255,255,255,0.45) 0%, rgba(255,255,255,0.12) 100%)",
+                border: "0.5px solid rgba(255, 255, 255, 0.5)",
+                borderRadius: "14px",
                 fontSize: "12px",
                 boxShadow:
-                  "0 8px 32px rgba(0,0,0,0.1), inset 0 1px 0 rgba(255,255,255,0.9)",
-                backdropFilter: "blur(14px)",
+                  "0 1px 0 rgba(255,255,255,0.6) inset, 0 10px 36px -12px rgba(0,0,0,0.12)",
+                backdropFilter: "blur(40px) saturate(200%) brightness(1.02)",
+                WebkitBackdropFilter: "blur(40px) saturate(200%) brightness(1.02)",
               }}
               labelStyle={{ color: "#000000", fontWeight: 600 }}
             />
