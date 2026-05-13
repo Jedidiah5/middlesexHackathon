@@ -24,7 +24,7 @@ const tripeeDisplay = Nunito({
 export const metadata: Metadata = {
   title: "Tripee",
   description:
-    "Tripee — how AI perceives the world's cities on an interactive 3D globe (Gemini vs Perplexity).",
+    "Tripee compares Gemini and Perplexity city perception on a 3D globe: sentiment, theme clusters, keywords, tag filters, and similar cities — static demo data.",
 };
 
 export default function RootLayout({

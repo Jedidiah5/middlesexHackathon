@@ -92,15 +92,18 @@ export default function Home() {
           <h1 className="font-tripee text-5xl font-extrabold leading-[0.95] tracking-tight text-black sm:text-6xl md:text-7xl lg:text-8xl">
             Tripee
           </h1>
-          <p className="mt-3 max-w-2xl text-base text-black sm:text-lg">
-            How <span className="font-medium text-accent">AI perceives</span>{" "}
-            the world&apos;s cities
+          <p className="mt-3 max-w-2xl text-base leading-snug text-black sm:text-lg">
+            Compare how <span className="font-medium text-accent">Gemini</span> and{" "}
+            <span className="font-medium text-accent">Perplexity</span> imagine cities
+            around the world — sentiment scores, dominant theme clusters with percentages,
+            model-specific keywords, and curated website tags in one view.
           </p>
-          <p className="mt-2 max-w-2xl text-sm text-black/70">
-            Interactive 3D globe with side-by-side sentiment from{" "}
-            <span className="font-medium text-accent">Gemini</span> and{" "}
-            <span className="font-medium text-accent">Perplexity</span> — static
-            export data for this demo.
+          <p className="mt-3 max-w-2xl text-sm leading-relaxed text-black/70">
+            Use the interactive 3D globe to pick a place: open the side panel for random
+            corpus snippets, top clusters per model, shared lexicon, an insight summary,
+            and other cities that share tags. Filter markers by theme, skim the sentiment
+            chart, or read aggregate stats — all powered by a static bundled dataset (no
+            backend calls).
           </p>
         </header>
 
