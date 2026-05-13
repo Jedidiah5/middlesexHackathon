@@ -68,7 +68,7 @@ function buildDummyReply(message: string, city: City): string {
   return lines.join("\n");
 }
 
-function useDummyClaude(): boolean {
+function isDummyClaudeMode(): boolean {
   if (process.env.CLAUDE_USE_DUMMY === "1") return true;
   if (!process.env.ANTHROPIC_API_KEY?.trim()) return true;
   return false;
@@ -99,7 +99,7 @@ export async function POST(req: NextRequest) {
 
   const cityTyped = city as City;
 
-  if (useDummyClaude()) {
+  if (isDummyClaudeMode()) {
     return NextResponse.json({
       reply: buildDummyReply(message, cityTyped),
       dummy: true,

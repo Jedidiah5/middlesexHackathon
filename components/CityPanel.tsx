@@ -1,6 +1,8 @@
 "use client";
 
+import Image from "next/image";
 import { useEffect, useMemo, useState } from "react";
+import claudeLogo from "./claudelogo.png";
 import type { City, ModelThemeCluster } from "@/lib/types";
 import { getSimilarCities } from "@/lib/similarCities";
 
@@ -344,8 +346,19 @@ export default function CityPanel({
             </div>
 
             <div className="shrink-0 border-t border-black/10 bg-white/25 px-5 py-4 backdrop-blur-md">
-              <h3 className="text-sm font-semibold tracking-tight text-black">Ask Claude</h3>
-              <p className="mt-1 text-xs text-black/55">Ask Claude about this city</p>
+              <div className="flex items-start gap-2.5">
+                <Image
+                  src={claudeLogo}
+                  alt="Claude"
+                  width={32}
+                  height={32}
+                  className="mt-0.5 h-8 w-8 shrink-0 object-contain"
+                />
+                <div className="min-w-0 flex-1">
+                  <h3 className="text-sm font-semibold tracking-tight text-black">Ask Claude</h3>
+                  <p className="mt-1 text-xs text-black/55">Ask Claude about this city</p>
+                </div>
+              </div>
               <textarea
                 className="mt-3 w-full resize-none rounded-lg border border-black/15 bg-white/50 p-3 text-sm text-black shadow-inner placeholder:text-black/35 focus:border-accent focus:outline-none focus:ring-1 focus:ring-accent/30"
                 rows={2}
