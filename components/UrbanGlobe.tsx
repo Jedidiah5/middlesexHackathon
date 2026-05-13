@@ -2,15 +2,14 @@
 
 import Globe, { type GlobeMethods } from "react-globe.gl";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import type { Object3D } from "three";
 import type { City } from "@/lib/types";
 import { averageSentiment } from "@/lib/sentiment";
 
 const LG_BREAKPOINT = "(min-width: 1024px)";
 
 /** Rings + atmosphere sit in front of points in the raycast stack; ignore them so city markers receive clicks. */
-function globePointerEventsFilter(obj: Object3D): boolean {
-  const t = (obj as Object3D & { __globeObjType?: string }).__globeObjType;
+function globePointerEventsFilter(obj: object, _data?: object): boolean {
+  const t = (obj as { __globeObjType?: string }).__globeObjType;
   if (t === "ring" || t === "atmosphere") return false;
   return true;
 }
